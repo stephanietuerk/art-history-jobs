@@ -10,7 +10,7 @@ class Config():
     def get_base_config(self):
         return self.base_config
     
-    def get_out_folder(self):
+    def get_out_path(self):
         return self.base_config['OUT_FOLDER']
 
     def get_scraping_config(self):

@@ -1,4 +1,4 @@
-OUT_FOLDER: '{}/'
+OUT_FOLDER: 'data/out'
 
 WIKIA:
     main_wiki: 'academicjobs'
