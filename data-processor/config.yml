@@ -1,0 +1,133 @@
+OUT_FOLDER: '{}/'
+
+WIKIA:
+    main_wiki: 'academicjobs'
+    sub_page: 'Art History'
+    years:
+        - 2011
+        - 2012
+        - 2013
+        - 2014
+        - 2015
+        - 2016
+        - 2017
+        - 2018
+        - 2019
+        - 2020
+        - 2021
+    end_marker: 'Retrieved from "https://academicjobs.wikia.org/wiki/'
+    headline_separator: ' - '
+    excluded_sections:
+        - 'RECENT ACTIVITY'
+        - 'Demographics'
+        - 'Salary and Negotiation Information'
+    tt_id: 'TENURE_TRACK_JOBS'
+    tt_key: 'TENURE TRACK'
+    non_tt_key: 'VISITING POSITIONS'
+
+TEXT_PARSING:
+    fields_file: 'fields_all_years.csv'
+    jobs_file: 'jobs_all_years.csv'
+    fields_dictionary: 'dicts/fields_dictionary.csv'
+    strip:
+        - '\n'
+        - '[edit | edit source]'
+        - '\xa0'
+    HEADLINE:
+        non_tt:
+            - 'vap'
+            - 'lecturer'
+            - 'contract'
+            - 'postdoc'
+            - 'postdoctoral'
+            - 'visiting'
+        tt:
+            - 'tt'
+            - 'tenure-track'
+            - 'tenure track'
+        vap:
+            - 'visiting assistant professor'
+            - 'vap'
+            - 'visiting'
+            - 'short term'
+            - 'short-term'
+            - 'limited term'
+        lecturer:
+            - 'lecturer'
+            - 'adjunct'
+            - 'instructor'
+        postdoc:
+            - 'postdoc'
+            - 'postdoctoral'
+            - 'fellowship'
+            - 'post-doctoral'
+        assistant_prof:
+            - 'assistant professor'
+            - 'asst professor'
+            - 'asst. professor'
+            - 'asst. prof.'
+            - 'assistant prof.'
+        associate_prof:
+            - 'associate professor'
+            - 'assoc professor'
+            - 'assoc. professor'
+            - 'assoc. prof.'
+            - 'associate prof.'
+        full_prof:
+            - 'full professor'
+        open_rank:
+            - 'open rank'
+        contract:
+            - 'contract'
+    BODY:
+        tt:
+            - 'tenure track'
+            - 'tenure-track'
+        non_tt:
+            - 'visiting assistant professor'
+        vap:
+            - 'visiting assistant professor'
+            - 'vap'
+            - 'visiting'
+            - 'short term'
+            - 'limited term'
+        lecturer:
+            - 'lecturer'
+            - 'adjunct'
+            - 'instructor'
+        postdoc:
+            - 'postdoc'
+            - 'postdoctoral'
+            - 'fellowship'
+            - 'post-doctoral'
+        assistant_prof:
+            - 'assistant professor'
+            - 'asst professor'
+            - 'asst. professor'
+            - 'asst. prof.'
+            - 'assistant prof.'
+        associate_prof:
+            - 'associate professor'
+            - 'assoc professor'
+            - 'assoc. professor'
+            - 'assoc. prof.'
+            - 'associate prof.'
+        full_prof:
+            - 'full professor'
+        open_rank:
+            - 'open rank'
+        contract:
+            - 'contract'
+    rank:
+        - 'vap'
+        - 'lecturer'
+        - 'postdoc'
+        - 'assistant_prof'
+        - 'full_prof'
+        - 'open_rank'
+        - 'contract'
+    non_tt:
+        - 'vap'
+        - 'lecturer'
+        - 'postdoc'
+        - 'contract'
