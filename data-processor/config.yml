@@ -1,4 +1,5 @@
 OUT_FOLDER: 'data/out'
+EXISTING_FOLDER: 'data/edited'
 
 WIKIA:
     main_wiki: 'academicjobs'
@@ -131,3 +132,8 @@ TEXT_PARSING:
         - 'lecturer'
         - 'postdoc'
         - 'contract'
+
+POST_SCRAPING:
+    existing_file: 'jobs_all_years_manual_edit.csv'
+    newly_scraped_file: 'jobs_all_years.csv'
+    new_jobs_file: 'newly_retrieved_jobs.csv'

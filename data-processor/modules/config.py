@@ -18,3 +18,9 @@ class Config():
 
     def get_parsing_config(self):
         return self.base_config['TEXT_PARSING']
+
+    def get_existing_path(self):
+        return self.base_config['EXISTING_FOLDER']
+
+    def get_post_scraping_config(self):
+        return self.base_config['POST_SCRAPING']
