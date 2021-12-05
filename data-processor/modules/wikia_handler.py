@@ -15,8 +15,6 @@ class WikiaHandler():
         self.scraping_config = config.get_scraping_config()
         self.parsing_config = config.get_parsing_config()
         self.out_path = config.get_out_path()
-        self.existing_path = config.get_existing_path()
-        self.post_scraping_config = config.get_post_scraping_config()
         self.make_page_names()
 
     def make_page_names(self):
@@ -282,36 +280,5 @@ class WikiaHandler():
                 if job_to_compare['year'] == job['year'] and job_to_compare['headline'] == job['headline'] and job_to_compare['text'] == job['text'] and job_to_compare['original_field'] is not job['original_field']:
                     matches.append(job_to_compare)
             job['count'] = 1 / len(matches)
-            
-    def diff_scraped_with_existing(self):
-        existing_jobs = self.get_existing_jobs()
-        print(existing_jobs[0])
-        scraped_jobs = self.get_scraped_jobs()
-        print(scraped_jobs[0])
-        newly_scraped_jobs = []
-        for job in scraped_jobs:
-            match = False
-            for existing_job in existing_jobs:
-                if job['year'] == existing_job['year'] and job['headline'] == existing_job['headline'] and job['original_field'] == existing_job['original_field'] and job['text']:
-                    match = True
-            if not match:
-                newly_scraped_jobs.append(job)
-        if len(newly_scraped_jobs) > 0:
-            self.write_out_new_jobs(newly_scraped_jobs)
-        else:
-            print('No new jobs found')
         
-    def get_scraped_jobs(self):
-        with open(f"{self.out_path}/{self.post_scraping_config['newly_scraped_file']}", mode='r', encoding='utf-8-sig') as infile:
-            return list(csv.DictReader(infile))
-
-    def get_existing_jobs(self):
-        with open('data/out/jobs_all_years.csv', mode='r', encoding='utf-8-sig') as infile:
-            return list(csv.DictReader(infile))
-
-    def write_out_new_jobs(self, data):
-        keys = data[0].keys()
-        with open(f"{self.out_path}/{self.post_scraping_config['new_jobs_file']}", 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, keys)
-            writer.writeheader()
-            writer.writerows(data)
+    

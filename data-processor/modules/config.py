@@ -13,14 +13,17 @@ class Config():
     def get_out_path(self):
         return self.base_config['OUT_FOLDER']
 
+    def get_main_path(self):
+        return self.base_config['MAIN_FOLDER']
+
+    def get_processed_path(self):
+        return self.base_config['PROCESSED_FOLDER']
+
     def get_scraping_config(self):
         return self.base_config['WIKIA']
 
     def get_parsing_config(self):
         return self.base_config['TEXT_PARSING']
-
-    def get_existing_path(self):
-        return self.base_config['EXISTING_FOLDER']
 
     def get_post_scraping_config(self):
         return self.base_config['POST_SCRAPING']

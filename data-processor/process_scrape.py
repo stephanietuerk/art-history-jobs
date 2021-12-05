@@ -1,11 +1,11 @@
 import os
 
-from modules.wikia_handler import WikiaHandler
+from modules.post_scraping import PostScrapingHandler
 
 
 def handler(event, context):
-    wikia_handler = WikiaHandler()
-    wikia_handler.diff_scraped_with_existing()
+    post_scraping_handler = PostScrapingHandler()
+    post_scraping_handler.process_scraped()
 
 if __name__ == '__main__':
     handler(None, None)

@@ -1,5 +1,6 @@
 OUT_FOLDER: 'data/out'
-EXISTING_FOLDER: 'data/edited'
+MAIN_FOLDER: 'data/main'
+PROCESSED_FOLDER: 'data/processed'
 
 WIKIA:
     main_wiki: 'academicjobs'
@@ -134,6 +135,7 @@ TEXT_PARSING:
         - 'contract'
 
 POST_SCRAPING:
-    existing_file: 'jobs_all_years_manual_edit.csv'
-    newly_scraped_file: 'jobs_all_years.csv'
-    new_jobs_file: 'newly_retrieved_jobs.csv'
+    main_jobs_file: 'main_data.csv'
+    new_scrape_file: 'jobs_all_years.csv'
+    newly_retrieved_jobs_file: 'newly_retrieved_jobs.csv'
+    processed_jobs_file: 'processed_scraped_jobs.csv'
