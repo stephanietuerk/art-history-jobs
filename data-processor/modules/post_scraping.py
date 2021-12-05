@@ -7,13 +7,14 @@ from modules.config import Config
 class PostScrapingHandler(): 
     def __init__(self):
         config = Config()
-        self.out_path = config.get_out_path()
-        self.main_path = config.get_main_path()
-        self.processed_path = config.get_processed_path()
-        self.post_scraping_config = config.get_post_scraping_config()
-        self.newly_retrieved_file = f"{self.out_path}/{self.post_scraping_config['newly_retrieved_jobs_file']}"
-        self.processed_file = f"{self.processed_path}/{self.post_scraping_config['processed_jobs_file']}"
-
+        self.out_config = config.get_out_config()
+        self.main_config = config.get_main_config()
+        self.processed_config = config.get_processed_config()
+        self.main_file = f"{self.main_config['path']}/{self.main_config['main_file']}"
+        self.newly_retrieved_file = f"{self.out_config['path']}/{self.out_config['newly_retrieved_file']}"
+        self.processed_file = f"{self.processed_config['path']}/{self.processed_config['processed_file']}"
+        self.scraped_file = f"{self.out_config['path']}/{self.out_config['new_scrape_file']}"
+    
     def process_scraped(self):
         scraped_jobs = self.get_scraped_jobs()
         if (exists(self.processed_file) and not exists(self.newly_retrieved_file)):
@@ -41,7 +42,7 @@ class PostScrapingHandler():
             print('No new jobs found')
         
     def get_scraped_jobs(self):
-        with open(f"{self.out_path}/{self.post_scraping_config['new_scrape_file']}", mode='r', encoding='utf-8-sig') as infile:
+        with open(self.scraped_file, mode='r', encoding='utf-8-sig') as infile:
             return list(csv.DictReader(infile))
 
     def get_file_to_diff(self):
@@ -59,15 +60,15 @@ class PostScrapingHandler():
 
     
     def get_main_jobs(self):
-        with open(f"{self.main_path}/{self.post_scraping_config['main_jobs_file']}", mode='r', encoding='utf-8-sig') as infile:
+        with open(self.main_file, mode='r', encoding='utf-8-sig') as infile:
             return list(csv.DictReader(infile))
 
     def write_new_jobs(self, data):
-        path = f"{self.out_path}/{self.post_scraping_config['newly_retrieved_jobs_file']}"
+        path = self.newly_retrieved_file
         self.write_file(path, data)
 
     def write_processed_jobs(self, data):
-        path = f"{self.processed_path}/{self.post_scraping_config['processed_jobs_file']}"
+        path = self.processed_file
         self.write_file(path, data)
 
     def write_file(self, path, data):

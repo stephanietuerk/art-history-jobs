@@ -14,7 +14,7 @@ class WikiaHandler():
         config = Config()
         self.scraping_config = config.get_scraping_config()
         self.parsing_config = config.get_parsing_config()
-        self.out_path = config.get_out_path()
+        self.out_config = config.get_out_config()
         self.make_page_names()
 
     def make_page_names(self):
@@ -74,7 +74,7 @@ class WikiaHandler():
 
     def write_fields_file(self, data):
         keys = data[0].keys()
-        with open(f"{self.out_path}/{self.parsing_config['fields_file']}", 'w', newline='') as csvfile:
+        with open(f"{self.out_config}/{self.out_config['fields_file']}", 'w', newline='') as csvfile:
             writer = csv.DictWriter(csvfile, keys)
             writer.writeheader()
             writer.writerows(data)
@@ -82,7 +82,7 @@ class WikiaHandler():
     def is_field_title(self, section_title_list):
         return len(section_title_list) > 0 and not self.section_is_excluded(section_title_list[0].text) and not self.scraping_config['tt_key'] in section_title_list[0].text and not self.scraping_config['non_tt_key'] in section_title_list[0].text
 
-    def create_jobs_file(self):
+    def create_scrape_file(self):
         self.get_fields_dict()
         data = []
         for page in self.page_names:
@@ -93,7 +93,7 @@ class WikiaHandler():
         print(keys)
         print(data[0])
         self.weight_jobs(data)
-        with open(f"{self.out_path}/{self.parsing_config['jobs_file']}", 'w', newline='', encoding='utf-8') as csvfile:
+        with open(f"{self.out_config['path']}/{self.out_config['new_scrape_file']}", 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, keys)
             writer.writeheader()
             writer.writerows(data)

@@ -10,13 +10,13 @@ class Config():
     def get_base_config(self):
         return self.base_config
     
-    def get_out_path(self):
+    def get_out_config(self):
         return self.base_config['OUT_FOLDER']
 
-    def get_main_path(self):
+    def get_main_config(self):
         return self.base_config['MAIN_FOLDER']
 
-    def get_processed_path(self):
+    def get_processed_config(self):
         return self.base_config['PROCESSED_FOLDER']
 
     def get_scraping_config(self):
@@ -24,6 +24,3 @@ class Config():
 
     def get_parsing_config(self):
         return self.base_config['TEXT_PARSING']
-
-    def get_post_scraping_config(self):
-        return self.base_config['POST_SCRAPING']

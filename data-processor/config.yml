@@ -1,6 +1,16 @@
-OUT_FOLDER: 'data/out'
-MAIN_FOLDER: 'data/main'
-PROCESSED_FOLDER: 'data/processed'
+OUT_FOLDER:
+    path: 'data/out'
+    fields_file: 'fields_all_years.csv'
+    new_scrape_file: 'jobs_all_years.csv'
+    newly_retrieved_file: 'newly_retrieved_jobs.csv'
+
+MAIN_FOLDER:
+    path: 'data/main'
+    main_file: 'main_data.csv'
+
+PROCESSED_FOLDER:
+    path: 'data/processed'
+    processed_file: 'processed_scraped_jobs.csv'
 
 WIKIA:
     main_wiki: 'academicjobs'
@@ -28,8 +38,6 @@ WIKIA:
     non_tt_key: 'VISITING POSITIONS'
 
 TEXT_PARSING:
-    fields_file: 'fields_all_years.csv'
-    jobs_file: 'jobs_all_years.csv'
     fields_dictionary: 'dicts/fields_dictionary.csv'
     strip:
         - '\n'
@@ -133,9 +141,3 @@ TEXT_PARSING:
         - 'lecturer'
         - 'postdoc'
         - 'contract'
-
-POST_SCRAPING:
-    main_jobs_file: 'main_data.csv'
-    new_scrape_file: 'jobs_all_years.csv'
-    newly_retrieved_jobs_file: 'newly_retrieved_jobs.csv'
-    processed_jobs_file: 'processed_scraped_jobs.csv'
