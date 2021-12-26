@@ -1,12 +1,16 @@
 import csv
 from os.path import exists
 
+import pandas as pd
+
 from modules.config import Config
 
 
 class PostScrapingHandler(): 
     def __init__(self):
         config = Config()
+        self.scraping_config = config.get_scraping_config()
+        self.parsing_config = config.get_parsing_config()
         self.out_config = config.get_out_config()
         self.main_config = config.get_main_config()
         self.processed_config = config.get_processed_config()
@@ -77,3 +81,37 @@ class PostScrapingHandler():
             writer = csv.DictWriter(csvfile, keys)
             writer.writeheader()
             writer.writerows(data)
+
+    def aggregate_main_jobs(self):
+        aggregation_variables = ['year', 'field', 'is_tt', 'rank'] 
+        headers = ['year', 'field', 'is_tt', 'rank', 'count']
+        aggregated = []
+        main_jobs = self.get_main_jobs()
+        main = pd.DataFrame(main_jobs)
+        main['count'] = main['count'].astype(float)
+        year_options = self.scraping_config['year_fields']
+        field_options = list(main['field'].unique())
+        is_tt_options = list(main['is_tt'].unique())
+        rank_options = list(main['rank'].unique())
+        data_by_years = main.groupby(['year'])
+        print(data_by_years.head(20))
+        for year, frame in data_by_years:
+            count = frame['count'].sum().round(0)
+            row = [year, 'all', 'all', 'all', count]
+            aggregated.append(row)
+            data_by_fields = frame.groupby(['field'])
+            for field, frame in data_by_fields:
+                count = frame['count'].sum().round(0)
+                row = [year, field, 'all', 'all', count]
+                aggregated.append(row)
+                data_by_is_tt = frame.groupby(['is_tt'])
+                for is_tt, frame in data_by_is_tt:
+                    count = frame['count'].sum().round(0)
+                    row = [year, field, is_tt, 'all', count]
+                    aggregated.append(row)
+                    data_by_ranks = frame.groupby(['rank'])
+                    for rank, frame in data_by_ranks:
+                        count = frame['count'].sum().round(0)
+                        row = [year, field, is_tt, rank, count]
+                        aggregated.append(row)
+        print(pd.DataFrame(aggregated, columns=headers).head(20))
