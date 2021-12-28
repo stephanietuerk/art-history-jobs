@@ -7,6 +7,7 @@ OUT_FOLDER:
 MAIN_FOLDER:
     path: 'data/main'
     main_file: 'main_data.csv'
+    aggregated_file: 'aggregated_data.csv'
 
 PROCESSED_FOLDER:
     path: 'data/processed'
