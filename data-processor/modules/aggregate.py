@@ -12,9 +12,9 @@ class AggregationHandler():
         self.scraping_config = config.get_scraping_config()
         self.main_file = f"{self.main_config['path']}/{self.main_config['main_file']}"
         self.aggregated_file = f"{self.main_config['path']}/{self.main_config['aggregated_file']}"
+        self.sig_figs = 2
     
     def aggregate_main_jobs(self):
-        sig_figs = 2
         headers = ['year', 'field', 'is_tt', 'rank', 'count']
         aggregated = []
         main_jobs = self.get_main_jobs()
@@ -31,7 +31,7 @@ class AggregationHandler():
             year_has_data = year in data_by_years.groups
             if year_has_data:
                 year_group = data_by_years.get_group(year)  
-                year_count = year_group['count'].sum().round(sig_figs)
+                year_count = year_group['count'].sum().round(self.sig_figs)
                 data_by_fields = year_group.groupby(['field'])
             year_row = [year, 'all', 'all', 'all', year_count]
             aggregated.append(year_row)
@@ -40,7 +40,7 @@ class AggregationHandler():
                 field_has_data = field in data_by_fields.groups
                 if year_has_data and field_has_data:
                     field_group = data_by_fields.get_group(field)
-                    field_count = field_group['count'].sum().round(sig_figs)
+                    field_count = field_group['count'].sum().round(self.sig_figs)
                     data_by_is_tt = field_group.groupby(['is_tt'])
                 field_row = [year, field, 'all', 'all', field_count]
                 aggregated.append(field_row)
@@ -49,7 +49,7 @@ class AggregationHandler():
                     is_tt_has_data = is_tt in data_by_is_tt.groups
                     if year_has_data and field_has_data and is_tt_has_data:
                         is_tt_group = data_by_is_tt.get_group(is_tt)
-                        is_tt_count = is_tt_group['count'].sum().round(sig_figs)
+                        is_tt_count = is_tt_group['count'].sum().round(self.sig_figs)
                         data_by_ranks = is_tt_group.groupby(['rank'])
                     is_tt_row = [year, field, is_tt, 'all', is_tt_count]
                     aggregated.append(is_tt_row)
@@ -58,10 +58,49 @@ class AggregationHandler():
                         rank_has_data = rank in data_by_ranks.groups
                         if year_has_data and field_has_data and is_tt_has_data and rank_has_data:
                             rank_group = data_by_ranks.get_group(rank)
-                            rank_count = rank_group['count'].sum().round(sig_figs)
+                            rank_count = rank_group['count'].sum().round(self.sig_figs)
                         rank_row = [year, field, is_tt, rank, rank_count]
                         aggregated.append(rank_row)
-
+                if year_has_data and field_has_data:
+                    field_group = data_by_fields.get_group(field)
+                    data_by_rank = field_group.groupby(['rank'])
+                for rank in rank_options:
+                    rank_count = 0
+                    rank_has_data = rank in data_by_rank.groups
+                    if year_has_data and field_has_data and rank_has_data:
+                        rank_group = data_by_rank.get_group(rank)
+                        rank_count = rank_group['count'].sum().round(self.sig_figs)
+                    rank_row = [year, field, 'all', rank, rank_count]
+                    aggregated.append(rank_row) 
+            if year_has_data:
+                data_by_is_tt = year_group.groupby(['is_tt'])
+            for is_tt in is_tt_options:
+                is_tt_count = 0
+                is_tt_has_data = is_tt in data_by_is_tt.groups
+                if year_has_data and is_tt_has_data:
+                    is_tt_group = data_by_is_tt.get_group(is_tt)
+                    is_tt_count = is_tt_group['count'].sum().round(self.sig_figs)
+                    data_by_ranks = is_tt_group.groupby(['rank'])
+                is_tt_row = [year, 'all', is_tt, 'all', is_tt_count]
+                aggregated.append(is_tt_row)
+                for rank in rank_options:
+                    rank_count = 0
+                    rank_has_data = rank in data_by_ranks.groups
+                    if year_has_data and is_tt_has_data and rank_has_data:
+                        rank_group = data_by_ranks.get_group(rank)
+                        rank_count = rank_group['count'].sum().round(self.sig_figs)
+                    rank_row = [year, 'all', is_tt, rank, rank_count]
+                    aggregated.append(rank_row)
+            if year_has_data:
+                data_by_rank = year_group.groupby(['rank'])
+            for rank in rank_options:
+                rank_count = 0
+                rank_has_data = rank in data_by_rank.groups
+                if year_has_data and rank_has_data:
+                    rank_group = data_by_rank.get_group(rank)
+                    rank_count = rank_group['count'].sum().round(self.sig_figs)
+                rank_row = [year, 'all', 'all', rank, rank_count]
+                aggregated.append(rank_row)
         # print(pd.DataFrame(aggregated, columns=headers).head(100))
         self.write_df_to_csv(pd.DataFrame(aggregated, columns=headers), self.aggregated_file)
 

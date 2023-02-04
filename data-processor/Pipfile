@@ -8,8 +8,6 @@ pandas = "*"
 pyyaml = "*"
 wikia = "*"
 bs4 = "*"
-csv = "*"
-unicodedata = "*"
 
 [dev-packages]
 

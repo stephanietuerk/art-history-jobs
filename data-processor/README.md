@@ -21,6 +21,11 @@ This is a simple data processor designed to grab and parse data from Academic Jo
     - Deleting will allow the script to compare the new scrape (`jobs_all_years.csv`) to unedited jobs (`processed_scraped_jobs.csv`) next time the `process_scrape.py` script is run.
     - Otherwise `process_scrape.py` will diff against `main_data.csv` and jobs that have been manually edited will show up in `newly_retrieved_jobs.csv`. (This isn't the end of the world, they will just have to be manually ignored.)
 
+### To aggregate `main_data.csv`:
+
+1. ensure that you are in the `data-processor` directory
+2. `pipenv run python aggregate_results.py`
+
 ### To get a list of fields in the scrape with years they appear:
 
 1. ensure that you are in the `data-processor` directory
