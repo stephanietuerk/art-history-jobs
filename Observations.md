@@ -14,7 +14,7 @@ So I was a bit surprised when the 2022-2023 data came in and showed that this ca
 
 Another category that really seems to have exploded, unsurprisingly, are jobs looking for someone who works on art of indigenous peoples, particularly in North America, the latter of which get classified as `North American Art`.
 
-It felt to me like jobs that are specifically for only a Latin Americanist, or someone who works on Islamic art history are not as prevalent as they were a few years ago, and now many more jobs are just like, "just please work on anything but white people." In reality they say "expertise in fields including but not limited to Asian, African, Central/South American, Indigenous North American, and/or Oceanic art and architecture."
+It felt to me like jobs that are specifically for only a Latin Americanist, or someone who works on Islamic art history are not as prevalent as they were a few years ago, and now many more jobs are just like, "just please work on anything but white people." In reality they say "expertise in fields including but not limited to Asian, African, Central/South American, Indigenous North American, and/or Oceanic art and architecture." For the record, I generally through a job like that into the `Global / Non-Western Art` category. It's funny -- "non-Western" feels like a very dated term to me, and I get it, it centers Europe whereas saying "Asian, African, Central/South American, Indigenous North American, and/or Oceanic" recognizes all of those cultures. But it sure does take fewer characters!
 
 Another thing I saw in the data this year were a number of searches for Chair positions, often that had minimal or no teaching expectations. I had to make a new `rank` category for them, as they felt substantively different.
 
