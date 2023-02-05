@@ -4,7 +4,6 @@ import unicodedata
 
 import bs4
 import wikia
-
 from modules import utils
 from modules.config import Config
 
@@ -25,6 +24,7 @@ class WikiaHandler():
         names = [x.replace('Art History 2019-2020','Art History Jobs 2019-20') for x in names]
         names = [x.replace('Art History 2020-2021','Art History 2020-21') for x in names]
         names = [x.replace('Art History 2021-2022','Art History 2021-22') for x in names]
+        names = [x.replace('Art History 2022-2023','Art History 2022-23') for x in names]
         self.page_names = names
 
     def create_fields_file(self):
