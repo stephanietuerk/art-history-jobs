@@ -2,7 +2,6 @@ import csv
 from os.path import exists
 
 import pandas as pd
-
 from modules.config import Config
 
 
@@ -21,17 +20,18 @@ class PostScrapingHandler():
     
     def process_scraped(self):
         scraped_jobs = self.get_scraped_jobs()
-        if (exists(self.processed_file) and not exists(self.newly_retrieved_file)):
-            processed_jobs = self.get_processed_jobs()
+        diff_with_processed_jobs = exists(self.processed_file) and not exists(self.newly_retrieved_file)
+        if (diff_with_processed_jobs):
             print('diffing with processed jobs file')
+            processed_jobs = self.get_processed_jobs()
         else:
             print('diffing with main jobs file')
             processed_jobs = self.get_main_jobs()
             print('writing scraped jobs to processed jobs file')
             self.write_processed_jobs(scraped_jobs)
-        self.diff_jobs(scraped_jobs, processed_jobs)
+        self.diff_jobs(scraped_jobs, processed_jobs, diff_with_processed_jobs)
 
-    def diff_jobs(self, scraped_jobs, jobs_to_diff):
+    def diff_jobs(self, scraped_jobs, jobs_to_diff, diff_with_processed_jobs=False):
         newly_scraped_jobs = []
         for job in scraped_jobs:
             match = False
@@ -42,6 +42,9 @@ class PostScrapingHandler():
                 newly_scraped_jobs.append(job)
         if len(newly_scraped_jobs) > 0:
             self.write_new_jobs(newly_scraped_jobs)
+        if diff_with_processed_jobs:
+            print('appending newly scraped jobs to processed jobs file')
+            self.append_to_processed_jobs(newly_scraped_jobs)
         else:
             print('No new jobs found')
         
@@ -75,11 +78,21 @@ class PostScrapingHandler():
         path = self.processed_file
         self.write_file(path, data)
 
+    def append_to_processed_jobs(self, data):
+        path = self.processed_file
+        self.append_to_file(path, data)
+
     def write_file(self, path, data):
         keys = data[0].keys() 
         with open(f"{path}", 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, keys)
             writer.writeheader()
+            writer.writerows(data)
+
+    def append_to_file(self, path, data):
+        keys = data[0].keys() 
+        with open(f"{path}", 'a', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, keys)
             writer.writerows(data)
 
     def aggregate_main_jobs(self):
