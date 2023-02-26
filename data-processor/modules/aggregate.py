@@ -1,7 +1,6 @@
 import csv
 
 import pandas as pd
-
 from modules.config import Config
 
 
@@ -13,6 +12,7 @@ class AggregationHandler():
         self.main_file = f"{self.main_config['path']}/{self.main_config['main_file']}"
         self.aggregated_file = f"{self.main_config['path']}/{self.main_config['aggregated_file']}"
         self.sig_figs = 2
+        self.drop_postdocs = True
     
     def aggregate_main_jobs(self):
         headers = ['year', 'field', 'is_tt', 'rank', 'count']
@@ -21,6 +21,8 @@ class AggregationHandler():
         main = pd.DataFrame(main_jobs)
         main = main[headers]
         main['count'] = main['count'].astype(float)
+        if (self.drop_postdocs):
+            main = main[main['rank'] != 'postdoc']
         year_options = [str(i) for i in self.scraping_config['years']]
         field_options = list(main['field'].unique())
         is_tt_options = list(main['is_tt'].unique())
