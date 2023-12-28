@@ -1,0 +1,13 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": false,
+  "editor.formatOnSave": true,
+  "[typescript]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#e27be6",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveBackground": "#e27be6",
+    "titleBar.inactiveForeground": "#000000"
+  }
+}

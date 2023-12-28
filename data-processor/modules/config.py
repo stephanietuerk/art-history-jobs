@@ -1,7 +1,5 @@
 import os
-
 from modules import utils
-
 
 class Config():
     def __init__(self):
