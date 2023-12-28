@@ -1140,9 +1140,9 @@ year,field,is_tt,rank,count
 2011,all,all,"lecturer, assistant_prof, associate_prof",0.0
 2011,all,all,"lecturer, assistant_prof",0.0
 2012,all,all,all,147.0
-2012,African / African Diaspora Art,all,all,3.5
-2012,African / African Diaspora Art,unknown,all,0.5
-2012,African / African Diaspora Art,unknown,unknown,0.5
+2012,African / African Diaspora Art,all,all,3.67
+2012,African / African Diaspora Art,unknown,all,0.67
+2012,African / African Diaspora Art,unknown,unknown,0.67
 2012,African / African Diaspora Art,unknown,assistant_prof,0.0
 2012,African / African Diaspora Art,unknown,"assistant_prof, associate_prof",0.0
 2012,African / African Diaspora Art,unknown,open_rank,0.0
@@ -1186,7 +1186,7 @@ year,field,is_tt,rank,count
 2012,African / African Diaspora Art,FALSE,"vap, assistant_prof",0.0
 2012,African / African Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2012,African / African Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
-2012,African / African Diaspora Art,all,unknown,0.5
+2012,African / African Diaspora Art,all,unknown,0.67
 2012,African / African Diaspora Art,all,assistant_prof,3.0
 2012,African / African Diaspora Art,all,"assistant_prof, associate_prof",0.0
 2012,African / African Diaspora Art,all,open_rank,0.0
@@ -1740,9 +1740,9 @@ year,field,is_tt,rank,count
 2012,Global / Non-Western Art,all,"vap, assistant_prof",0.0
 2012,Global / Non-Western Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2012,Global / Non-Western Art,all,"lecturer, assistant_prof",0.0
-2012,Latin American Art,all,all,2.5
-2012,Latin American Art,unknown,all,0.5
-2012,Latin American Art,unknown,unknown,0.5
+2012,Latin American Art,all,all,2.33
+2012,Latin American Art,unknown,all,0.33
+2012,Latin American Art,unknown,unknown,0.33
 2012,Latin American Art,unknown,assistant_prof,0.0
 2012,Latin American Art,unknown,"assistant_prof, associate_prof",0.0
 2012,Latin American Art,unknown,open_rank,0.0
@@ -1786,7 +1786,7 @@ year,field,is_tt,rank,count
 2012,Latin American Art,FALSE,"vap, assistant_prof",0.0
 2012,Latin American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2012,Latin American Art,FALSE,"lecturer, assistant_prof",0.0
-2012,Latin American Art,all,unknown,0.5
+2012,Latin American Art,all,unknown,0.33
 2012,Latin American Art,all,assistant_prof,2.0
 2012,Latin American Art,all,"assistant_prof, associate_prof",0.0
 2012,Latin American Art,all,open_rank,0.0
@@ -7980,7 +7980,7 @@ year,field,is_tt,rank,count
 2017,all,all,"lecturer, assistant_prof, associate_prof",0.0
 2017,all,all,"lecturer, assistant_prof",0.0
 2018,all,all,all,123.0
-2018,African / African Diaspora Art,all,all,2.5
+2018,African / African Diaspora Art,all,all,3.33
 2018,African / African Diaspora Art,unknown,all,0.0
 2018,African / African Diaspora Art,unknown,unknown,0.0
 2018,African / African Diaspora Art,unknown,assistant_prof,0.0
@@ -7996,9 +7996,9 @@ year,field,is_tt,rank,count
 2018,African / African Diaspora Art,unknown,"vap, assistant_prof",0.0
 2018,African / African Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,African / African Diaspora Art,unknown,"lecturer, assistant_prof",0.0
-2018,African / African Diaspora Art,TRUE,all,1.0
+2018,African / African Diaspora Art,TRUE,all,1.5
 2018,African / African Diaspora Art,TRUE,unknown,0.0
-2018,African / African Diaspora Art,TRUE,assistant_prof,1.0
+2018,African / African Diaspora Art,TRUE,assistant_prof,1.5
 2018,African / African Diaspora Art,TRUE,"assistant_prof, associate_prof",0.0
 2018,African / African Diaspora Art,TRUE,open_rank,0.0
 2018,African / African Diaspora Art,TRUE,lecturer,0.0
@@ -8011,13 +8011,13 @@ year,field,is_tt,rank,count
 2018,African / African Diaspora Art,TRUE,"vap, assistant_prof",0.0
 2018,African / African Diaspora Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,African / African Diaspora Art,TRUE,"lecturer, assistant_prof",0.0
-2018,African / African Diaspora Art,FALSE,all,1.5
+2018,African / African Diaspora Art,FALSE,all,1.83
 2018,African / African Diaspora Art,FALSE,unknown,0.0
 2018,African / African Diaspora Art,FALSE,assistant_prof,0.0
 2018,African / African Diaspora Art,FALSE,"assistant_prof, associate_prof",0.0
 2018,African / African Diaspora Art,FALSE,open_rank,0.0
 2018,African / African Diaspora Art,FALSE,lecturer,0.0
-2018,African / African Diaspora Art,FALSE,vap,1.5
+2018,African / African Diaspora Art,FALSE,vap,1.83
 2018,African / African Diaspora Art,FALSE,full_prof,0.0
 2018,African / African Diaspora Art,FALSE,"associate_prof, full_prof",0.0
 2018,African / African Diaspora Art,FALSE,associate_prof,0.0
@@ -8027,11 +8027,11 @@ year,field,is_tt,rank,count
 2018,African / African Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,African / African Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
 2018,African / African Diaspora Art,all,unknown,0.0
-2018,African / African Diaspora Art,all,assistant_prof,1.0
+2018,African / African Diaspora Art,all,assistant_prof,1.5
 2018,African / African Diaspora Art,all,"assistant_prof, associate_prof",0.0
 2018,African / African Diaspora Art,all,open_rank,0.0
 2018,African / African Diaspora Art,all,lecturer,0.0
-2018,African / African Diaspora Art,all,vap,1.5
+2018,African / African Diaspora Art,all,vap,1.83
 2018,African / African Diaspora Art,all,full_prof,0.0
 2018,African / African Diaspora Art,all,"associate_prof, full_prof",0.0
 2018,African / African Diaspora Art,all,associate_prof,0.0
@@ -8100,7 +8100,7 @@ year,field,is_tt,rank,count
 2018,Ancient Art,all,"vap, assistant_prof",0.0
 2018,Ancient Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Ancient Art,all,"lecturer, assistant_prof",0.0
-2018,Architecture,all,all,11.0
+2018,Architecture,all,all,10.0
 2018,Architecture,unknown,all,0.0
 2018,Architecture,unknown,unknown,0.0
 2018,Architecture,unknown,assistant_prof,0.0
@@ -8131,13 +8131,13 @@ year,field,is_tt,rank,count
 2018,Architecture,TRUE,"vap, assistant_prof",0.0
 2018,Architecture,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Architecture,TRUE,"lecturer, assistant_prof",0.0
-2018,Architecture,FALSE,all,2.0
+2018,Architecture,FALSE,all,1.0
 2018,Architecture,FALSE,unknown,0.0
 2018,Architecture,FALSE,assistant_prof,0.0
 2018,Architecture,FALSE,"assistant_prof, associate_prof",0.0
 2018,Architecture,FALSE,open_rank,0.0
 2018,Architecture,FALSE,lecturer,0.0
-2018,Architecture,FALSE,vap,2.0
+2018,Architecture,FALSE,vap,1.0
 2018,Architecture,FALSE,full_prof,0.0
 2018,Architecture,FALSE,"associate_prof, full_prof",0.0
 2018,Architecture,FALSE,associate_prof,0.0
@@ -8151,7 +8151,7 @@ year,field,is_tt,rank,count
 2018,Architecture,all,"assistant_prof, associate_prof",0.0
 2018,Architecture,all,open_rank,0.0
 2018,Architecture,all,lecturer,0.0
-2018,Architecture,all,vap,2.0
+2018,Architecture,all,vap,1.0
 2018,Architecture,all,full_prof,0.0
 2018,Architecture,all,"associate_prof, full_prof",0.0
 2018,Architecture,all,associate_prof,0.0
@@ -8220,7 +8220,7 @@ year,field,is_tt,rank,count
 2018,Asian / Asian Diaspora Art,all,"vap, assistant_prof",0.0
 2018,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof",0.0
-2018,Byzantine / Medieval Art,all,all,4.0
+2018,Byzantine / Medieval Art,all,all,5.5
 2018,Byzantine / Medieval Art,unknown,all,0.0
 2018,Byzantine / Medieval Art,unknown,unknown,0.0
 2018,Byzantine / Medieval Art,unknown,assistant_prof,0.0
@@ -8236,9 +8236,9 @@ year,field,is_tt,rank,count
 2018,Byzantine / Medieval Art,unknown,"vap, assistant_prof",0.0
 2018,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof",0.0
-2018,Byzantine / Medieval Art,TRUE,all,3.0
+2018,Byzantine / Medieval Art,TRUE,all,4.0
 2018,Byzantine / Medieval Art,TRUE,unknown,0.0
-2018,Byzantine / Medieval Art,TRUE,assistant_prof,3.0
+2018,Byzantine / Medieval Art,TRUE,assistant_prof,4.0
 2018,Byzantine / Medieval Art,TRUE,"assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,TRUE,open_rank,0.0
 2018,Byzantine / Medieval Art,TRUE,lecturer,0.0
@@ -8251,13 +8251,13 @@ year,field,is_tt,rank,count
 2018,Byzantine / Medieval Art,TRUE,"vap, assistant_prof",0.0
 2018,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof",0.0
-2018,Byzantine / Medieval Art,FALSE,all,1.0
+2018,Byzantine / Medieval Art,FALSE,all,1.5
 2018,Byzantine / Medieval Art,FALSE,unknown,0.0
 2018,Byzantine / Medieval Art,FALSE,assistant_prof,0.0
 2018,Byzantine / Medieval Art,FALSE,"assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,FALSE,open_rank,0.0
 2018,Byzantine / Medieval Art,FALSE,lecturer,1.0
-2018,Byzantine / Medieval Art,FALSE,vap,0.0
+2018,Byzantine / Medieval Art,FALSE,vap,0.5
 2018,Byzantine / Medieval Art,FALSE,full_prof,0.0
 2018,Byzantine / Medieval Art,FALSE,"associate_prof, full_prof",0.0
 2018,Byzantine / Medieval Art,FALSE,associate_prof,0.0
@@ -8267,11 +8267,11 @@ year,field,is_tt,rank,count
 2018,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof",0.0
 2018,Byzantine / Medieval Art,all,unknown,0.0
-2018,Byzantine / Medieval Art,all,assistant_prof,3.0
+2018,Byzantine / Medieval Art,all,assistant_prof,4.0
 2018,Byzantine / Medieval Art,all,"assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,all,open_rank,0.0
 2018,Byzantine / Medieval Art,all,lecturer,1.0
-2018,Byzantine / Medieval Art,all,vap,0.0
+2018,Byzantine / Medieval Art,all,vap,0.5
 2018,Byzantine / Medieval Art,all,full_prof,0.0
 2018,Byzantine / Medieval Art,all,"associate_prof, full_prof",0.0
 2018,Byzantine / Medieval Art,all,associate_prof,0.0
@@ -8280,7 +8280,7 @@ year,field,is_tt,rank,count
 2018,Byzantine / Medieval Art,all,"vap, assistant_prof",0.0
 2018,Byzantine / Medieval Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Byzantine / Medieval Art,all,"lecturer, assistant_prof",0.0
-2018,Design,all,all,0.5
+2018,Design,all,all,0.0
 2018,Design,unknown,all,0.0
 2018,Design,unknown,unknown,0.0
 2018,Design,unknown,assistant_prof,0.0
@@ -8311,12 +8311,12 @@ year,field,is_tt,rank,count
 2018,Design,TRUE,"vap, assistant_prof",0.0
 2018,Design,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Design,TRUE,"lecturer, assistant_prof",0.0
-2018,Design,FALSE,all,0.5
+2018,Design,FALSE,all,0.0
 2018,Design,FALSE,unknown,0.0
 2018,Design,FALSE,assistant_prof,0.0
 2018,Design,FALSE,"assistant_prof, associate_prof",0.0
 2018,Design,FALSE,open_rank,0.0
-2018,Design,FALSE,lecturer,0.5
+2018,Design,FALSE,lecturer,0.0
 2018,Design,FALSE,vap,0.0
 2018,Design,FALSE,full_prof,0.0
 2018,Design,FALSE,"associate_prof, full_prof",0.0
@@ -8330,7 +8330,7 @@ year,field,is_tt,rank,count
 2018,Design,all,assistant_prof,0.0
 2018,Design,all,"assistant_prof, associate_prof",0.0
 2018,Design,all,open_rank,0.0
-2018,Design,all,lecturer,0.5
+2018,Design,all,lecturer,0.0
 2018,Design,all,vap,0.0
 2018,Design,all,full_prof,0.0
 2018,Design,all,"associate_prof, full_prof",0.0
@@ -8400,7 +8400,7 @@ year,field,is_tt,rank,count
 2018,Digital Art History,all,"vap, assistant_prof",0.0
 2018,Digital Art History,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Digital Art History,all,"lecturer, assistant_prof",0.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,18.0
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,16.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,all,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,unknown,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,assistant_prof,0.0
@@ -8416,10 +8416,10 @@ year,field,is_tt,rank,count
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"vap, assistant_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof",0.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,15.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,unknown,1.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,8.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"assistant_prof, associate_prof",2.0
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,13.5
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,unknown,0.5
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,7.5
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"assistant_prof, associate_prof",1.5
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,open_rank,2.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,lecturer,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,vap,0.0
@@ -8431,13 +8431,13 @@ year,field,is_tt,rank,count
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"vap, assistant_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof",0.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,3.0
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,2.5
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,unknown,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,assistant_prof,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"assistant_prof, associate_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,open_rank,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,lecturer,0.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,3.0
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,2.5
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,full_prof,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"associate_prof, full_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,associate_prof,0.0
@@ -8446,12 +8446,12 @@ year,field,is_tt,rank,count
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"vap, assistant_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof",0.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,1.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,8.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",2.0
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,0.5
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,7.5
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",1.5
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,open_rank,2.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,0.0
-2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,3.0
+2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,2.5
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,full_prof,0.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"associate_prof, full_prof",2.0
 2018,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,associate_prof,0.0
@@ -8476,9 +8476,9 @@ year,field,is_tt,rank,count
 2018,General / Open,unknown,"vap, assistant_prof",0.0
 2018,General / Open,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,General / Open,unknown,"lecturer, assistant_prof",0.0
-2018,General / Open,TRUE,all,13.0
+2018,General / Open,TRUE,all,12.0
 2018,General / Open,TRUE,unknown,0.0
-2018,General / Open,TRUE,assistant_prof,11.0
+2018,General / Open,TRUE,assistant_prof,10.0
 2018,General / Open,TRUE,"assistant_prof, associate_prof",1.0
 2018,General / Open,TRUE,open_rank,0.0
 2018,General / Open,TRUE,lecturer,0.0
@@ -8491,13 +8491,13 @@ year,field,is_tt,rank,count
 2018,General / Open,TRUE,"vap, assistant_prof",0.0
 2018,General / Open,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,General / Open,TRUE,"lecturer, assistant_prof",0.0
-2018,General / Open,FALSE,all,3.0
+2018,General / Open,FALSE,all,4.0
 2018,General / Open,FALSE,unknown,0.0
 2018,General / Open,FALSE,assistant_prof,0.0
 2018,General / Open,FALSE,"assistant_prof, associate_prof",0.0
 2018,General / Open,FALSE,open_rank,0.0
 2018,General / Open,FALSE,lecturer,3.0
-2018,General / Open,FALSE,vap,0.0
+2018,General / Open,FALSE,vap,1.0
 2018,General / Open,FALSE,full_prof,0.0
 2018,General / Open,FALSE,"associate_prof, full_prof",0.0
 2018,General / Open,FALSE,associate_prof,0.0
@@ -8507,11 +8507,11 @@ year,field,is_tt,rank,count
 2018,General / Open,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,General / Open,FALSE,"lecturer, assistant_prof",0.0
 2018,General / Open,all,unknown,0.0
-2018,General / Open,all,assistant_prof,11.0
+2018,General / Open,all,assistant_prof,10.0
 2018,General / Open,all,"assistant_prof, associate_prof",1.0
 2018,General / Open,all,open_rank,0.0
 2018,General / Open,all,lecturer,3.0
-2018,General / Open,all,vap,0.0
+2018,General / Open,all,vap,1.0
 2018,General / Open,all,full_prof,1.0
 2018,General / Open,all,"associate_prof, full_prof",0.0
 2018,General / Open,all,associate_prof,0.0
@@ -8580,7 +8580,7 @@ year,field,is_tt,rank,count
 2018,Global / Non-Western Art,all,"vap, assistant_prof",0.0
 2018,Global / Non-Western Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Global / Non-Western Art,all,"lecturer, assistant_prof",0.0
-2018,Latin American Art,all,all,2.0
+2018,Latin American Art,all,all,2.67
 2018,Latin American Art,unknown,all,0.0
 2018,Latin American Art,unknown,unknown,0.0
 2018,Latin American Art,unknown,assistant_prof,0.0
@@ -8596,10 +8596,10 @@ year,field,is_tt,rank,count
 2018,Latin American Art,unknown,"vap, assistant_prof",0.0
 2018,Latin American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Latin American Art,unknown,"lecturer, assistant_prof",0.0
-2018,Latin American Art,TRUE,all,2.0
+2018,Latin American Art,TRUE,all,2.67
 2018,Latin American Art,TRUE,unknown,0.0
-2018,Latin American Art,TRUE,assistant_prof,2.0
-2018,Latin American Art,TRUE,"assistant_prof, associate_prof",0.0
+2018,Latin American Art,TRUE,assistant_prof,2.33
+2018,Latin American Art,TRUE,"assistant_prof, associate_prof",0.33
 2018,Latin American Art,TRUE,open_rank,0.0
 2018,Latin American Art,TRUE,lecturer,0.0
 2018,Latin American Art,TRUE,vap,0.0
@@ -8627,8 +8627,8 @@ year,field,is_tt,rank,count
 2018,Latin American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Latin American Art,FALSE,"lecturer, assistant_prof",0.0
 2018,Latin American Art,all,unknown,0.0
-2018,Latin American Art,all,assistant_prof,2.0
-2018,Latin American Art,all,"assistant_prof, associate_prof",0.0
+2018,Latin American Art,all,assistant_prof,2.33
+2018,Latin American Art,all,"assistant_prof, associate_prof",0.33
 2018,Latin American Art,all,open_rank,0.0
 2018,Latin American Art,all,lecturer,0.0
 2018,Latin American Art,all,vap,0.0
@@ -8640,7 +8640,7 @@ year,field,is_tt,rank,count
 2018,Latin American Art,all,"vap, assistant_prof",0.0
 2018,Latin American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Latin American Art,all,"lecturer, assistant_prof",0.0
-2018,Modern / Contemporary Art,all,all,26.0
+2018,Modern / Contemporary Art,all,all,24.0
 2018,Modern / Contemporary Art,unknown,all,0.0
 2018,Modern / Contemporary Art,unknown,unknown,0.0
 2018,Modern / Contemporary Art,unknown,assistant_prof,0.0
@@ -8656,10 +8656,10 @@ year,field,is_tt,rank,count
 2018,Modern / Contemporary Art,unknown,"vap, assistant_prof",0.0
 2018,Modern / Contemporary Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Modern / Contemporary Art,unknown,"lecturer, assistant_prof",0.0
-2018,Modern / Contemporary Art,TRUE,all,19.5
+2018,Modern / Contemporary Art,TRUE,all,18.17
 2018,Modern / Contemporary Art,TRUE,unknown,0.0
-2018,Modern / Contemporary Art,TRUE,assistant_prof,16.5
-2018,Modern / Contemporary Art,TRUE,"assistant_prof, associate_prof",1.0
+2018,Modern / Contemporary Art,TRUE,assistant_prof,15.33
+2018,Modern / Contemporary Art,TRUE,"assistant_prof, associate_prof",0.83
 2018,Modern / Contemporary Art,TRUE,open_rank,1.0
 2018,Modern / Contemporary Art,TRUE,lecturer,0.0
 2018,Modern / Contemporary Art,TRUE,vap,0.0
@@ -8671,13 +8671,13 @@ year,field,is_tt,rank,count
 2018,Modern / Contemporary Art,TRUE,"vap, assistant_prof",0.0
 2018,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof",0.0
-2018,Modern / Contemporary Art,FALSE,all,6.5
+2018,Modern / Contemporary Art,FALSE,all,5.83
 2018,Modern / Contemporary Art,FALSE,unknown,0.0
 2018,Modern / Contemporary Art,FALSE,assistant_prof,0.0
 2018,Modern / Contemporary Art,FALSE,"assistant_prof, associate_prof",0.0
 2018,Modern / Contemporary Art,FALSE,open_rank,0.0
 2018,Modern / Contemporary Art,FALSE,lecturer,1.0
-2018,Modern / Contemporary Art,FALSE,vap,5.5
+2018,Modern / Contemporary Art,FALSE,vap,4.83
 2018,Modern / Contemporary Art,FALSE,full_prof,0.0
 2018,Modern / Contemporary Art,FALSE,"associate_prof, full_prof",0.0
 2018,Modern / Contemporary Art,FALSE,associate_prof,0.0
@@ -8687,11 +8687,11 @@ year,field,is_tt,rank,count
 2018,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof",0.0
 2018,Modern / Contemporary Art,all,unknown,0.0
-2018,Modern / Contemporary Art,all,assistant_prof,16.5
-2018,Modern / Contemporary Art,all,"assistant_prof, associate_prof",1.0
+2018,Modern / Contemporary Art,all,assistant_prof,15.33
+2018,Modern / Contemporary Art,all,"assistant_prof, associate_prof",0.83
 2018,Modern / Contemporary Art,all,open_rank,1.0
 2018,Modern / Contemporary Art,all,lecturer,1.0
-2018,Modern / Contemporary Art,all,vap,5.5
+2018,Modern / Contemporary Art,all,vap,4.83
 2018,Modern / Contemporary Art,all,full_prof,0.0
 2018,Modern / Contemporary Art,all,"associate_prof, full_prof",1.0
 2018,Modern / Contemporary Art,all,associate_prof,0.0
@@ -8700,7 +8700,7 @@ year,field,is_tt,rank,count
 2018,Modern / Contemporary Art,all,"vap, assistant_prof",0.0
 2018,Modern / Contemporary Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Modern / Contemporary Art,all,"lecturer, assistant_prof",0.0
-2018,North American Art,all,all,5.5
+2018,North American Art,all,all,5.83
 2018,North American Art,unknown,all,0.0
 2018,North American Art,unknown,unknown,0.0
 2018,North American Art,unknown,assistant_prof,0.0
@@ -8716,9 +8716,9 @@ year,field,is_tt,rank,count
 2018,North American Art,unknown,"vap, assistant_prof",0.0
 2018,North American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,North American Art,unknown,"lecturer, assistant_prof",0.0
-2018,North American Art,TRUE,all,3.5
-2018,North American Art,TRUE,unknown,0.0
-2018,North American Art,TRUE,assistant_prof,2.5
+2018,North American Art,TRUE,all,3.83
+2018,North American Art,TRUE,unknown,0.5
+2018,North American Art,TRUE,assistant_prof,2.33
 2018,North American Art,TRUE,"assistant_prof, associate_prof",0.0
 2018,North American Art,TRUE,open_rank,0.0
 2018,North American Art,TRUE,lecturer,0.0
@@ -8746,8 +8746,8 @@ year,field,is_tt,rank,count
 2018,North American Art,FALSE,"vap, assistant_prof",0.0
 2018,North American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,North American Art,FALSE,"lecturer, assistant_prof",0.0
-2018,North American Art,all,unknown,0.0
-2018,North American Art,all,assistant_prof,2.5
+2018,North American Art,all,unknown,0.5
+2018,North American Art,all,assistant_prof,2.33
 2018,North American Art,all,"assistant_prof, associate_prof",0.0
 2018,North American Art,all,open_rank,0.0
 2018,North American Art,all,lecturer,1.0
@@ -8760,7 +8760,7 @@ year,field,is_tt,rank,count
 2018,North American Art,all,"vap, assistant_prof",0.0
 2018,North American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,North American Art,all,"lecturer, assistant_prof",0.0
-2018,Visual Studies / Visual Culture,all,all,2.5
+2018,Visual Studies / Visual Culture,all,all,3.83
 2018,Visual Studies / Visual Culture,unknown,all,0.0
 2018,Visual Studies / Visual Culture,unknown,unknown,0.0
 2018,Visual Studies / Visual Culture,unknown,assistant_prof,0.0
@@ -8776,9 +8776,9 @@ year,field,is_tt,rank,count
 2018,Visual Studies / Visual Culture,unknown,"vap, assistant_prof",0.0
 2018,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof",0.0
-2018,Visual Studies / Visual Culture,TRUE,all,2.0
+2018,Visual Studies / Visual Culture,TRUE,all,2.5
 2018,Visual Studies / Visual Culture,TRUE,unknown,0.0
-2018,Visual Studies / Visual Culture,TRUE,assistant_prof,1.0
+2018,Visual Studies / Visual Culture,TRUE,assistant_prof,1.5
 2018,Visual Studies / Visual Culture,TRUE,"assistant_prof, associate_prof",1.0
 2018,Visual Studies / Visual Culture,TRUE,open_rank,0.0
 2018,Visual Studies / Visual Culture,TRUE,lecturer,0.0
@@ -8791,13 +8791,13 @@ year,field,is_tt,rank,count
 2018,Visual Studies / Visual Culture,TRUE,"vap, assistant_prof",0.0
 2018,Visual Studies / Visual Culture,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Visual Studies / Visual Culture,TRUE,"lecturer, assistant_prof",0.0
-2018,Visual Studies / Visual Culture,FALSE,all,0.5
+2018,Visual Studies / Visual Culture,FALSE,all,1.33
 2018,Visual Studies / Visual Culture,FALSE,unknown,0.0
 2018,Visual Studies / Visual Culture,FALSE,assistant_prof,0.0
 2018,Visual Studies / Visual Culture,FALSE,"assistant_prof, associate_prof",0.0
 2018,Visual Studies / Visual Culture,FALSE,open_rank,0.0
-2018,Visual Studies / Visual Culture,FALSE,lecturer,0.5
-2018,Visual Studies / Visual Culture,FALSE,vap,0.0
+2018,Visual Studies / Visual Culture,FALSE,lecturer,1.0
+2018,Visual Studies / Visual Culture,FALSE,vap,0.33
 2018,Visual Studies / Visual Culture,FALSE,full_prof,0.0
 2018,Visual Studies / Visual Culture,FALSE,"associate_prof, full_prof",0.0
 2018,Visual Studies / Visual Culture,FALSE,associate_prof,0.0
@@ -8807,11 +8807,11 @@ year,field,is_tt,rank,count
 2018,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof",0.0
 2018,Visual Studies / Visual Culture,all,unknown,0.0
-2018,Visual Studies / Visual Culture,all,assistant_prof,1.0
+2018,Visual Studies / Visual Culture,all,assistant_prof,1.5
 2018,Visual Studies / Visual Culture,all,"assistant_prof, associate_prof",1.0
 2018,Visual Studies / Visual Culture,all,open_rank,0.0
-2018,Visual Studies / Visual Culture,all,lecturer,0.5
-2018,Visual Studies / Visual Culture,all,vap,0.0
+2018,Visual Studies / Visual Culture,all,lecturer,1.0
+2018,Visual Studies / Visual Culture,all,vap,0.33
 2018,Visual Studies / Visual Culture,all,full_prof,0.0
 2018,Visual Studies / Visual Culture,all,"associate_prof, full_prof",0.0
 2018,Visual Studies / Visual Culture,all,associate_prof,0.0
@@ -8820,7 +8820,7 @@ year,field,is_tt,rank,count
 2018,Visual Studies / Visual Culture,all,"vap, assistant_prof",0.0
 2018,Visual Studies / Visual Culture,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Visual Studies / Visual Culture,all,"lecturer, assistant_prof",0.0
-2018,Middle Eastern / Islamic Art,all,all,4.0
+2018,Middle Eastern / Islamic Art,all,all,4.83
 2018,Middle Eastern / Islamic Art,unknown,all,0.0
 2018,Middle Eastern / Islamic Art,unknown,unknown,0.0
 2018,Middle Eastern / Islamic Art,unknown,assistant_prof,0.0
@@ -8836,10 +8836,10 @@ year,field,is_tt,rank,count
 2018,Middle Eastern / Islamic Art,unknown,"vap, assistant_prof",0.0
 2018,Middle Eastern / Islamic Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Middle Eastern / Islamic Art,unknown,"lecturer, assistant_prof",0.0
-2018,Middle Eastern / Islamic Art,TRUE,all,4.0
+2018,Middle Eastern / Islamic Art,TRUE,all,4.83
 2018,Middle Eastern / Islamic Art,TRUE,unknown,0.0
-2018,Middle Eastern / Islamic Art,TRUE,assistant_prof,2.0
-2018,Middle Eastern / Islamic Art,TRUE,"assistant_prof, associate_prof",1.0
+2018,Middle Eastern / Islamic Art,TRUE,assistant_prof,2.5
+2018,Middle Eastern / Islamic Art,TRUE,"assistant_prof, associate_prof",1.33
 2018,Middle Eastern / Islamic Art,TRUE,open_rank,0.0
 2018,Middle Eastern / Islamic Art,TRUE,lecturer,0.0
 2018,Middle Eastern / Islamic Art,TRUE,vap,0.0
@@ -8867,8 +8867,8 @@ year,field,is_tt,rank,count
 2018,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof",0.0
 2018,Middle Eastern / Islamic Art,all,unknown,0.0
-2018,Middle Eastern / Islamic Art,all,assistant_prof,2.0
-2018,Middle Eastern / Islamic Art,all,"assistant_prof, associate_prof",1.0
+2018,Middle Eastern / Islamic Art,all,assistant_prof,2.5
+2018,Middle Eastern / Islamic Art,all,"assistant_prof, associate_prof",1.33
 2018,Middle Eastern / Islamic Art,all,open_rank,0.0
 2018,Middle Eastern / Islamic Art,all,lecturer,0.0
 2018,Middle Eastern / Islamic Art,all,vap,0.0
@@ -8880,7 +8880,7 @@ year,field,is_tt,rank,count
 2018,Middle Eastern / Islamic Art,all,"vap, assistant_prof",0.0
 2018,Middle Eastern / Islamic Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Middle Eastern / Islamic Art,all,"lecturer, assistant_prof",0.0
-2018,Film / Photography,all,all,3.0
+2018,Film / Photography,all,all,2.5
 2018,Film / Photography,unknown,all,0.0
 2018,Film / Photography,unknown,unknown,0.0
 2018,Film / Photography,unknown,assistant_prof,0.0
@@ -8896,9 +8896,9 @@ year,field,is_tt,rank,count
 2018,Film / Photography,unknown,"vap, assistant_prof",0.0
 2018,Film / Photography,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Film / Photography,unknown,"lecturer, assistant_prof",0.0
-2018,Film / Photography,TRUE,all,3.0
+2018,Film / Photography,TRUE,all,2.5
 2018,Film / Photography,TRUE,unknown,1.0
-2018,Film / Photography,TRUE,assistant_prof,2.0
+2018,Film / Photography,TRUE,assistant_prof,1.5
 2018,Film / Photography,TRUE,"assistant_prof, associate_prof",0.0
 2018,Film / Photography,TRUE,open_rank,0.0
 2018,Film / Photography,TRUE,lecturer,0.0
@@ -8927,7 +8927,7 @@ year,field,is_tt,rank,count
 2018,Film / Photography,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Film / Photography,FALSE,"lecturer, assistant_prof",0.0
 2018,Film / Photography,all,unknown,1.0
-2018,Film / Photography,all,assistant_prof,2.0
+2018,Film / Photography,all,assistant_prof,1.5
 2018,Film / Photography,all,"assistant_prof, associate_prof",0.0
 2018,Film / Photography,all,open_rank,0.0
 2018,Film / Photography,all,lecturer,0.0
@@ -8940,7 +8940,7 @@ year,field,is_tt,rank,count
 2018,Film / Photography,all,"vap, assistant_prof",0.0
 2018,Film / Photography,all,"lecturer, assistant_prof, associate_prof",0.0
 2018,Film / Photography,all,"lecturer, assistant_prof",0.0
-2018,Curatorial Studies / Arts Administration,all,all,5.0
+2018,Curatorial Studies / Arts Administration,all,all,5.5
 2018,Curatorial Studies / Arts Administration,unknown,all,0.0
 2018,Curatorial Studies / Arts Administration,unknown,unknown,0.0
 2018,Curatorial Studies / Arts Administration,unknown,assistant_prof,0.0
@@ -8956,9 +8956,9 @@ year,field,is_tt,rank,count
 2018,Curatorial Studies / Arts Administration,unknown,"vap, assistant_prof",0.0
 2018,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2018,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof",0.0
-2018,Curatorial Studies / Arts Administration,TRUE,all,3.0
+2018,Curatorial Studies / Arts Administration,TRUE,all,3.5
 2018,Curatorial Studies / Arts Administration,TRUE,unknown,0.0
-2018,Curatorial Studies / Arts Administration,TRUE,assistant_prof,1.0
+2018,Curatorial Studies / Arts Administration,TRUE,assistant_prof,1.5
 2018,Curatorial Studies / Arts Administration,TRUE,"assistant_prof, associate_prof",0.0
 2018,Curatorial Studies / Arts Administration,TRUE,open_rank,1.0
 2018,Curatorial Studies / Arts Administration,TRUE,lecturer,0.0
@@ -8987,7 +8987,7 @@ year,field,is_tt,rank,count
 2018,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2018,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof",0.0
 2018,Curatorial Studies / Arts Administration,all,unknown,1.0
-2018,Curatorial Studies / Arts Administration,all,assistant_prof,1.0
+2018,Curatorial Studies / Arts Administration,all,assistant_prof,1.5
 2018,Curatorial Studies / Arts Administration,all,"assistant_prof, associate_prof",0.0
 2018,Curatorial Studies / Arts Administration,all,open_rank,1.0
 2018,Curatorial Studies / Arts Administration,all,lecturer,1.0
@@ -9180,7 +9180,7 @@ year,field,is_tt,rank,count
 2019,African / African Diaspora Art,all,"vap, assistant_prof",0.0
 2019,African / African Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,African / African Diaspora Art,all,"lecturer, assistant_prof",0.0
-2019,Ancient Art,all,all,5.0
+2019,Ancient Art,all,all,7.83
 2019,Ancient Art,unknown,all,1.0
 2019,Ancient Art,unknown,unknown,0.0
 2019,Ancient Art,unknown,assistant_prof,1.0
@@ -9196,9 +9196,9 @@ year,field,is_tt,rank,count
 2019,Ancient Art,unknown,"vap, assistant_prof",0.0
 2019,Ancient Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Ancient Art,unknown,"lecturer, assistant_prof",0.0
-2019,Ancient Art,TRUE,all,3.0
+2019,Ancient Art,TRUE,all,4.83
 2019,Ancient Art,TRUE,unknown,0.0
-2019,Ancient Art,TRUE,assistant_prof,2.0
+2019,Ancient Art,TRUE,assistant_prof,3.83
 2019,Ancient Art,TRUE,"assistant_prof, associate_prof",1.0
 2019,Ancient Art,TRUE,open_rank,0.0
 2019,Ancient Art,TRUE,lecturer,0.0
@@ -9211,13 +9211,13 @@ year,field,is_tt,rank,count
 2019,Ancient Art,TRUE,"vap, assistant_prof",0.0
 2019,Ancient Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Ancient Art,TRUE,"lecturer, assistant_prof",0.0
-2019,Ancient Art,FALSE,all,1.0
+2019,Ancient Art,FALSE,all,2.0
 2019,Ancient Art,FALSE,unknown,0.0
 2019,Ancient Art,FALSE,assistant_prof,0.0
 2019,Ancient Art,FALSE,"assistant_prof, associate_prof",0.0
 2019,Ancient Art,FALSE,open_rank,0.0
 2019,Ancient Art,FALSE,lecturer,0.0
-2019,Ancient Art,FALSE,vap,1.0
+2019,Ancient Art,FALSE,vap,2.0
 2019,Ancient Art,FALSE,full_prof,0.0
 2019,Ancient Art,FALSE,"associate_prof, full_prof",0.0
 2019,Ancient Art,FALSE,associate_prof,0.0
@@ -9227,11 +9227,11 @@ year,field,is_tt,rank,count
 2019,Ancient Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Ancient Art,FALSE,"lecturer, assistant_prof",0.0
 2019,Ancient Art,all,unknown,0.0
-2019,Ancient Art,all,assistant_prof,3.0
+2019,Ancient Art,all,assistant_prof,4.83
 2019,Ancient Art,all,"assistant_prof, associate_prof",1.0
 2019,Ancient Art,all,open_rank,0.0
 2019,Ancient Art,all,lecturer,0.0
-2019,Ancient Art,all,vap,1.0
+2019,Ancient Art,all,vap,2.0
 2019,Ancient Art,all,full_prof,0.0
 2019,Ancient Art,all,"associate_prof, full_prof",0.0
 2019,Ancient Art,all,associate_prof,0.0
@@ -9360,7 +9360,7 @@ year,field,is_tt,rank,count
 2019,Asian / Asian Diaspora Art,all,"vap, assistant_prof",0.0
 2019,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof",0.0
-2019,Byzantine / Medieval Art,all,all,5.0
+2019,Byzantine / Medieval Art,all,all,4.83
 2019,Byzantine / Medieval Art,unknown,all,0.0
 2019,Byzantine / Medieval Art,unknown,unknown,0.0
 2019,Byzantine / Medieval Art,unknown,assistant_prof,0.0
@@ -9376,9 +9376,9 @@ year,field,is_tt,rank,count
 2019,Byzantine / Medieval Art,unknown,"vap, assistant_prof",0.0
 2019,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof",0.0
-2019,Byzantine / Medieval Art,TRUE,all,4.0
+2019,Byzantine / Medieval Art,TRUE,all,3.83
 2019,Byzantine / Medieval Art,TRUE,unknown,0.0
-2019,Byzantine / Medieval Art,TRUE,assistant_prof,4.0
+2019,Byzantine / Medieval Art,TRUE,assistant_prof,3.83
 2019,Byzantine / Medieval Art,TRUE,"assistant_prof, associate_prof",0.0
 2019,Byzantine / Medieval Art,TRUE,open_rank,0.0
 2019,Byzantine / Medieval Art,TRUE,lecturer,0.0
@@ -9407,7 +9407,7 @@ year,field,is_tt,rank,count
 2019,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof",0.0
 2019,Byzantine / Medieval Art,all,unknown,0.0
-2019,Byzantine / Medieval Art,all,assistant_prof,4.0
+2019,Byzantine / Medieval Art,all,assistant_prof,3.83
 2019,Byzantine / Medieval Art,all,"assistant_prof, associate_prof",0.0
 2019,Byzantine / Medieval Art,all,open_rank,0.0
 2019,Byzantine / Medieval Art,all,lecturer,0.0
@@ -9540,7 +9540,7 @@ year,field,is_tt,rank,count
 2019,Digital Art History,all,"vap, assistant_prof",0.0
 2019,Digital Art History,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,Digital Art History,all,"lecturer, assistant_prof",0.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,15.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,15.83
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,all,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,unknown,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,assistant_prof,0.0
@@ -9556,9 +9556,9 @@ year,field,is_tt,rank,count
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"vap, assistant_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof",0.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,13.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,13.33
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,unknown,0.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,13.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,13.33
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,open_rank,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,lecturer,0.0
@@ -9571,13 +9571,13 @@ year,field,is_tt,rank,count
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"vap, assistant_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof",0.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,2.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,unknown,0.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,2.5
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,unknown,1.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,assistant_prof,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,open_rank,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,lecturer,1.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,1.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,0.5
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,full_prof,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"associate_prof, full_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,associate_prof,0.0
@@ -9586,12 +9586,12 @@ year,field,is_tt,rank,count
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"vap, assistant_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof",0.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,0.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,13.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,1.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,13.33
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,open_rank,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,1.0
-2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,1.0
+2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,0.5
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,full_prof,0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"associate_prof, full_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,associate_prof,0.0
@@ -9600,7 +9600,7 @@ year,field,is_tt,rank,count
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, assistant_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof",0.0
-2019,General / Open,all,all,10.0
+2019,General / Open,all,all,9.0
 2019,General / Open,unknown,all,0.0
 2019,General / Open,unknown,unknown,0.0
 2019,General / Open,unknown,assistant_prof,0.0
@@ -9631,13 +9631,13 @@ year,field,is_tt,rank,count
 2019,General / Open,TRUE,"vap, assistant_prof",0.0
 2019,General / Open,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2019,General / Open,TRUE,"lecturer, assistant_prof",0.0
-2019,General / Open,FALSE,all,5.0
+2019,General / Open,FALSE,all,4.0
 2019,General / Open,FALSE,unknown,0.0
 2019,General / Open,FALSE,assistant_prof,0.0
 2019,General / Open,FALSE,"assistant_prof, associate_prof",0.0
 2019,General / Open,FALSE,open_rank,0.0
 2019,General / Open,FALSE,lecturer,2.0
-2019,General / Open,FALSE,vap,3.0
+2019,General / Open,FALSE,vap,2.0
 2019,General / Open,FALSE,full_prof,0.0
 2019,General / Open,FALSE,"associate_prof, full_prof",0.0
 2019,General / Open,FALSE,associate_prof,0.0
@@ -9651,7 +9651,7 @@ year,field,is_tt,rank,count
 2019,General / Open,all,"assistant_prof, associate_prof",0.0
 2019,General / Open,all,open_rank,0.0
 2019,General / Open,all,lecturer,3.0
-2019,General / Open,all,vap,3.0
+2019,General / Open,all,vap,2.0
 2019,General / Open,all,full_prof,0.0
 2019,General / Open,all,"associate_prof, full_prof",0.0
 2019,General / Open,all,associate_prof,0.0
@@ -9780,7 +9780,7 @@ year,field,is_tt,rank,count
 2019,Latin American Art,all,"vap, assistant_prof",0.0
 2019,Latin American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,Latin American Art,all,"lecturer, assistant_prof",0.0
-2019,Modern / Contemporary Art,all,all,19.0
+2019,Modern / Contemporary Art,all,all,23.5
 2019,Modern / Contemporary Art,unknown,all,1.0
 2019,Modern / Contemporary Art,unknown,unknown,1.0
 2019,Modern / Contemporary Art,unknown,assistant_prof,0.0
@@ -9796,9 +9796,9 @@ year,field,is_tt,rank,count
 2019,Modern / Contemporary Art,unknown,"vap, assistant_prof",0.0
 2019,Modern / Contemporary Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Modern / Contemporary Art,unknown,"lecturer, assistant_prof",0.0
-2019,Modern / Contemporary Art,TRUE,all,17.0
+2019,Modern / Contemporary Art,TRUE,all,21.0
 2019,Modern / Contemporary Art,TRUE,unknown,0.0
-2019,Modern / Contemporary Art,TRUE,assistant_prof,14.0
+2019,Modern / Contemporary Art,TRUE,assistant_prof,18.0
 2019,Modern / Contemporary Art,TRUE,"assistant_prof, associate_prof",1.0
 2019,Modern / Contemporary Art,TRUE,open_rank,1.0
 2019,Modern / Contemporary Art,TRUE,lecturer,0.0
@@ -9811,13 +9811,13 @@ year,field,is_tt,rank,count
 2019,Modern / Contemporary Art,TRUE,"vap, assistant_prof",0.0
 2019,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof",0.0
-2019,Modern / Contemporary Art,FALSE,all,1.0
+2019,Modern / Contemporary Art,FALSE,all,1.5
 2019,Modern / Contemporary Art,FALSE,unknown,0.0
 2019,Modern / Contemporary Art,FALSE,assistant_prof,0.0
 2019,Modern / Contemporary Art,FALSE,"assistant_prof, associate_prof",0.0
 2019,Modern / Contemporary Art,FALSE,open_rank,0.0
 2019,Modern / Contemporary Art,FALSE,lecturer,0.0
-2019,Modern / Contemporary Art,FALSE,vap,1.0
+2019,Modern / Contemporary Art,FALSE,vap,1.5
 2019,Modern / Contemporary Art,FALSE,full_prof,0.0
 2019,Modern / Contemporary Art,FALSE,"associate_prof, full_prof",0.0
 2019,Modern / Contemporary Art,FALSE,associate_prof,0.0
@@ -9827,11 +9827,11 @@ year,field,is_tt,rank,count
 2019,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof",0.0
 2019,Modern / Contemporary Art,all,unknown,1.0
-2019,Modern / Contemporary Art,all,assistant_prof,14.0
+2019,Modern / Contemporary Art,all,assistant_prof,18.0
 2019,Modern / Contemporary Art,all,"assistant_prof, associate_prof",1.0
 2019,Modern / Contemporary Art,all,open_rank,1.0
 2019,Modern / Contemporary Art,all,lecturer,0.0
-2019,Modern / Contemporary Art,all,vap,1.0
+2019,Modern / Contemporary Art,all,vap,1.5
 2019,Modern / Contemporary Art,all,full_prof,0.0
 2019,Modern / Contemporary Art,all,"associate_prof, full_prof",0.0
 2019,Modern / Contemporary Art,all,associate_prof,1.0
@@ -9900,7 +9900,7 @@ year,field,is_tt,rank,count
 2019,North American Art,all,"vap, assistant_prof",0.0
 2019,North American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,North American Art,all,"lecturer, assistant_prof",0.0
-2019,Visual Studies / Visual Culture,all,all,5.0
+2019,Visual Studies / Visual Culture,all,all,1.0
 2019,Visual Studies / Visual Culture,unknown,all,0.0
 2019,Visual Studies / Visual Culture,unknown,unknown,0.0
 2019,Visual Studies / Visual Culture,unknown,assistant_prof,0.0
@@ -9916,9 +9916,9 @@ year,field,is_tt,rank,count
 2019,Visual Studies / Visual Culture,unknown,"vap, assistant_prof",0.0
 2019,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof",0.0
-2019,Visual Studies / Visual Culture,TRUE,all,4.0
+2019,Visual Studies / Visual Culture,TRUE,all,0.0
 2019,Visual Studies / Visual Culture,TRUE,unknown,0.0
-2019,Visual Studies / Visual Culture,TRUE,assistant_prof,4.0
+2019,Visual Studies / Visual Culture,TRUE,assistant_prof,0.0
 2019,Visual Studies / Visual Culture,TRUE,"assistant_prof, associate_prof",0.0
 2019,Visual Studies / Visual Culture,TRUE,open_rank,0.0
 2019,Visual Studies / Visual Culture,TRUE,lecturer,0.0
@@ -9947,7 +9947,7 @@ year,field,is_tt,rank,count
 2019,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof",0.0
 2019,Visual Studies / Visual Culture,all,unknown,0.0
-2019,Visual Studies / Visual Culture,all,assistant_prof,4.0
+2019,Visual Studies / Visual Culture,all,assistant_prof,0.0
 2019,Visual Studies / Visual Culture,all,"assistant_prof, associate_prof",0.0
 2019,Visual Studies / Visual Culture,all,open_rank,0.0
 2019,Visual Studies / Visual Culture,all,lecturer,1.0
@@ -9960,7 +9960,7 @@ year,field,is_tt,rank,count
 2019,Visual Studies / Visual Culture,all,"vap, assistant_prof",0.0
 2019,Visual Studies / Visual Culture,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,Visual Studies / Visual Culture,all,"lecturer, assistant_prof",0.0
-2019,Middle Eastern / Islamic Art,all,all,3.0
+2019,Middle Eastern / Islamic Art,all,all,2.0
 2019,Middle Eastern / Islamic Art,unknown,all,0.0
 2019,Middle Eastern / Islamic Art,unknown,unknown,0.0
 2019,Middle Eastern / Islamic Art,unknown,assistant_prof,0.0
@@ -9976,9 +9976,9 @@ year,field,is_tt,rank,count
 2019,Middle Eastern / Islamic Art,unknown,"vap, assistant_prof",0.0
 2019,Middle Eastern / Islamic Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Middle Eastern / Islamic Art,unknown,"lecturer, assistant_prof",0.0
-2019,Middle Eastern / Islamic Art,TRUE,all,3.0
+2019,Middle Eastern / Islamic Art,TRUE,all,2.0
 2019,Middle Eastern / Islamic Art,TRUE,unknown,0.0
-2019,Middle Eastern / Islamic Art,TRUE,assistant_prof,3.0
+2019,Middle Eastern / Islamic Art,TRUE,assistant_prof,2.0
 2019,Middle Eastern / Islamic Art,TRUE,"assistant_prof, associate_prof",0.0
 2019,Middle Eastern / Islamic Art,TRUE,open_rank,0.0
 2019,Middle Eastern / Islamic Art,TRUE,lecturer,0.0
@@ -10007,7 +10007,7 @@ year,field,is_tt,rank,count
 2019,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof",0.0
 2019,Middle Eastern / Islamic Art,all,unknown,0.0
-2019,Middle Eastern / Islamic Art,all,assistant_prof,3.0
+2019,Middle Eastern / Islamic Art,all,assistant_prof,2.0
 2019,Middle Eastern / Islamic Art,all,"assistant_prof, associate_prof",0.0
 2019,Middle Eastern / Islamic Art,all,open_rank,0.0
 2019,Middle Eastern / Islamic Art,all,lecturer,0.0
@@ -10080,7 +10080,7 @@ year,field,is_tt,rank,count
 2019,Film / Photography,all,"vap, assistant_prof",0.0
 2019,Film / Photography,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,Film / Photography,all,"lecturer, assistant_prof",0.0
-2019,Curatorial Studies / Arts Administration,all,all,6.0
+2019,Curatorial Studies / Arts Administration,all,all,4.0
 2019,Curatorial Studies / Arts Administration,unknown,all,0.0
 2019,Curatorial Studies / Arts Administration,unknown,unknown,0.0
 2019,Curatorial Studies / Arts Administration,unknown,assistant_prof,0.0
@@ -10096,9 +10096,9 @@ year,field,is_tt,rank,count
 2019,Curatorial Studies / Arts Administration,unknown,"vap, assistant_prof",0.0
 2019,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2019,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof",0.0
-2019,Curatorial Studies / Arts Administration,TRUE,all,5.0
+2019,Curatorial Studies / Arts Administration,TRUE,all,4.0
 2019,Curatorial Studies / Arts Administration,TRUE,unknown,0.0
-2019,Curatorial Studies / Arts Administration,TRUE,assistant_prof,5.0
+2019,Curatorial Studies / Arts Administration,TRUE,assistant_prof,4.0
 2019,Curatorial Studies / Arts Administration,TRUE,"assistant_prof, associate_prof",0.0
 2019,Curatorial Studies / Arts Administration,TRUE,open_rank,0.0
 2019,Curatorial Studies / Arts Administration,TRUE,lecturer,0.0
@@ -10111,8 +10111,8 @@ year,field,is_tt,rank,count
 2019,Curatorial Studies / Arts Administration,TRUE,"vap, assistant_prof",0.0
 2019,Curatorial Studies / Arts Administration,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Curatorial Studies / Arts Administration,TRUE,"lecturer, assistant_prof",0.0
-2019,Curatorial Studies / Arts Administration,FALSE,all,1.0
-2019,Curatorial Studies / Arts Administration,FALSE,unknown,1.0
+2019,Curatorial Studies / Arts Administration,FALSE,all,0.0
+2019,Curatorial Studies / Arts Administration,FALSE,unknown,0.0
 2019,Curatorial Studies / Arts Administration,FALSE,assistant_prof,0.0
 2019,Curatorial Studies / Arts Administration,FALSE,"assistant_prof, associate_prof",0.0
 2019,Curatorial Studies / Arts Administration,FALSE,open_rank,0.0
@@ -10126,8 +10126,8 @@ year,field,is_tt,rank,count
 2019,Curatorial Studies / Arts Administration,FALSE,"vap, assistant_prof",0.0
 2019,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2019,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof",0.0
-2019,Curatorial Studies / Arts Administration,all,unknown,1.0
-2019,Curatorial Studies / Arts Administration,all,assistant_prof,5.0
+2019,Curatorial Studies / Arts Administration,all,unknown,0.0
+2019,Curatorial Studies / Arts Administration,all,assistant_prof,4.0
 2019,Curatorial Studies / Arts Administration,all,"assistant_prof, associate_prof",0.0
 2019,Curatorial Studies / Arts Administration,all,open_rank,0.0
 2019,Curatorial Studies / Arts Administration,all,lecturer,0.0
@@ -10260,7 +10260,7 @@ year,field,is_tt,rank,count
 2019,all,all,"lecturer, assistant_prof, associate_prof",0.0
 2019,all,all,"lecturer, assistant_prof",0.0
 2020,all,all,all,57.0
-2020,African / African Diaspora Art,all,all,3.0
+2020,African / African Diaspora Art,all,all,2.5
 2020,African / African Diaspora Art,unknown,all,0.0
 2020,African / African Diaspora Art,unknown,unknown,0.0
 2020,African / African Diaspora Art,unknown,assistant_prof,0.0
@@ -10276,9 +10276,9 @@ year,field,is_tt,rank,count
 2020,African / African Diaspora Art,unknown,"vap, assistant_prof",0.0
 2020,African / African Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2020,African / African Diaspora Art,unknown,"lecturer, assistant_prof",0.0
-2020,African / African Diaspora Art,TRUE,all,3.0
+2020,African / African Diaspora Art,TRUE,all,2.5
 2020,African / African Diaspora Art,TRUE,unknown,0.0
-2020,African / African Diaspora Art,TRUE,assistant_prof,2.0
+2020,African / African Diaspora Art,TRUE,assistant_prof,1.5
 2020,African / African Diaspora Art,TRUE,"assistant_prof, associate_prof",0.0
 2020,African / African Diaspora Art,TRUE,open_rank,1.0
 2020,African / African Diaspora Art,TRUE,lecturer,0.0
@@ -10307,7 +10307,7 @@ year,field,is_tt,rank,count
 2020,African / African Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2020,African / African Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
 2020,African / African Diaspora Art,all,unknown,0.0
-2020,African / African Diaspora Art,all,assistant_prof,2.0
+2020,African / African Diaspora Art,all,assistant_prof,1.5
 2020,African / African Diaspora Art,all,"assistant_prof, associate_prof",0.0
 2020,African / African Diaspora Art,all,open_rank,1.0
 2020,African / African Diaspora Art,all,lecturer,0.0
@@ -10620,7 +10620,7 @@ year,field,is_tt,rank,count
 2020,Design,all,"vap, assistant_prof",0.0
 2020,Design,all,"lecturer, assistant_prof, associate_prof",0.0
 2020,Design,all,"lecturer, assistant_prof",0.0
-2020,Digital Art History,all,all,0.0
+2020,Digital Art History,all,all,1.0
 2020,Digital Art History,unknown,all,0.0
 2020,Digital Art History,unknown,unknown,0.0
 2020,Digital Art History,unknown,assistant_prof,0.0
@@ -10636,9 +10636,9 @@ year,field,is_tt,rank,count
 2020,Digital Art History,unknown,"vap, assistant_prof",0.0
 2020,Digital Art History,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2020,Digital Art History,unknown,"lecturer, assistant_prof",0.0
-2020,Digital Art History,TRUE,all,0.0
+2020,Digital Art History,TRUE,all,1.0
 2020,Digital Art History,TRUE,unknown,0.0
-2020,Digital Art History,TRUE,assistant_prof,0.0
+2020,Digital Art History,TRUE,assistant_prof,1.0
 2020,Digital Art History,TRUE,"assistant_prof, associate_prof",0.0
 2020,Digital Art History,TRUE,open_rank,0.0
 2020,Digital Art History,TRUE,lecturer,0.0
@@ -10667,7 +10667,7 @@ year,field,is_tt,rank,count
 2020,Digital Art History,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2020,Digital Art History,FALSE,"lecturer, assistant_prof",0.0
 2020,Digital Art History,all,unknown,0.0
-2020,Digital Art History,all,assistant_prof,0.0
+2020,Digital Art History,all,assistant_prof,1.0
 2020,Digital Art History,all,"assistant_prof, associate_prof",0.0
 2020,Digital Art History,all,open_rank,0.0
 2020,Digital Art History,all,lecturer,0.0
@@ -10680,7 +10680,7 @@ year,field,is_tt,rank,count
 2020,Digital Art History,all,"vap, assistant_prof",0.0
 2020,Digital Art History,all,"lecturer, assistant_prof, associate_prof",0.0
 2020,Digital Art History,all,"lecturer, assistant_prof",0.0
-2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,7.0
+2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,6.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,all,1.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,unknown,0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,assistant_prof,1.0
@@ -10696,9 +10696,9 @@ year,field,is_tt,rank,count
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"vap, assistant_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof",0.0
-2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,5.0
+2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,4.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,unknown,0.0
-2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,5.0
+2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,4.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"assistant_prof, associate_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,open_rank,0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,lecturer,0.0
@@ -10727,7 +10727,7 @@ year,field,is_tt,rank,count
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,0.0
-2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,6.0
+2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,5.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,open_rank,0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,0.0
@@ -10740,7 +10740,7 @@ year,field,is_tt,rank,count
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, assistant_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2020,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof",0.0
-2020,General / Open,all,all,10.0
+2020,General / Open,all,all,12.0
 2020,General / Open,unknown,all,0.0
 2020,General / Open,unknown,unknown,0.0
 2020,General / Open,unknown,assistant_prof,0.0
@@ -10756,11 +10756,11 @@ year,field,is_tt,rank,count
 2020,General / Open,unknown,"vap, assistant_prof",0.0
 2020,General / Open,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2020,General / Open,unknown,"lecturer, assistant_prof",0.0
-2020,General / Open,TRUE,all,6.0
+2020,General / Open,TRUE,all,8.0
 2020,General / Open,TRUE,unknown,0.0
-2020,General / Open,TRUE,assistant_prof,6.0
+2020,General / Open,TRUE,assistant_prof,7.0
 2020,General / Open,TRUE,"assistant_prof, associate_prof",0.0
-2020,General / Open,TRUE,open_rank,0.0
+2020,General / Open,TRUE,open_rank,1.0
 2020,General / Open,TRUE,lecturer,0.0
 2020,General / Open,TRUE,vap,0.0
 2020,General / Open,TRUE,full_prof,0.0
@@ -10787,9 +10787,9 @@ year,field,is_tt,rank,count
 2020,General / Open,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2020,General / Open,FALSE,"lecturer, assistant_prof",0.0
 2020,General / Open,all,unknown,0.0
-2020,General / Open,all,assistant_prof,7.0
+2020,General / Open,all,assistant_prof,8.0
 2020,General / Open,all,"assistant_prof, associate_prof",0.0
-2020,General / Open,all,open_rank,0.0
+2020,General / Open,all,open_rank,1.0
 2020,General / Open,all,lecturer,0.0
 2020,General / Open,all,vap,3.0
 2020,General / Open,all,full_prof,0.0
@@ -10860,7 +10860,7 @@ year,field,is_tt,rank,count
 2020,Global / Non-Western Art,all,"vap, assistant_prof",0.0
 2020,Global / Non-Western Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2020,Global / Non-Western Art,all,"lecturer, assistant_prof",0.0
-2020,Latin American Art,all,all,5.0
+2020,Latin American Art,all,all,5.5
 2020,Latin American Art,unknown,all,1.0
 2020,Latin American Art,unknown,unknown,0.0
 2020,Latin American Art,unknown,assistant_prof,0.0
@@ -10876,9 +10876,9 @@ year,field,is_tt,rank,count
 2020,Latin American Art,unknown,"vap, assistant_prof",0.0
 2020,Latin American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2020,Latin American Art,unknown,"lecturer, assistant_prof",0.0
-2020,Latin American Art,TRUE,all,4.0
+2020,Latin American Art,TRUE,all,4.5
 2020,Latin American Art,TRUE,unknown,0.0
-2020,Latin American Art,TRUE,assistant_prof,2.0
+2020,Latin American Art,TRUE,assistant_prof,2.5
 2020,Latin American Art,TRUE,"assistant_prof, associate_prof",1.0
 2020,Latin American Art,TRUE,open_rank,0.0
 2020,Latin American Art,TRUE,lecturer,0.0
@@ -10907,7 +10907,7 @@ year,field,is_tt,rank,count
 2020,Latin American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2020,Latin American Art,FALSE,"lecturer, assistant_prof",0.0
 2020,Latin American Art,all,unknown,0.0
-2020,Latin American Art,all,assistant_prof,2.0
+2020,Latin American Art,all,assistant_prof,2.5
 2020,Latin American Art,all,"assistant_prof, associate_prof",2.0
 2020,Latin American Art,all,open_rank,0.0
 2020,Latin American Art,all,lecturer,0.0
@@ -11040,7 +11040,7 @@ year,field,is_tt,rank,count
 2020,North American Art,all,"vap, assistant_prof",0.0
 2020,North American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2020,North American Art,all,"lecturer, assistant_prof",0.0
-2020,Visual Studies / Visual Culture,all,all,2.0
+2020,Visual Studies / Visual Culture,all,all,0.0
 2020,Visual Studies / Visual Culture,unknown,all,0.0
 2020,Visual Studies / Visual Culture,unknown,unknown,0.0
 2020,Visual Studies / Visual Culture,unknown,assistant_prof,0.0
@@ -11056,11 +11056,11 @@ year,field,is_tt,rank,count
 2020,Visual Studies / Visual Culture,unknown,"vap, assistant_prof",0.0
 2020,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2020,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof",0.0
-2020,Visual Studies / Visual Culture,TRUE,all,2.0
+2020,Visual Studies / Visual Culture,TRUE,all,0.0
 2020,Visual Studies / Visual Culture,TRUE,unknown,0.0
-2020,Visual Studies / Visual Culture,TRUE,assistant_prof,1.0
+2020,Visual Studies / Visual Culture,TRUE,assistant_prof,0.0
 2020,Visual Studies / Visual Culture,TRUE,"assistant_prof, associate_prof",0.0
-2020,Visual Studies / Visual Culture,TRUE,open_rank,1.0
+2020,Visual Studies / Visual Culture,TRUE,open_rank,0.0
 2020,Visual Studies / Visual Culture,TRUE,lecturer,0.0
 2020,Visual Studies / Visual Culture,TRUE,vap,0.0
 2020,Visual Studies / Visual Culture,TRUE,full_prof,0.0
@@ -11087,9 +11087,9 @@ year,field,is_tt,rank,count
 2020,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2020,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof",0.0
 2020,Visual Studies / Visual Culture,all,unknown,0.0
-2020,Visual Studies / Visual Culture,all,assistant_prof,1.0
+2020,Visual Studies / Visual Culture,all,assistant_prof,0.0
 2020,Visual Studies / Visual Culture,all,"assistant_prof, associate_prof",0.0
-2020,Visual Studies / Visual Culture,all,open_rank,1.0
+2020,Visual Studies / Visual Culture,all,open_rank,0.0
 2020,Visual Studies / Visual Culture,all,lecturer,0.0
 2020,Visual Studies / Visual Culture,all,vap,0.0
 2020,Visual Studies / Visual Culture,all,full_prof,0.0
@@ -11399,8 +11399,8 @@ year,field,is_tt,rank,count
 2020,all,all,"vap, assistant_prof",0.0
 2020,all,all,"lecturer, assistant_prof, associate_prof",0.0
 2020,all,all,"lecturer, assistant_prof",0.0
-2021,all,all,all,85.0
-2021,African / African Diaspora Art,all,all,13.17
+2021,all,all,all,80.0
+2021,African / African Diaspora Art,all,all,11.42
 2021,African / African Diaspora Art,unknown,all,0.0
 2021,African / African Diaspora Art,unknown,unknown,0.0
 2021,African / African Diaspora Art,unknown,assistant_prof,0.0
@@ -11416,9 +11416,9 @@ year,field,is_tt,rank,count
 2021,African / African Diaspora Art,unknown,"vap, assistant_prof",0.0
 2021,African / African Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,African / African Diaspora Art,unknown,"lecturer, assistant_prof",0.0
-2021,African / African Diaspora Art,TRUE,all,11.17
+2021,African / African Diaspora Art,TRUE,all,9.92
 2021,African / African Diaspora Art,TRUE,unknown,0.0
-2021,African / African Diaspora Art,TRUE,assistant_prof,10.17
+2021,African / African Diaspora Art,TRUE,assistant_prof,8.92
 2021,African / African Diaspora Art,TRUE,"assistant_prof, associate_prof",0.0
 2021,African / African Diaspora Art,TRUE,open_rank,0.0
 2021,African / African Diaspora Art,TRUE,lecturer,0.0
@@ -11431,13 +11431,13 @@ year,field,is_tt,rank,count
 2021,African / African Diaspora Art,TRUE,"vap, assistant_prof",0.0
 2021,African / African Diaspora Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,African / African Diaspora Art,TRUE,"lecturer, assistant_prof",0.0
-2021,African / African Diaspora Art,FALSE,all,2.0
+2021,African / African Diaspora Art,FALSE,all,1.5
 2021,African / African Diaspora Art,FALSE,unknown,0.0
 2021,African / African Diaspora Art,FALSE,assistant_prof,0.0
 2021,African / African Diaspora Art,FALSE,"assistant_prof, associate_prof",0.0
 2021,African / African Diaspora Art,FALSE,open_rank,0.0
 2021,African / African Diaspora Art,FALSE,lecturer,0.0
-2021,African / African Diaspora Art,FALSE,vap,2.0
+2021,African / African Diaspora Art,FALSE,vap,1.5
 2021,African / African Diaspora Art,FALSE,full_prof,0.0
 2021,African / African Diaspora Art,FALSE,"associate_prof, full_prof",0.0
 2021,African / African Diaspora Art,FALSE,associate_prof,0.0
@@ -11447,11 +11447,11 @@ year,field,is_tt,rank,count
 2021,African / African Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,African / African Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
 2021,African / African Diaspora Art,all,unknown,0.0
-2021,African / African Diaspora Art,all,assistant_prof,10.17
+2021,African / African Diaspora Art,all,assistant_prof,8.92
 2021,African / African Diaspora Art,all,"assistant_prof, associate_prof",0.0
 2021,African / African Diaspora Art,all,open_rank,0.0
 2021,African / African Diaspora Art,all,lecturer,0.0
-2021,African / African Diaspora Art,all,vap,2.0
+2021,African / African Diaspora Art,all,vap,1.5
 2021,African / African Diaspora Art,all,full_prof,1.0
 2021,African / African Diaspora Art,all,"associate_prof, full_prof",0.0
 2021,African / African Diaspora Art,all,associate_prof,0.0
@@ -11580,7 +11580,7 @@ year,field,is_tt,rank,count
 2021,Architecture,all,"vap, assistant_prof",0.0
 2021,Architecture,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Architecture,all,"lecturer, assistant_prof",0.0
-2021,Asian / Asian Diaspora Art,all,all,12.33
+2021,Asian / Asian Diaspora Art,all,all,12.58
 2021,Asian / Asian Diaspora Art,unknown,all,0.0
 2021,Asian / Asian Diaspora Art,unknown,unknown,0.0
 2021,Asian / Asian Diaspora Art,unknown,assistant_prof,0.0
@@ -11596,9 +11596,9 @@ year,field,is_tt,rank,count
 2021,Asian / Asian Diaspora Art,unknown,"vap, assistant_prof",0.0
 2021,Asian / Asian Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Asian / Asian Diaspora Art,unknown,"lecturer, assistant_prof",0.0
-2021,Asian / Asian Diaspora Art,TRUE,all,10.83
+2021,Asian / Asian Diaspora Art,TRUE,all,11.08
 2021,Asian / Asian Diaspora Art,TRUE,unknown,0.0
-2021,Asian / Asian Diaspora Art,TRUE,assistant_prof,8.83
+2021,Asian / Asian Diaspora Art,TRUE,assistant_prof,9.08
 2021,Asian / Asian Diaspora Art,TRUE,"assistant_prof, associate_prof",1.0
 2021,Asian / Asian Diaspora Art,TRUE,open_rank,1.0
 2021,Asian / Asian Diaspora Art,TRUE,lecturer,0.0
@@ -11627,7 +11627,7 @@ year,field,is_tt,rank,count
 2021,Asian / Asian Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Asian / Asian Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
 2021,Asian / Asian Diaspora Art,all,unknown,0.0
-2021,Asian / Asian Diaspora Art,all,assistant_prof,8.83
+2021,Asian / Asian Diaspora Art,all,assistant_prof,9.08
 2021,Asian / Asian Diaspora Art,all,"assistant_prof, associate_prof",1.0
 2021,Asian / Asian Diaspora Art,all,open_rank,1.0
 2021,Asian / Asian Diaspora Art,all,lecturer,0.0
@@ -11640,7 +11640,7 @@ year,field,is_tt,rank,count
 2021,Asian / Asian Diaspora Art,all,"vap, assistant_prof",0.0
 2021,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof",0.0
-2021,Byzantine / Medieval Art,all,all,3.67
+2021,Byzantine / Medieval Art,all,all,3.17
 2021,Byzantine / Medieval Art,unknown,all,0.0
 2021,Byzantine / Medieval Art,unknown,unknown,0.0
 2021,Byzantine / Medieval Art,unknown,assistant_prof,0.0
@@ -11671,12 +11671,12 @@ year,field,is_tt,rank,count
 2021,Byzantine / Medieval Art,TRUE,"vap, assistant_prof",0.0
 2021,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof",0.0
-2021,Byzantine / Medieval Art,FALSE,all,0.83
+2021,Byzantine / Medieval Art,FALSE,all,0.33
 2021,Byzantine / Medieval Art,FALSE,unknown,0.0
 2021,Byzantine / Medieval Art,FALSE,assistant_prof,0.0
 2021,Byzantine / Medieval Art,FALSE,"assistant_prof, associate_prof",0.0
 2021,Byzantine / Medieval Art,FALSE,open_rank,0.0
-2021,Byzantine / Medieval Art,FALSE,lecturer,0.5
+2021,Byzantine / Medieval Art,FALSE,lecturer,0.0
 2021,Byzantine / Medieval Art,FALSE,vap,0.33
 2021,Byzantine / Medieval Art,FALSE,full_prof,0.0
 2021,Byzantine / Medieval Art,FALSE,"associate_prof, full_prof",0.0
@@ -11690,7 +11690,7 @@ year,field,is_tt,rank,count
 2021,Byzantine / Medieval Art,all,assistant_prof,0.83
 2021,Byzantine / Medieval Art,all,"assistant_prof, associate_prof",2.0
 2021,Byzantine / Medieval Art,all,open_rank,0.0
-2021,Byzantine / Medieval Art,all,lecturer,0.5
+2021,Byzantine / Medieval Art,all,lecturer,0.0
 2021,Byzantine / Medieval Art,all,vap,0.33
 2021,Byzantine / Medieval Art,all,full_prof,0.0
 2021,Byzantine / Medieval Art,all,"associate_prof, full_prof",0.0
@@ -11700,7 +11700,7 @@ year,field,is_tt,rank,count
 2021,Byzantine / Medieval Art,all,"vap, assistant_prof",0.0
 2021,Byzantine / Medieval Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Byzantine / Medieval Art,all,"lecturer, assistant_prof",0.0
-2021,Design,all,all,2.0
+2021,Design,all,all,1.0
 2021,Design,unknown,all,0.0
 2021,Design,unknown,unknown,0.0
 2021,Design,unknown,assistant_prof,0.0
@@ -11716,9 +11716,9 @@ year,field,is_tt,rank,count
 2021,Design,unknown,"vap, assistant_prof",0.0
 2021,Design,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Design,unknown,"lecturer, assistant_prof",0.0
-2021,Design,TRUE,all,2.0
+2021,Design,TRUE,all,1.0
 2021,Design,TRUE,unknown,0.0
-2021,Design,TRUE,assistant_prof,2.0
+2021,Design,TRUE,assistant_prof,1.0
 2021,Design,TRUE,"assistant_prof, associate_prof",0.0
 2021,Design,TRUE,open_rank,0.0
 2021,Design,TRUE,lecturer,0.0
@@ -11747,7 +11747,7 @@ year,field,is_tt,rank,count
 2021,Design,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Design,FALSE,"lecturer, assistant_prof",0.0
 2021,Design,all,unknown,0.0
-2021,Design,all,assistant_prof,2.0
+2021,Design,all,assistant_prof,1.0
 2021,Design,all,"assistant_prof, associate_prof",0.0
 2021,Design,all,open_rank,0.0
 2021,Design,all,lecturer,0.0
@@ -11820,7 +11820,7 @@ year,field,is_tt,rank,count
 2021,Digital Art History,all,"vap, assistant_prof",0.0
 2021,Digital Art History,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Digital Art History,all,"lecturer, assistant_prof",0.0
-2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,7.83
+2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,7.33
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,all,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,unknown,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,assistant_prof,0.0
@@ -11851,12 +11851,12 @@ year,field,is_tt,rank,count
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"vap, assistant_prof",0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof",0.0
-2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,1.5
+2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,1.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,unknown,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,assistant_prof,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"assistant_prof, associate_prof",0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,open_rank,0.0
-2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,lecturer,1.5
+2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,lecturer,1.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,full_prof,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"associate_prof, full_prof",0.0
@@ -11870,7 +11870,7 @@ year,field,is_tt,rank,count
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,4.33
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,open_rank,2.0
-2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,1.5
+2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,1.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,full_prof,0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"associate_prof, full_prof",0.0
@@ -11880,7 +11880,7 @@ year,field,is_tt,rank,count
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, assistant_prof",0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof",0.0
-2021,General / Open,all,all,8.0
+2021,General / Open,all,all,7.5
 2021,General / Open,unknown,all,0.0
 2021,General / Open,unknown,unknown,0.0
 2021,General / Open,unknown,assistant_prof,0.0
@@ -11896,9 +11896,9 @@ year,field,is_tt,rank,count
 2021,General / Open,unknown,"vap, assistant_prof",0.0
 2021,General / Open,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,General / Open,unknown,"lecturer, assistant_prof",0.0
-2021,General / Open,TRUE,all,5.0
+2021,General / Open,TRUE,all,5.5
 2021,General / Open,TRUE,unknown,0.0
-2021,General / Open,TRUE,assistant_prof,4.0
+2021,General / Open,TRUE,assistant_prof,4.5
 2021,General / Open,TRUE,"assistant_prof, associate_prof",0.0
 2021,General / Open,TRUE,open_rank,0.0
 2021,General / Open,TRUE,lecturer,0.0
@@ -11911,8 +11911,8 @@ year,field,is_tt,rank,count
 2021,General / Open,TRUE,"vap, assistant_prof",0.0
 2021,General / Open,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,General / Open,TRUE,"lecturer, assistant_prof",0.0
-2021,General / Open,FALSE,all,3.0
-2021,General / Open,FALSE,unknown,1.0
+2021,General / Open,FALSE,all,2.0
+2021,General / Open,FALSE,unknown,0.0
 2021,General / Open,FALSE,assistant_prof,0.0
 2021,General / Open,FALSE,"assistant_prof, associate_prof",0.0
 2021,General / Open,FALSE,open_rank,0.0
@@ -11926,8 +11926,8 @@ year,field,is_tt,rank,count
 2021,General / Open,FALSE,"vap, assistant_prof",0.0
 2021,General / Open,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,General / Open,FALSE,"lecturer, assistant_prof",0.0
-2021,General / Open,all,unknown,1.0
-2021,General / Open,all,assistant_prof,4.0
+2021,General / Open,all,unknown,0.0
+2021,General / Open,all,assistant_prof,4.5
 2021,General / Open,all,"assistant_prof, associate_prof",0.0
 2021,General / Open,all,open_rank,0.0
 2021,General / Open,all,lecturer,1.0
@@ -11940,7 +11940,7 @@ year,field,is_tt,rank,count
 2021,General / Open,all,"vap, assistant_prof",0.0
 2021,General / Open,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,General / Open,all,"lecturer, assistant_prof",0.0
-2021,Global / Non-Western Art,all,all,3.0
+2021,Global / Non-Western Art,all,all,2.0
 2021,Global / Non-Western Art,unknown,all,0.0
 2021,Global / Non-Western Art,unknown,unknown,0.0
 2021,Global / Non-Western Art,unknown,assistant_prof,0.0
@@ -11956,9 +11956,9 @@ year,field,is_tt,rank,count
 2021,Global / Non-Western Art,unknown,"vap, assistant_prof",0.0
 2021,Global / Non-Western Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Global / Non-Western Art,unknown,"lecturer, assistant_prof",0.0
-2021,Global / Non-Western Art,TRUE,all,2.0
+2021,Global / Non-Western Art,TRUE,all,1.0
 2021,Global / Non-Western Art,TRUE,unknown,0.0
-2021,Global / Non-Western Art,TRUE,assistant_prof,2.0
+2021,Global / Non-Western Art,TRUE,assistant_prof,1.0
 2021,Global / Non-Western Art,TRUE,"assistant_prof, associate_prof",0.0
 2021,Global / Non-Western Art,TRUE,open_rank,0.0
 2021,Global / Non-Western Art,TRUE,lecturer,0.0
@@ -11987,7 +11987,7 @@ year,field,is_tt,rank,count
 2021,Global / Non-Western Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Global / Non-Western Art,FALSE,"lecturer, assistant_prof",0.0
 2021,Global / Non-Western Art,all,unknown,0.0
-2021,Global / Non-Western Art,all,assistant_prof,2.0
+2021,Global / Non-Western Art,all,assistant_prof,1.0
 2021,Global / Non-Western Art,all,"assistant_prof, associate_prof",0.0
 2021,Global / Non-Western Art,all,open_rank,0.0
 2021,Global / Non-Western Art,all,lecturer,1.0
@@ -12000,7 +12000,7 @@ year,field,is_tt,rank,count
 2021,Global / Non-Western Art,all,"vap, assistant_prof",0.0
 2021,Global / Non-Western Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Global / Non-Western Art,all,"lecturer, assistant_prof",0.0
-2021,Latin American Art,all,all,4.33
+2021,Latin American Art,all,all,4.58
 2021,Latin American Art,unknown,all,0.0
 2021,Latin American Art,unknown,unknown,0.0
 2021,Latin American Art,unknown,assistant_prof,0.0
@@ -12016,9 +12016,9 @@ year,field,is_tt,rank,count
 2021,Latin American Art,unknown,"vap, assistant_prof",0.0
 2021,Latin American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Latin American Art,unknown,"lecturer, assistant_prof",0.0
-2021,Latin American Art,TRUE,all,4.33
+2021,Latin American Art,TRUE,all,4.58
 2021,Latin American Art,TRUE,unknown,0.0
-2021,Latin American Art,TRUE,assistant_prof,4.33
+2021,Latin American Art,TRUE,assistant_prof,4.58
 2021,Latin American Art,TRUE,"assistant_prof, associate_prof",0.0
 2021,Latin American Art,TRUE,open_rank,0.0
 2021,Latin American Art,TRUE,lecturer,0.0
@@ -12047,7 +12047,7 @@ year,field,is_tt,rank,count
 2021,Latin American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Latin American Art,FALSE,"lecturer, assistant_prof",0.0
 2021,Latin American Art,all,unknown,0.0
-2021,Latin American Art,all,assistant_prof,4.33
+2021,Latin American Art,all,assistant_prof,4.58
 2021,Latin American Art,all,"assistant_prof, associate_prof",0.0
 2021,Latin American Art,all,open_rank,0.0
 2021,Latin American Art,all,lecturer,0.0
@@ -12060,7 +12060,7 @@ year,field,is_tt,rank,count
 2021,Latin American Art,all,"vap, assistant_prof",0.0
 2021,Latin American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Latin American Art,all,"lecturer, assistant_prof",0.0
-2021,Modern / Contemporary Art,all,all,9.0
+2021,Modern / Contemporary Art,all,all,8.5
 2021,Modern / Contemporary Art,unknown,all,0.0
 2021,Modern / Contemporary Art,unknown,unknown,0.0
 2021,Modern / Contemporary Art,unknown,assistant_prof,0.0
@@ -12076,9 +12076,9 @@ year,field,is_tt,rank,count
 2021,Modern / Contemporary Art,unknown,"vap, assistant_prof",0.0
 2021,Modern / Contemporary Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Modern / Contemporary Art,unknown,"lecturer, assistant_prof",0.0
-2021,Modern / Contemporary Art,TRUE,all,8.0
+2021,Modern / Contemporary Art,TRUE,all,7.5
 2021,Modern / Contemporary Art,TRUE,unknown,0.0
-2021,Modern / Contemporary Art,TRUE,assistant_prof,5.0
+2021,Modern / Contemporary Art,TRUE,assistant_prof,4.5
 2021,Modern / Contemporary Art,TRUE,"assistant_prof, associate_prof",1.0
 2021,Modern / Contemporary Art,TRUE,open_rank,0.0
 2021,Modern / Contemporary Art,TRUE,lecturer,0.0
@@ -12107,7 +12107,7 @@ year,field,is_tt,rank,count
 2021,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof",0.0
 2021,Modern / Contemporary Art,all,unknown,0.0
-2021,Modern / Contemporary Art,all,assistant_prof,5.0
+2021,Modern / Contemporary Art,all,assistant_prof,4.5
 2021,Modern / Contemporary Art,all,"assistant_prof, associate_prof",1.0
 2021,Modern / Contemporary Art,all,open_rank,0.0
 2021,Modern / Contemporary Art,all,lecturer,0.0
@@ -12120,7 +12120,7 @@ year,field,is_tt,rank,count
 2021,Modern / Contemporary Art,all,"vap, assistant_prof",1.0
 2021,Modern / Contemporary Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Modern / Contemporary Art,all,"lecturer, assistant_prof",0.0
-2021,North American Art,all,all,4.67
+2021,North American Art,all,all,4.92
 2021,North American Art,unknown,all,0.0
 2021,North American Art,unknown,unknown,0.0
 2021,North American Art,unknown,assistant_prof,0.0
@@ -12136,9 +12136,9 @@ year,field,is_tt,rank,count
 2021,North American Art,unknown,"vap, assistant_prof",0.0
 2021,North American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,North American Art,unknown,"lecturer, assistant_prof",0.0
-2021,North American Art,TRUE,all,4.67
+2021,North American Art,TRUE,all,4.42
 2021,North American Art,TRUE,unknown,0.0
-2021,North American Art,TRUE,assistant_prof,2.67
+2021,North American Art,TRUE,assistant_prof,2.42
 2021,North American Art,TRUE,"assistant_prof, associate_prof",0.0
 2021,North American Art,TRUE,open_rank,1.0
 2021,North American Art,TRUE,lecturer,0.0
@@ -12151,13 +12151,13 @@ year,field,is_tt,rank,count
 2021,North American Art,TRUE,"vap, assistant_prof",0.0
 2021,North American Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,North American Art,TRUE,"lecturer, assistant_prof",0.0
-2021,North American Art,FALSE,all,0.0
+2021,North American Art,FALSE,all,0.5
 2021,North American Art,FALSE,unknown,0.0
 2021,North American Art,FALSE,assistant_prof,0.0
 2021,North American Art,FALSE,"assistant_prof, associate_prof",0.0
 2021,North American Art,FALSE,open_rank,0.0
 2021,North American Art,FALSE,lecturer,0.0
-2021,North American Art,FALSE,vap,0.0
+2021,North American Art,FALSE,vap,0.5
 2021,North American Art,FALSE,full_prof,0.0
 2021,North American Art,FALSE,"associate_prof, full_prof",0.0
 2021,North American Art,FALSE,associate_prof,0.0
@@ -12167,11 +12167,11 @@ year,field,is_tt,rank,count
 2021,North American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,North American Art,FALSE,"lecturer, assistant_prof",0.0
 2021,North American Art,all,unknown,0.0
-2021,North American Art,all,assistant_prof,2.67
+2021,North American Art,all,assistant_prof,2.42
 2021,North American Art,all,"assistant_prof, associate_prof",0.0
 2021,North American Art,all,open_rank,1.0
 2021,North American Art,all,lecturer,0.0
-2021,North American Art,all,vap,0.0
+2021,North American Art,all,vap,0.5
 2021,North American Art,all,full_prof,0.0
 2021,North American Art,all,"associate_prof, full_prof",1.0
 2021,North American Art,all,associate_prof,0.0
@@ -12180,7 +12180,7 @@ year,field,is_tt,rank,count
 2021,North American Art,all,"vap, assistant_prof",0.0
 2021,North American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,North American Art,all,"lecturer, assistant_prof",0.0
-2021,Visual Studies / Visual Culture,all,all,0.0
+2021,Visual Studies / Visual Culture,all,all,1.0
 2021,Visual Studies / Visual Culture,unknown,all,0.0
 2021,Visual Studies / Visual Culture,unknown,unknown,0.0
 2021,Visual Studies / Visual Culture,unknown,assistant_prof,0.0
@@ -12211,8 +12211,8 @@ year,field,is_tt,rank,count
 2021,Visual Studies / Visual Culture,TRUE,"vap, assistant_prof",0.0
 2021,Visual Studies / Visual Culture,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Visual Studies / Visual Culture,TRUE,"lecturer, assistant_prof",0.0
-2021,Visual Studies / Visual Culture,FALSE,all,0.0
-2021,Visual Studies / Visual Culture,FALSE,unknown,0.0
+2021,Visual Studies / Visual Culture,FALSE,all,1.0
+2021,Visual Studies / Visual Culture,FALSE,unknown,1.0
 2021,Visual Studies / Visual Culture,FALSE,assistant_prof,0.0
 2021,Visual Studies / Visual Culture,FALSE,"assistant_prof, associate_prof",0.0
 2021,Visual Studies / Visual Culture,FALSE,open_rank,0.0
@@ -12226,7 +12226,7 @@ year,field,is_tt,rank,count
 2021,Visual Studies / Visual Culture,FALSE,"vap, assistant_prof",0.0
 2021,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof",0.0
-2021,Visual Studies / Visual Culture,all,unknown,0.0
+2021,Visual Studies / Visual Culture,all,unknown,1.0
 2021,Visual Studies / Visual Culture,all,assistant_prof,0.0
 2021,Visual Studies / Visual Culture,all,"assistant_prof, associate_prof",0.0
 2021,Visual Studies / Visual Culture,all,open_rank,0.0
@@ -12360,7 +12360,7 @@ year,field,is_tt,rank,count
 2021,Film / Photography,all,"vap, assistant_prof",0.0
 2021,Film / Photography,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Film / Photography,all,"lecturer, assistant_prof",0.0
-2021,Curatorial Studies / Arts Administration,all,all,1.5
+2021,Curatorial Studies / Arts Administration,all,all,1.0
 2021,Curatorial Studies / Arts Administration,unknown,all,0.0
 2021,Curatorial Studies / Arts Administration,unknown,unknown,0.0
 2021,Curatorial Studies / Arts Administration,unknown,assistant_prof,0.0
@@ -12376,9 +12376,9 @@ year,field,is_tt,rank,count
 2021,Curatorial Studies / Arts Administration,unknown,"vap, assistant_prof",0.0
 2021,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof",0.0
-2021,Curatorial Studies / Arts Administration,TRUE,all,1.5
+2021,Curatorial Studies / Arts Administration,TRUE,all,1.0
 2021,Curatorial Studies / Arts Administration,TRUE,unknown,0.0
-2021,Curatorial Studies / Arts Administration,TRUE,assistant_prof,1.5
+2021,Curatorial Studies / Arts Administration,TRUE,assistant_prof,1.0
 2021,Curatorial Studies / Arts Administration,TRUE,"assistant_prof, associate_prof",0.0
 2021,Curatorial Studies / Arts Administration,TRUE,open_rank,0.0
 2021,Curatorial Studies / Arts Administration,TRUE,lecturer,0.0
@@ -12407,7 +12407,7 @@ year,field,is_tt,rank,count
 2021,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof",0.0
 2021,Curatorial Studies / Arts Administration,all,unknown,0.0
-2021,Curatorial Studies / Arts Administration,all,assistant_prof,1.5
+2021,Curatorial Studies / Arts Administration,all,assistant_prof,1.0
 2021,Curatorial Studies / Arts Administration,all,"assistant_prof, associate_prof",0.0
 2021,Curatorial Studies / Arts Administration,all,open_rank,0.0
 2021,Curatorial Studies / Arts Administration,all,lecturer,0.0
@@ -12420,7 +12420,7 @@ year,field,is_tt,rank,count
 2021,Curatorial Studies / Arts Administration,all,"vap, assistant_prof",0.0
 2021,Curatorial Studies / Arts Administration,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,Curatorial Studies / Arts Administration,all,"lecturer, assistant_prof",0.0
-2021,Gender and Sexuality Studies,all,all,1.0
+2021,Gender and Sexuality Studies,all,all,0.5
 2021,Gender and Sexuality Studies,unknown,all,0.0
 2021,Gender and Sexuality Studies,unknown,unknown,0.0
 2021,Gender and Sexuality Studies,unknown,assistant_prof,0.0
@@ -12436,9 +12436,9 @@ year,field,is_tt,rank,count
 2021,Gender and Sexuality Studies,unknown,"vap, assistant_prof",0.0
 2021,Gender and Sexuality Studies,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,Gender and Sexuality Studies,unknown,"lecturer, assistant_prof",0.0
-2021,Gender and Sexuality Studies,TRUE,all,1.0
+2021,Gender and Sexuality Studies,TRUE,all,0.5
 2021,Gender and Sexuality Studies,TRUE,unknown,0.0
-2021,Gender and Sexuality Studies,TRUE,assistant_prof,1.0
+2021,Gender and Sexuality Studies,TRUE,assistant_prof,0.5
 2021,Gender and Sexuality Studies,TRUE,"assistant_prof, associate_prof",0.0
 2021,Gender and Sexuality Studies,TRUE,open_rank,0.0
 2021,Gender and Sexuality Studies,TRUE,lecturer,0.0
@@ -12467,7 +12467,7 @@ year,field,is_tt,rank,count
 2021,Gender and Sexuality Studies,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,Gender and Sexuality Studies,FALSE,"lecturer, assistant_prof",0.0
 2021,Gender and Sexuality Studies,all,unknown,0.0
-2021,Gender and Sexuality Studies,all,assistant_prof,1.0
+2021,Gender and Sexuality Studies,all,assistant_prof,0.5
 2021,Gender and Sexuality Studies,all,"assistant_prof, associate_prof",0.0
 2021,Gender and Sexuality Studies,all,open_rank,0.0
 2021,Gender and Sexuality Studies,all,lecturer,0.0
@@ -12495,9 +12495,9 @@ year,field,is_tt,rank,count
 2021,all,unknown,"vap, assistant_prof",0.0
 2021,all,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2021,all,unknown,"lecturer, assistant_prof",0.0
-2021,all,TRUE,all,71.0
+2021,all,TRUE,all,67.0
 2021,all,TRUE,unknown,0.0
-2021,all,TRUE,assistant_prof,53.0
+2021,all,TRUE,assistant_prof,49.0
 2021,all,TRUE,"assistant_prof, associate_prof",7.0
 2021,all,TRUE,open_rank,6.0
 2021,all,TRUE,lecturer,0.0
@@ -12510,12 +12510,12 @@ year,field,is_tt,rank,count
 2021,all,TRUE,"vap, assistant_prof",0.0
 2021,all,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2021,all,TRUE,"lecturer, assistant_prof",0.0
-2021,all,FALSE,all,14.0
+2021,all,FALSE,all,13.0
 2021,all,FALSE,unknown,1.0
 2021,all,FALSE,assistant_prof,0.0
 2021,all,FALSE,"assistant_prof, associate_prof",0.0
 2021,all,FALSE,open_rank,0.0
-2021,all,FALSE,lecturer,5.0
+2021,all,FALSE,lecturer,4.0
 2021,all,FALSE,vap,6.33
 2021,all,FALSE,full_prof,0.0
 2021,all,FALSE,"associate_prof, full_prof",0.0
@@ -12526,10 +12526,10 @@ year,field,is_tt,rank,count
 2021,all,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2021,all,FALSE,"lecturer, assistant_prof",0.0
 2021,all,all,unknown,1.0
-2021,all,all,assistant_prof,53.0
+2021,all,all,assistant_prof,49.0
 2021,all,all,"assistant_prof, associate_prof",7.0
 2021,all,all,open_rank,6.0
-2021,all,all,lecturer,5.0
+2021,all,all,lecturer,4.0
 2021,all,all,vap,6.33
 2021,all,all,full_prof,1.0
 2021,all,all,"associate_prof, full_prof",1.0
@@ -12540,7 +12540,7 @@ year,field,is_tt,rank,count
 2021,all,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,all,all,"lecturer, assistant_prof",0.0
 2022,all,all,all,141.0
-2022,African / African Diaspora Art,all,all,20.25
+2022,African / African Diaspora Art,all,all,20.17
 2022,African / African Diaspora Art,unknown,all,0.0
 2022,African / African Diaspora Art,unknown,unknown,0.0
 2022,African / African Diaspora Art,unknown,assistant_prof,0.0
@@ -12556,9 +12556,9 @@ year,field,is_tt,rank,count
 2022,African / African Diaspora Art,unknown,"vap, assistant_prof",0.0
 2022,African / African Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,African / African Diaspora Art,unknown,"lecturer, assistant_prof",0.0
-2022,African / African Diaspora Art,TRUE,all,18.25
+2022,African / African Diaspora Art,TRUE,all,18.17
 2022,African / African Diaspora Art,TRUE,unknown,0.0
-2022,African / African Diaspora Art,TRUE,assistant_prof,14.25
+2022,African / African Diaspora Art,TRUE,assistant_prof,14.17
 2022,African / African Diaspora Art,TRUE,"assistant_prof, associate_prof",2.0
 2022,African / African Diaspora Art,TRUE,open_rank,1.0
 2022,African / African Diaspora Art,TRUE,lecturer,0.0
@@ -12587,7 +12587,7 @@ year,field,is_tt,rank,count
 2022,African / African Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2022,African / African Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
 2022,African / African Diaspora Art,all,unknown,0.0
-2022,African / African Diaspora Art,all,assistant_prof,14.25
+2022,African / African Diaspora Art,all,assistant_prof,14.17
 2022,African / African Diaspora Art,all,"assistant_prof, associate_prof",2.0
 2022,African / African Diaspora Art,all,open_rank,2.0
 2022,African / African Diaspora Art,all,lecturer,0.0
@@ -12600,7 +12600,7 @@ year,field,is_tt,rank,count
 2022,African / African Diaspora Art,all,"vap, assistant_prof",0.0
 2022,African / African Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,African / African Diaspora Art,all,"lecturer, assistant_prof",0.0
-2022,Ancient Art,all,all,4.83
+2022,Ancient Art,all,all,5.33
 2022,Ancient Art,unknown,all,0.0
 2022,Ancient Art,unknown,unknown,0.0
 2022,Ancient Art,unknown,assistant_prof,0.0
@@ -12616,9 +12616,9 @@ year,field,is_tt,rank,count
 2022,Ancient Art,unknown,"vap, assistant_prof",0.0
 2022,Ancient Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Ancient Art,unknown,"lecturer, assistant_prof",0.0
-2022,Ancient Art,TRUE,all,4.33
+2022,Ancient Art,TRUE,all,4.58
 2022,Ancient Art,TRUE,unknown,0.0
-2022,Ancient Art,TRUE,assistant_prof,2.33
+2022,Ancient Art,TRUE,assistant_prof,2.58
 2022,Ancient Art,TRUE,"assistant_prof, associate_prof",0.0
 2022,Ancient Art,TRUE,open_rank,2.0
 2022,Ancient Art,TRUE,lecturer,0.0
@@ -12631,13 +12631,13 @@ year,field,is_tt,rank,count
 2022,Ancient Art,TRUE,"vap, assistant_prof",0.0
 2022,Ancient Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Ancient Art,TRUE,"lecturer, assistant_prof",0.0
-2022,Ancient Art,FALSE,all,0.5
+2022,Ancient Art,FALSE,all,0.75
 2022,Ancient Art,FALSE,unknown,0.0
 2022,Ancient Art,FALSE,assistant_prof,0.0
 2022,Ancient Art,FALSE,"assistant_prof, associate_prof",0.0
 2022,Ancient Art,FALSE,open_rank,0.0
 2022,Ancient Art,FALSE,lecturer,0.0
-2022,Ancient Art,FALSE,vap,0.0
+2022,Ancient Art,FALSE,vap,0.25
 2022,Ancient Art,FALSE,full_prof,0.0
 2022,Ancient Art,FALSE,"associate_prof, full_prof",0.0
 2022,Ancient Art,FALSE,associate_prof,0.5
@@ -12647,11 +12647,11 @@ year,field,is_tt,rank,count
 2022,Ancient Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Ancient Art,FALSE,"lecturer, assistant_prof",0.0
 2022,Ancient Art,all,unknown,0.0
-2022,Ancient Art,all,assistant_prof,2.33
+2022,Ancient Art,all,assistant_prof,2.58
 2022,Ancient Art,all,"assistant_prof, associate_prof",0.0
 2022,Ancient Art,all,open_rank,2.0
 2022,Ancient Art,all,lecturer,0.0
-2022,Ancient Art,all,vap,0.0
+2022,Ancient Art,all,vap,0.25
 2022,Ancient Art,all,full_prof,0.0
 2022,Ancient Art,all,"associate_prof, full_prof",0.0
 2022,Ancient Art,all,associate_prof,0.5
@@ -12720,7 +12720,7 @@ year,field,is_tt,rank,count
 2022,Architecture,all,"vap, assistant_prof",0.0
 2022,Architecture,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Architecture,all,"lecturer, assistant_prof",0.0
-2022,Asian / Asian Diaspora Art,all,all,14.08
+2022,Asian / Asian Diaspora Art,all,all,14.25
 2022,Asian / Asian Diaspora Art,unknown,all,0.0
 2022,Asian / Asian Diaspora Art,unknown,unknown,0.0
 2022,Asian / Asian Diaspora Art,unknown,assistant_prof,0.0
@@ -12736,9 +12736,9 @@ year,field,is_tt,rank,count
 2022,Asian / Asian Diaspora Art,unknown,"vap, assistant_prof",0.0
 2022,Asian / Asian Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Asian / Asian Diaspora Art,unknown,"lecturer, assistant_prof",0.0
-2022,Asian / Asian Diaspora Art,TRUE,all,10.75
+2022,Asian / Asian Diaspora Art,TRUE,all,10.92
 2022,Asian / Asian Diaspora Art,TRUE,unknown,0.0
-2022,Asian / Asian Diaspora Art,TRUE,assistant_prof,8.25
+2022,Asian / Asian Diaspora Art,TRUE,assistant_prof,8.42
 2022,Asian / Asian Diaspora Art,TRUE,"assistant_prof, associate_prof",1.0
 2022,Asian / Asian Diaspora Art,TRUE,open_rank,0.0
 2022,Asian / Asian Diaspora Art,TRUE,lecturer,0.5
@@ -12767,7 +12767,7 @@ year,field,is_tt,rank,count
 2022,Asian / Asian Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.33
 2022,Asian / Asian Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
 2022,Asian / Asian Diaspora Art,all,unknown,0.0
-2022,Asian / Asian Diaspora Art,all,assistant_prof,8.25
+2022,Asian / Asian Diaspora Art,all,assistant_prof,8.42
 2022,Asian / Asian Diaspora Art,all,"assistant_prof, associate_prof",1.0
 2022,Asian / Asian Diaspora Art,all,open_rank,0.0
 2022,Asian / Asian Diaspora Art,all,lecturer,0.5
@@ -12780,7 +12780,7 @@ year,field,is_tt,rank,count
 2022,Asian / Asian Diaspora Art,all,"vap, assistant_prof",0.0
 2022,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.33
 2022,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof",0.0
-2022,Byzantine / Medieval Art,all,all,4.5
+2022,Byzantine / Medieval Art,all,all,4.58
 2022,Byzantine / Medieval Art,unknown,all,0.0
 2022,Byzantine / Medieval Art,unknown,unknown,0.0
 2022,Byzantine / Medieval Art,unknown,assistant_prof,0.0
@@ -12796,9 +12796,9 @@ year,field,is_tt,rank,count
 2022,Byzantine / Medieval Art,unknown,"vap, assistant_prof",0.0
 2022,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof",0.0
-2022,Byzantine / Medieval Art,TRUE,all,4.0
+2022,Byzantine / Medieval Art,TRUE,all,3.83
 2022,Byzantine / Medieval Art,TRUE,unknown,0.0
-2022,Byzantine / Medieval Art,TRUE,assistant_prof,4.0
+2022,Byzantine / Medieval Art,TRUE,assistant_prof,3.83
 2022,Byzantine / Medieval Art,TRUE,"assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,TRUE,open_rank,0.0
 2022,Byzantine / Medieval Art,TRUE,lecturer,0.0
@@ -12811,13 +12811,13 @@ year,field,is_tt,rank,count
 2022,Byzantine / Medieval Art,TRUE,"vap, assistant_prof",0.0
 2022,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof",0.0
-2022,Byzantine / Medieval Art,FALSE,all,0.5
+2022,Byzantine / Medieval Art,FALSE,all,0.75
 2022,Byzantine / Medieval Art,FALSE,unknown,0.0
 2022,Byzantine / Medieval Art,FALSE,assistant_prof,0.0
 2022,Byzantine / Medieval Art,FALSE,"assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,FALSE,open_rank,0.0
 2022,Byzantine / Medieval Art,FALSE,lecturer,0.0
-2022,Byzantine / Medieval Art,FALSE,vap,0.0
+2022,Byzantine / Medieval Art,FALSE,vap,0.25
 2022,Byzantine / Medieval Art,FALSE,full_prof,0.0
 2022,Byzantine / Medieval Art,FALSE,"associate_prof, full_prof",0.0
 2022,Byzantine / Medieval Art,FALSE,associate_prof,0.5
@@ -12827,11 +12827,11 @@ year,field,is_tt,rank,count
 2022,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof",0.0
 2022,Byzantine / Medieval Art,all,unknown,0.0
-2022,Byzantine / Medieval Art,all,assistant_prof,4.0
+2022,Byzantine / Medieval Art,all,assistant_prof,3.83
 2022,Byzantine / Medieval Art,all,"assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,all,open_rank,0.0
 2022,Byzantine / Medieval Art,all,lecturer,0.0
-2022,Byzantine / Medieval Art,all,vap,0.0
+2022,Byzantine / Medieval Art,all,vap,0.25
 2022,Byzantine / Medieval Art,all,full_prof,0.0
 2022,Byzantine / Medieval Art,all,"associate_prof, full_prof",0.0
 2022,Byzantine / Medieval Art,all,associate_prof,0.5
@@ -12960,7 +12960,7 @@ year,field,is_tt,rank,count
 2022,Digital Art History,all,"vap, assistant_prof",0.0
 2022,Digital Art History,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Digital Art History,all,"lecturer, assistant_prof",0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,8.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,7.08
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,all,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,unknown,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,assistant_prof,0.0
@@ -12976,9 +12976,9 @@ year,field,is_tt,rank,count
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"vap, assistant_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof",0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,5.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,4.83
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,unknown,0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,1.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,0.83
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"assistant_prof, associate_prof",1.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,open_rank,2.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,lecturer,0.0
@@ -12991,13 +12991,13 @@ year,field,is_tt,rank,count
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"vap, assistant_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof",0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,3.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,2.25
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,unknown,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,assistant_prof,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"assistant_prof, associate_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,open_rank,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,lecturer,0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,3.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,2.25
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,full_prof,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"associate_prof, full_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,associate_prof,0.0
@@ -13007,11 +13007,11 @@ year,field,is_tt,rank,count
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,1.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,0.83
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",1.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,open_rank,2.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,0.0
-2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,3.0
+2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,2.25
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,full_prof,0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"associate_prof, full_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,associate_prof,1.0
@@ -13020,7 +13020,7 @@ year,field,is_tt,rank,count
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, assistant_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof",0.0
-2022,General / Open,all,all,25.0
+2022,General / Open,all,all,24.0
 2022,General / Open,unknown,all,3.0
 2022,General / Open,unknown,unknown,1.0
 2022,General / Open,unknown,assistant_prof,0.0
@@ -13036,9 +13036,9 @@ year,field,is_tt,rank,count
 2022,General / Open,unknown,"vap, assistant_prof",0.0
 2022,General / Open,unknown,"lecturer, assistant_prof, associate_prof",1.0
 2022,General / Open,unknown,"lecturer, assistant_prof",0.0
-2022,General / Open,TRUE,all,20.0
+2022,General / Open,TRUE,all,19.0
 2022,General / Open,TRUE,unknown,0.0
-2022,General / Open,TRUE,assistant_prof,10.0
+2022,General / Open,TRUE,assistant_prof,9.0
 2022,General / Open,TRUE,"assistant_prof, associate_prof",1.0
 2022,General / Open,TRUE,open_rank,0.0
 2022,General / Open,TRUE,lecturer,3.0
@@ -13053,11 +13053,11 @@ year,field,is_tt,rank,count
 2022,General / Open,TRUE,"lecturer, assistant_prof",0.0
 2022,General / Open,FALSE,all,2.0
 2022,General / Open,FALSE,unknown,0.0
-2022,General / Open,FALSE,assistant_prof,0.0
+2022,General / Open,FALSE,assistant_prof,1.0
 2022,General / Open,FALSE,"assistant_prof, associate_prof",0.0
 2022,General / Open,FALSE,open_rank,0.0
 2022,General / Open,FALSE,lecturer,1.0
-2022,General / Open,FALSE,vap,1.0
+2022,General / Open,FALSE,vap,0.0
 2022,General / Open,FALSE,full_prof,0.0
 2022,General / Open,FALSE,"associate_prof, full_prof",0.0
 2022,General / Open,FALSE,associate_prof,0.0
@@ -13071,7 +13071,7 @@ year,field,is_tt,rank,count
 2022,General / Open,all,"assistant_prof, associate_prof",1.0
 2022,General / Open,all,open_rank,0.0
 2022,General / Open,all,lecturer,4.0
-2022,General / Open,all,vap,1.0
+2022,General / Open,all,vap,0.0
 2022,General / Open,all,full_prof,1.0
 2022,General / Open,all,"associate_prof, full_prof",0.0
 2022,General / Open,all,associate_prof,0.0
@@ -13080,7 +13080,7 @@ year,field,is_tt,rank,count
 2022,General / Open,all,"vap, assistant_prof",0.0
 2022,General / Open,all,"lecturer, assistant_prof, associate_prof",1.0
 2022,General / Open,all,"lecturer, assistant_prof",0.0
-2022,Global / Non-Western Art,all,all,6.5
+2022,Global / Non-Western Art,all,all,6.75
 2022,Global / Non-Western Art,unknown,all,0.0
 2022,Global / Non-Western Art,unknown,unknown,0.0
 2022,Global / Non-Western Art,unknown,assistant_prof,0.0
@@ -13111,13 +13111,13 @@ year,field,is_tt,rank,count
 2022,Global / Non-Western Art,TRUE,"vap, assistant_prof",0.0
 2022,Global / Non-Western Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Global / Non-Western Art,TRUE,"lecturer, assistant_prof",0.0
-2022,Global / Non-Western Art,FALSE,all,1.0
+2022,Global / Non-Western Art,FALSE,all,1.25
 2022,Global / Non-Western Art,FALSE,unknown,0.0
 2022,Global / Non-Western Art,FALSE,assistant_prof,0.0
 2022,Global / Non-Western Art,FALSE,"assistant_prof, associate_prof",1.0
 2022,Global / Non-Western Art,FALSE,open_rank,0.0
 2022,Global / Non-Western Art,FALSE,lecturer,0.0
-2022,Global / Non-Western Art,FALSE,vap,0.0
+2022,Global / Non-Western Art,FALSE,vap,0.25
 2022,Global / Non-Western Art,FALSE,full_prof,0.0
 2022,Global / Non-Western Art,FALSE,"associate_prof, full_prof",0.0
 2022,Global / Non-Western Art,FALSE,associate_prof,0.0
@@ -13131,7 +13131,7 @@ year,field,is_tt,rank,count
 2022,Global / Non-Western Art,all,"assistant_prof, associate_prof",1.0
 2022,Global / Non-Western Art,all,open_rank,1.0
 2022,Global / Non-Western Art,all,lecturer,0.0
-2022,Global / Non-Western Art,all,vap,0.0
+2022,Global / Non-Western Art,all,vap,0.25
 2022,Global / Non-Western Art,all,full_prof,0.0
 2022,Global / Non-Western Art,all,"associate_prof, full_prof",1.0
 2022,Global / Non-Western Art,all,associate_prof,1.0
@@ -13260,7 +13260,7 @@ year,field,is_tt,rank,count
 2022,Modern / Contemporary Art,all,"vap, assistant_prof",0.0
 2022,Modern / Contemporary Art,all,"lecturer, assistant_prof, associate_prof",0.33
 2022,Modern / Contemporary Art,all,"lecturer, assistant_prof",0.0
-2022,North American Art,all,all,8.08
+2022,North American Art,all,all,9.08
 2022,North American Art,unknown,all,0.0
 2022,North American Art,unknown,unknown,0.0
 2022,North American Art,unknown,assistant_prof,0.0
@@ -13291,13 +13291,13 @@ year,field,is_tt,rank,count
 2022,North American Art,TRUE,"vap, assistant_prof",0.0
 2022,North American Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,North American Art,TRUE,"lecturer, assistant_prof",0.5
-2022,North American Art,FALSE,all,1.0
+2022,North American Art,FALSE,all,2.0
 2022,North American Art,FALSE,unknown,0.0
 2022,North American Art,FALSE,assistant_prof,0.0
 2022,North American Art,FALSE,"assistant_prof, associate_prof",0.0
 2022,North American Art,FALSE,open_rank,0.0
 2022,North American Art,FALSE,lecturer,0.0
-2022,North American Art,FALSE,vap,1.0
+2022,North American Art,FALSE,vap,2.0
 2022,North American Art,FALSE,full_prof,0.0
 2022,North American Art,FALSE,"associate_prof, full_prof",0.0
 2022,North American Art,FALSE,associate_prof,0.0
@@ -13311,7 +13311,7 @@ year,field,is_tt,rank,count
 2022,North American Art,all,"assistant_prof, associate_prof",0.0
 2022,North American Art,all,open_rank,0.0
 2022,North American Art,all,lecturer,0.0
-2022,North American Art,all,vap,1.0
+2022,North American Art,all,vap,2.0
 2022,North American Art,all,full_prof,0.0
 2022,North American Art,all,"associate_prof, full_prof",0.0
 2022,North American Art,all,associate_prof,0.0
@@ -13635,9 +13635,9 @@ year,field,is_tt,rank,count
 2022,all,unknown,"vap, assistant_prof",0.0
 2022,all,unknown,"lecturer, assistant_prof, associate_prof",1.0
 2022,all,unknown,"lecturer, assistant_prof",0.0
-2022,all,TRUE,all,116.0
+2022,all,TRUE,all,115.0
 2022,all,TRUE,unknown,0.0
-2022,all,TRUE,assistant_prof,78.0
+2022,all,TRUE,assistant_prof,77.0
 2022,all,TRUE,"assistant_prof, associate_prof",9.0
 2022,all,TRUE,open_rank,7.0
 2022,all,TRUE,lecturer,4.0
@@ -13650,9 +13650,9 @@ year,field,is_tt,rank,count
 2022,all,TRUE,"vap, assistant_prof",0.0
 2022,all,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,all,TRUE,"lecturer, assistant_prof",1.0
-2022,all,FALSE,all,21.0
+2022,all,FALSE,all,22.0
 2022,all,FALSE,unknown,0.0
-2022,all,FALSE,assistant_prof,0.0
+2022,all,FALSE,assistant_prof,1.0
 2022,all,FALSE,"assistant_prof, associate_prof",2.0
 2022,all,FALSE,open_rank,1.0
 2022,all,FALSE,lecturer,5.0
