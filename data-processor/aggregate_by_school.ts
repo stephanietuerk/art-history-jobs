@@ -24,7 +24,7 @@ function transformIsTt(isTt: string): string {
   }
 }
 
-const f = await Deno.open('../data/main/main_data.csv');
+const f = await Deno.open('./data/main/main_data.csv');
 const data: JobDatum[] = [];
 for await (const row of readCSVObjects(f)) {
   const obj: JobDatum = {} as JobDatum;
@@ -91,4 +91,4 @@ const dataByCountry = countries.map((country) => {
 dataByCountry
   .sort((a, b) => ascending(a.country, b.country))
   .sort((a, b) => descending(a.jobsBySchool.length, b.jobsBySchool.length));
-writeJsonSync('../data/main/main_data_by_school.json', dataByCountry);
+writeJsonSync('./data/main/main_data_by_school.json', dataByCountry);
