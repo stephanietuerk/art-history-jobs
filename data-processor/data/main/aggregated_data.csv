@@ -12539,8 +12539,8 @@ year,field,is_tt,rank,count
 2021,all,all,"vap, assistant_prof",1.0
 2021,all,all,"lecturer, assistant_prof, associate_prof",0.0
 2021,all,all,"lecturer, assistant_prof",0.0
-2022,all,all,all,141.0
-2022,African / African Diaspora Art,all,all,20.17
+2022,all,all,all,148.0
+2022,African / African Diaspora Art,all,all,20.67
 2022,African / African Diaspora Art,unknown,all,0.0
 2022,African / African Diaspora Art,unknown,unknown,0.0
 2022,African / African Diaspora Art,unknown,assistant_prof,0.0
@@ -12571,12 +12571,12 @@ year,field,is_tt,rank,count
 2022,African / African Diaspora Art,TRUE,"vap, assistant_prof",0.0
 2022,African / African Diaspora Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,African / African Diaspora Art,TRUE,"lecturer, assistant_prof",0.0
-2022,African / African Diaspora Art,FALSE,all,2.0
+2022,African / African Diaspora Art,FALSE,all,2.5
 2022,African / African Diaspora Art,FALSE,unknown,0.0
 2022,African / African Diaspora Art,FALSE,assistant_prof,0.0
 2022,African / African Diaspora Art,FALSE,"assistant_prof, associate_prof",0.0
 2022,African / African Diaspora Art,FALSE,open_rank,1.0
-2022,African / African Diaspora Art,FALSE,lecturer,0.0
+2022,African / African Diaspora Art,FALSE,lecturer,0.5
 2022,African / African Diaspora Art,FALSE,vap,1.0
 2022,African / African Diaspora Art,FALSE,full_prof,0.0
 2022,African / African Diaspora Art,FALSE,"associate_prof, full_prof",0.0
@@ -12590,7 +12590,7 @@ year,field,is_tt,rank,count
 2022,African / African Diaspora Art,all,assistant_prof,14.17
 2022,African / African Diaspora Art,all,"assistant_prof, associate_prof",2.0
 2022,African / African Diaspora Art,all,open_rank,2.0
-2022,African / African Diaspora Art,all,lecturer,0.0
+2022,African / African Diaspora Art,all,lecturer,0.5
 2022,African / African Diaspora Art,all,vap,1.0
 2022,African / African Diaspora Art,all,full_prof,0.0
 2022,African / African Diaspora Art,all,"associate_prof, full_prof",0.0
@@ -12780,7 +12780,7 @@ year,field,is_tt,rank,count
 2022,Asian / Asian Diaspora Art,all,"vap, assistant_prof",0.0
 2022,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.33
 2022,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof",0.0
-2022,Byzantine / Medieval Art,all,all,4.58
+2022,Byzantine / Medieval Art,all,all,5.58
 2022,Byzantine / Medieval Art,unknown,all,0.0
 2022,Byzantine / Medieval Art,unknown,unknown,0.0
 2022,Byzantine / Medieval Art,unknown,assistant_prof,0.0
@@ -12796,14 +12796,14 @@ year,field,is_tt,rank,count
 2022,Byzantine / Medieval Art,unknown,"vap, assistant_prof",0.0
 2022,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof",0.0
-2022,Byzantine / Medieval Art,TRUE,all,3.83
+2022,Byzantine / Medieval Art,TRUE,all,4.83
 2022,Byzantine / Medieval Art,TRUE,unknown,0.0
 2022,Byzantine / Medieval Art,TRUE,assistant_prof,3.83
 2022,Byzantine / Medieval Art,TRUE,"assistant_prof, associate_prof",0.0
 2022,Byzantine / Medieval Art,TRUE,open_rank,0.0
 2022,Byzantine / Medieval Art,TRUE,lecturer,0.0
 2022,Byzantine / Medieval Art,TRUE,vap,0.0
-2022,Byzantine / Medieval Art,TRUE,full_prof,0.0
+2022,Byzantine / Medieval Art,TRUE,full_prof,1.0
 2022,Byzantine / Medieval Art,TRUE,"associate_prof, full_prof",0.0
 2022,Byzantine / Medieval Art,TRUE,associate_prof,0.0
 2022,Byzantine / Medieval Art,TRUE,chair,0.0
@@ -12832,7 +12832,7 @@ year,field,is_tt,rank,count
 2022,Byzantine / Medieval Art,all,open_rank,0.0
 2022,Byzantine / Medieval Art,all,lecturer,0.0
 2022,Byzantine / Medieval Art,all,vap,0.25
-2022,Byzantine / Medieval Art,all,full_prof,0.0
+2022,Byzantine / Medieval Art,all,full_prof,1.0
 2022,Byzantine / Medieval Art,all,"associate_prof, full_prof",0.0
 2022,Byzantine / Medieval Art,all,associate_prof,0.5
 2022,Byzantine / Medieval Art,all,chair,0.0
@@ -13020,7 +13020,7 @@ year,field,is_tt,rank,count
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, assistant_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof",0.0
-2022,General / Open,all,all,24.0
+2022,General / Open,all,all,25.0
 2022,General / Open,unknown,all,3.0
 2022,General / Open,unknown,unknown,1.0
 2022,General / Open,unknown,assistant_prof,0.0
@@ -13036,7 +13036,7 @@ year,field,is_tt,rank,count
 2022,General / Open,unknown,"vap, assistant_prof",0.0
 2022,General / Open,unknown,"lecturer, assistant_prof, associate_prof",1.0
 2022,General / Open,unknown,"lecturer, assistant_prof",0.0
-2022,General / Open,TRUE,all,19.0
+2022,General / Open,TRUE,all,20.0
 2022,General / Open,TRUE,unknown,0.0
 2022,General / Open,TRUE,assistant_prof,9.0
 2022,General / Open,TRUE,"assistant_prof, associate_prof",1.0
@@ -13045,7 +13045,7 @@ year,field,is_tt,rank,count
 2022,General / Open,TRUE,vap,0.0
 2022,General / Open,TRUE,full_prof,1.0
 2022,General / Open,TRUE,"associate_prof, full_prof",0.0
-2022,General / Open,TRUE,associate_prof,0.0
+2022,General / Open,TRUE,associate_prof,1.0
 2022,General / Open,TRUE,chair,5.0
 2022,General / Open,TRUE,"vap, lecturer",0.0
 2022,General / Open,TRUE,"vap, assistant_prof",0.0
@@ -13074,13 +13074,13 @@ year,field,is_tt,rank,count
 2022,General / Open,all,vap,0.0
 2022,General / Open,all,full_prof,1.0
 2022,General / Open,all,"associate_prof, full_prof",0.0
-2022,General / Open,all,associate_prof,0.0
+2022,General / Open,all,associate_prof,1.0
 2022,General / Open,all,chair,6.0
 2022,General / Open,all,"vap, lecturer",0.0
 2022,General / Open,all,"vap, assistant_prof",0.0
 2022,General / Open,all,"lecturer, assistant_prof, associate_prof",1.0
 2022,General / Open,all,"lecturer, assistant_prof",0.0
-2022,Global / Non-Western Art,all,all,6.75
+2022,Global / Non-Western Art,all,all,5.75
 2022,Global / Non-Western Art,unknown,all,0.0
 2022,Global / Non-Western Art,unknown,unknown,0.0
 2022,Global / Non-Western Art,unknown,assistant_prof,0.0
@@ -13096,7 +13096,7 @@ year,field,is_tt,rank,count
 2022,Global / Non-Western Art,unknown,"vap, assistant_prof",0.0
 2022,Global / Non-Western Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Global / Non-Western Art,unknown,"lecturer, assistant_prof",0.0
-2022,Global / Non-Western Art,TRUE,all,5.5
+2022,Global / Non-Western Art,TRUE,all,4.5
 2022,Global / Non-Western Art,TRUE,unknown,0.0
 2022,Global / Non-Western Art,TRUE,assistant_prof,2.5
 2022,Global / Non-Western Art,TRUE,"assistant_prof, associate_prof",0.0
@@ -13105,7 +13105,7 @@ year,field,is_tt,rank,count
 2022,Global / Non-Western Art,TRUE,vap,0.0
 2022,Global / Non-Western Art,TRUE,full_prof,0.0
 2022,Global / Non-Western Art,TRUE,"associate_prof, full_prof",1.0
-2022,Global / Non-Western Art,TRUE,associate_prof,1.0
+2022,Global / Non-Western Art,TRUE,associate_prof,0.0
 2022,Global / Non-Western Art,TRUE,chair,0.0
 2022,Global / Non-Western Art,TRUE,"vap, lecturer",0.0
 2022,Global / Non-Western Art,TRUE,"vap, assistant_prof",0.0
@@ -13134,7 +13134,7 @@ year,field,is_tt,rank,count
 2022,Global / Non-Western Art,all,vap,0.25
 2022,Global / Non-Western Art,all,full_prof,0.0
 2022,Global / Non-Western Art,all,"associate_prof, full_prof",1.0
-2022,Global / Non-Western Art,all,associate_prof,1.0
+2022,Global / Non-Western Art,all,associate_prof,0.0
 2022,Global / Non-Western Art,all,chair,0.0
 2022,Global / Non-Western Art,all,"vap, lecturer",0.0
 2022,Global / Non-Western Art,all,"vap, assistant_prof",0.0
@@ -13200,7 +13200,7 @@ year,field,is_tt,rank,count
 2022,Latin American Art,all,"vap, assistant_prof",0.0
 2022,Latin American Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Latin American Art,all,"lecturer, assistant_prof",0.5
-2022,Modern / Contemporary Art,all,all,24.67
+2022,Modern / Contemporary Art,all,all,27.17
 2022,Modern / Contemporary Art,unknown,all,0.0
 2022,Modern / Contemporary Art,unknown,unknown,0.0
 2022,Modern / Contemporary Art,unknown,assistant_prof,0.0
@@ -13216,9 +13216,9 @@ year,field,is_tt,rank,count
 2022,Modern / Contemporary Art,unknown,"vap, assistant_prof",0.0
 2022,Modern / Contemporary Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Modern / Contemporary Art,unknown,"lecturer, assistant_prof",0.0
-2022,Modern / Contemporary Art,TRUE,all,22.33
+2022,Modern / Contemporary Art,TRUE,all,24.33
 2022,Modern / Contemporary Art,TRUE,unknown,0.0
-2022,Modern / Contemporary Art,TRUE,assistant_prof,16.33
+2022,Modern / Contemporary Art,TRUE,assistant_prof,18.33
 2022,Modern / Contemporary Art,TRUE,"assistant_prof, associate_prof",3.0
 2022,Modern / Contemporary Art,TRUE,open_rank,0.0
 2022,Modern / Contemporary Art,TRUE,lecturer,0.0
@@ -13231,12 +13231,12 @@ year,field,is_tt,rank,count
 2022,Modern / Contemporary Art,TRUE,"vap, assistant_prof",0.0
 2022,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof",0.0
-2022,Modern / Contemporary Art,FALSE,all,2.33
+2022,Modern / Contemporary Art,FALSE,all,2.83
 2022,Modern / Contemporary Art,FALSE,unknown,0.0
 2022,Modern / Contemporary Art,FALSE,assistant_prof,0.0
 2022,Modern / Contemporary Art,FALSE,"assistant_prof, associate_prof",1.0
 2022,Modern / Contemporary Art,FALSE,open_rank,0.0
-2022,Modern / Contemporary Art,FALSE,lecturer,1.0
+2022,Modern / Contemporary Art,FALSE,lecturer,1.5
 2022,Modern / Contemporary Art,FALSE,vap,0.0
 2022,Modern / Contemporary Art,FALSE,full_prof,0.0
 2022,Modern / Contemporary Art,FALSE,"associate_prof, full_prof",0.0
@@ -13247,10 +13247,10 @@ year,field,is_tt,rank,count
 2022,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof, associate_prof",0.33
 2022,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof",0.0
 2022,Modern / Contemporary Art,all,unknown,0.0
-2022,Modern / Contemporary Art,all,assistant_prof,16.33
+2022,Modern / Contemporary Art,all,assistant_prof,18.33
 2022,Modern / Contemporary Art,all,"assistant_prof, associate_prof",4.0
 2022,Modern / Contemporary Art,all,open_rank,0.0
-2022,Modern / Contemporary Art,all,lecturer,1.0
+2022,Modern / Contemporary Art,all,lecturer,1.5
 2022,Modern / Contemporary Art,all,vap,0.0
 2022,Modern / Contemporary Art,all,full_prof,0.0
 2022,Modern / Contemporary Art,all,"associate_prof, full_prof",1.0
@@ -13380,7 +13380,7 @@ year,field,is_tt,rank,count
 2022,Visual Studies / Visual Culture,all,"vap, assistant_prof",0.0
 2022,Visual Studies / Visual Culture,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Visual Studies / Visual Culture,all,"lecturer, assistant_prof",0.0
-2022,Middle Eastern / Islamic Art,all,all,3.5
+2022,Middle Eastern / Islamic Art,all,all,4.5
 2022,Middle Eastern / Islamic Art,unknown,all,0.0
 2022,Middle Eastern / Islamic Art,unknown,unknown,0.0
 2022,Middle Eastern / Islamic Art,unknown,assistant_prof,0.0
@@ -13411,7 +13411,7 @@ year,field,is_tt,rank,count
 2022,Middle Eastern / Islamic Art,TRUE,"vap, assistant_prof",0.0
 2022,Middle Eastern / Islamic Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Middle Eastern / Islamic Art,TRUE,"lecturer, assistant_prof",0.0
-2022,Middle Eastern / Islamic Art,FALSE,all,0.0
+2022,Middle Eastern / Islamic Art,FALSE,all,1.0
 2022,Middle Eastern / Islamic Art,FALSE,unknown,0.0
 2022,Middle Eastern / Islamic Art,FALSE,assistant_prof,0.0
 2022,Middle Eastern / Islamic Art,FALSE,"assistant_prof, associate_prof",0.0
@@ -13423,7 +13423,7 @@ year,field,is_tt,rank,count
 2022,Middle Eastern / Islamic Art,FALSE,associate_prof,0.0
 2022,Middle Eastern / Islamic Art,FALSE,chair,0.0
 2022,Middle Eastern / Islamic Art,FALSE,"vap, lecturer",0.0
-2022,Middle Eastern / Islamic Art,FALSE,"vap, assistant_prof",0.0
+2022,Middle Eastern / Islamic Art,FALSE,"vap, assistant_prof",1.0
 2022,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof",0.0
 2022,Middle Eastern / Islamic Art,all,unknown,0.0
@@ -13437,7 +13437,7 @@ year,field,is_tt,rank,count
 2022,Middle Eastern / Islamic Art,all,associate_prof,0.0
 2022,Middle Eastern / Islamic Art,all,chair,0.0
 2022,Middle Eastern / Islamic Art,all,"vap, lecturer",0.0
-2022,Middle Eastern / Islamic Art,all,"vap, assistant_prof",0.0
+2022,Middle Eastern / Islamic Art,all,"vap, assistant_prof",1.0
 2022,Middle Eastern / Islamic Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Middle Eastern / Islamic Art,all,"lecturer, assistant_prof",0.0
 2022,Film / Photography,all,all,2.0
@@ -13500,7 +13500,7 @@ year,field,is_tt,rank,count
 2022,Film / Photography,all,"vap, assistant_prof",0.0
 2022,Film / Photography,all,"lecturer, assistant_prof, associate_prof",0.0
 2022,Film / Photography,all,"lecturer, assistant_prof",0.0
-2022,Curatorial Studies / Arts Administration,all,all,6.5
+2022,Curatorial Studies / Arts Administration,all,all,8.5
 2022,Curatorial Studies / Arts Administration,unknown,all,1.0
 2022,Curatorial Studies / Arts Administration,unknown,unknown,0.0
 2022,Curatorial Studies / Arts Administration,unknown,assistant_prof,0.0
@@ -13516,9 +13516,9 @@ year,field,is_tt,rank,count
 2022,Curatorial Studies / Arts Administration,unknown,"vap, assistant_prof",0.0
 2022,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2022,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof",0.0
-2022,Curatorial Studies / Arts Administration,TRUE,all,3.5
+2022,Curatorial Studies / Arts Administration,TRUE,all,4.5
 2022,Curatorial Studies / Arts Administration,TRUE,unknown,0.0
-2022,Curatorial Studies / Arts Administration,TRUE,assistant_prof,2.5
+2022,Curatorial Studies / Arts Administration,TRUE,assistant_prof,3.5
 2022,Curatorial Studies / Arts Administration,TRUE,"assistant_prof, associate_prof",0.0
 2022,Curatorial Studies / Arts Administration,TRUE,open_rank,0.0
 2022,Curatorial Studies / Arts Administration,TRUE,lecturer,0.0
@@ -13531,13 +13531,13 @@ year,field,is_tt,rank,count
 2022,Curatorial Studies / Arts Administration,TRUE,"vap, assistant_prof",0.0
 2022,Curatorial Studies / Arts Administration,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Curatorial Studies / Arts Administration,TRUE,"lecturer, assistant_prof",0.0
-2022,Curatorial Studies / Arts Administration,FALSE,all,2.0
+2022,Curatorial Studies / Arts Administration,FALSE,all,3.0
 2022,Curatorial Studies / Arts Administration,FALSE,unknown,0.0
 2022,Curatorial Studies / Arts Administration,FALSE,assistant_prof,0.0
 2022,Curatorial Studies / Arts Administration,FALSE,"assistant_prof, associate_prof",0.0
 2022,Curatorial Studies / Arts Administration,FALSE,open_rank,0.0
 2022,Curatorial Studies / Arts Administration,FALSE,lecturer,1.0
-2022,Curatorial Studies / Arts Administration,FALSE,vap,1.0
+2022,Curatorial Studies / Arts Administration,FALSE,vap,2.0
 2022,Curatorial Studies / Arts Administration,FALSE,full_prof,0.0
 2022,Curatorial Studies / Arts Administration,FALSE,"associate_prof, full_prof",0.0
 2022,Curatorial Studies / Arts Administration,FALSE,associate_prof,0.0
@@ -13547,11 +13547,11 @@ year,field,is_tt,rank,count
 2022,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2022,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof",0.0
 2022,Curatorial Studies / Arts Administration,all,unknown,0.0
-2022,Curatorial Studies / Arts Administration,all,assistant_prof,2.5
+2022,Curatorial Studies / Arts Administration,all,assistant_prof,3.5
 2022,Curatorial Studies / Arts Administration,all,"assistant_prof, associate_prof",1.0
 2022,Curatorial Studies / Arts Administration,all,open_rank,0.0
 2022,Curatorial Studies / Arts Administration,all,lecturer,1.0
-2022,Curatorial Studies / Arts Administration,all,vap,1.0
+2022,Curatorial Studies / Arts Administration,all,vap,2.0
 2022,Curatorial Studies / Arts Administration,all,full_prof,0.0
 2022,Curatorial Studies / Arts Administration,all,"associate_prof, full_prof",0.0
 2022,Curatorial Studies / Arts Administration,all,associate_prof,1.0
@@ -13635,14 +13635,14 @@ year,field,is_tt,rank,count
 2022,all,unknown,"vap, assistant_prof",0.0
 2022,all,unknown,"lecturer, assistant_prof, associate_prof",1.0
 2022,all,unknown,"lecturer, assistant_prof",0.0
-2022,all,TRUE,all,115.0
+2022,all,TRUE,all,119.0
 2022,all,TRUE,unknown,0.0
-2022,all,TRUE,assistant_prof,77.0
+2022,all,TRUE,assistant_prof,80.0
 2022,all,TRUE,"assistant_prof, associate_prof",9.0
 2022,all,TRUE,open_rank,7.0
 2022,all,TRUE,lecturer,4.0
 2022,all,TRUE,vap,0.0
-2022,all,TRUE,full_prof,1.0
+2022,all,TRUE,full_prof,2.0
 2022,all,TRUE,"associate_prof, full_prof",2.0
 2022,all,TRUE,associate_prof,7.0
 2022,all,TRUE,chair,7.0
@@ -13650,32 +13650,1172 @@ year,field,is_tt,rank,count
 2022,all,TRUE,"vap, assistant_prof",0.0
 2022,all,TRUE,"lecturer, assistant_prof, associate_prof",0.0
 2022,all,TRUE,"lecturer, assistant_prof",1.0
-2022,all,FALSE,all,22.0
+2022,all,FALSE,all,25.0
 2022,all,FALSE,unknown,0.0
 2022,all,FALSE,assistant_prof,1.0
 2022,all,FALSE,"assistant_prof, associate_prof",2.0
 2022,all,FALSE,open_rank,1.0
-2022,all,FALSE,lecturer,5.0
-2022,all,FALSE,vap,11.0
+2022,all,FALSE,lecturer,6.0
+2022,all,FALSE,vap,12.0
 2022,all,FALSE,full_prof,0.0
 2022,all,FALSE,"associate_prof, full_prof",0.0
 2022,all,FALSE,associate_prof,1.0
 2022,all,FALSE,chair,0.0
 2022,all,FALSE,"vap, lecturer",0.0
-2022,all,FALSE,"vap, assistant_prof",0.0
+2022,all,FALSE,"vap, assistant_prof",1.0
 2022,all,FALSE,"lecturer, assistant_prof, associate_prof",1.0
 2022,all,FALSE,"lecturer, assistant_prof",0.0
 2022,all,all,unknown,1.0
-2022,all,all,assistant_prof,78.0
+2022,all,all,assistant_prof,81.0
 2022,all,all,"assistant_prof, associate_prof",12.0
 2022,all,all,open_rank,8.0
-2022,all,all,lecturer,9.0
-2022,all,all,vap,11.0
-2022,all,all,full_prof,1.0
+2022,all,all,lecturer,10.0
+2022,all,all,vap,12.0
+2022,all,all,full_prof,2.0
 2022,all,all,"associate_prof, full_prof",2.0
 2022,all,all,associate_prof,8.0
 2022,all,all,chair,8.0
 2022,all,all,"vap, lecturer",0.0
-2022,all,all,"vap, assistant_prof",0.0
+2022,all,all,"vap, assistant_prof",1.0
 2022,all,all,"lecturer, assistant_prof, associate_prof",2.0
 2022,all,all,"lecturer, assistant_prof",1.0
+2023,all,all,all,65.0
+2023,African / African Diaspora Art,all,all,3.0
+2023,African / African Diaspora Art,unknown,all,0.0
+2023,African / African Diaspora Art,unknown,unknown,0.0
+2023,African / African Diaspora Art,unknown,assistant_prof,0.0
+2023,African / African Diaspora Art,unknown,"assistant_prof, associate_prof",0.0
+2023,African / African Diaspora Art,unknown,open_rank,0.0
+2023,African / African Diaspora Art,unknown,lecturer,0.0
+2023,African / African Diaspora Art,unknown,vap,0.0
+2023,African / African Diaspora Art,unknown,full_prof,0.0
+2023,African / African Diaspora Art,unknown,"associate_prof, full_prof",0.0
+2023,African / African Diaspora Art,unknown,associate_prof,0.0
+2023,African / African Diaspora Art,unknown,chair,0.0
+2023,African / African Diaspora Art,unknown,"vap, lecturer",0.0
+2023,African / African Diaspora Art,unknown,"vap, assistant_prof",0.0
+2023,African / African Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,African / African Diaspora Art,unknown,"lecturer, assistant_prof",0.0
+2023,African / African Diaspora Art,TRUE,all,3.0
+2023,African / African Diaspora Art,TRUE,unknown,0.0
+2023,African / African Diaspora Art,TRUE,assistant_prof,1.0
+2023,African / African Diaspora Art,TRUE,"assistant_prof, associate_prof",1.0
+2023,African / African Diaspora Art,TRUE,open_rank,0.0
+2023,African / African Diaspora Art,TRUE,lecturer,0.0
+2023,African / African Diaspora Art,TRUE,vap,0.0
+2023,African / African Diaspora Art,TRUE,full_prof,0.0
+2023,African / African Diaspora Art,TRUE,"associate_prof, full_prof",0.0
+2023,African / African Diaspora Art,TRUE,associate_prof,1.0
+2023,African / African Diaspora Art,TRUE,chair,0.0
+2023,African / African Diaspora Art,TRUE,"vap, lecturer",0.0
+2023,African / African Diaspora Art,TRUE,"vap, assistant_prof",0.0
+2023,African / African Diaspora Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,African / African Diaspora Art,TRUE,"lecturer, assistant_prof",0.0
+2023,African / African Diaspora Art,FALSE,all,0.0
+2023,African / African Diaspora Art,FALSE,unknown,0.0
+2023,African / African Diaspora Art,FALSE,assistant_prof,0.0
+2023,African / African Diaspora Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,African / African Diaspora Art,FALSE,open_rank,0.0
+2023,African / African Diaspora Art,FALSE,lecturer,0.0
+2023,African / African Diaspora Art,FALSE,vap,0.0
+2023,African / African Diaspora Art,FALSE,full_prof,0.0
+2023,African / African Diaspora Art,FALSE,"associate_prof, full_prof",0.0
+2023,African / African Diaspora Art,FALSE,associate_prof,0.0
+2023,African / African Diaspora Art,FALSE,chair,0.0
+2023,African / African Diaspora Art,FALSE,"vap, lecturer",0.0
+2023,African / African Diaspora Art,FALSE,"vap, assistant_prof",0.0
+2023,African / African Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,African / African Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
+2023,African / African Diaspora Art,all,unknown,0.0
+2023,African / African Diaspora Art,all,assistant_prof,1.0
+2023,African / African Diaspora Art,all,"assistant_prof, associate_prof",1.0
+2023,African / African Diaspora Art,all,open_rank,0.0
+2023,African / African Diaspora Art,all,lecturer,0.0
+2023,African / African Diaspora Art,all,vap,0.0
+2023,African / African Diaspora Art,all,full_prof,0.0
+2023,African / African Diaspora Art,all,"associate_prof, full_prof",0.0
+2023,African / African Diaspora Art,all,associate_prof,1.0
+2023,African / African Diaspora Art,all,chair,0.0
+2023,African / African Diaspora Art,all,"vap, lecturer",0.0
+2023,African / African Diaspora Art,all,"vap, assistant_prof",0.0
+2023,African / African Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,African / African Diaspora Art,all,"lecturer, assistant_prof",0.0
+2023,Ancient Art,all,all,2.0
+2023,Ancient Art,unknown,all,0.0
+2023,Ancient Art,unknown,unknown,0.0
+2023,Ancient Art,unknown,assistant_prof,0.0
+2023,Ancient Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Ancient Art,unknown,open_rank,0.0
+2023,Ancient Art,unknown,lecturer,0.0
+2023,Ancient Art,unknown,vap,0.0
+2023,Ancient Art,unknown,full_prof,0.0
+2023,Ancient Art,unknown,"associate_prof, full_prof",0.0
+2023,Ancient Art,unknown,associate_prof,0.0
+2023,Ancient Art,unknown,chair,0.0
+2023,Ancient Art,unknown,"vap, lecturer",0.0
+2023,Ancient Art,unknown,"vap, assistant_prof",0.0
+2023,Ancient Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Ancient Art,unknown,"lecturer, assistant_prof",0.0
+2023,Ancient Art,TRUE,all,2.0
+2023,Ancient Art,TRUE,unknown,0.0
+2023,Ancient Art,TRUE,assistant_prof,0.0
+2023,Ancient Art,TRUE,"assistant_prof, associate_prof",1.0
+2023,Ancient Art,TRUE,open_rank,0.0
+2023,Ancient Art,TRUE,lecturer,0.0
+2023,Ancient Art,TRUE,vap,0.0
+2023,Ancient Art,TRUE,full_prof,1.0
+2023,Ancient Art,TRUE,"associate_prof, full_prof",0.0
+2023,Ancient Art,TRUE,associate_prof,0.0
+2023,Ancient Art,TRUE,chair,0.0
+2023,Ancient Art,TRUE,"vap, lecturer",0.0
+2023,Ancient Art,TRUE,"vap, assistant_prof",0.0
+2023,Ancient Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Ancient Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Ancient Art,FALSE,all,0.0
+2023,Ancient Art,FALSE,unknown,0.0
+2023,Ancient Art,FALSE,assistant_prof,0.0
+2023,Ancient Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,Ancient Art,FALSE,open_rank,0.0
+2023,Ancient Art,FALSE,lecturer,0.0
+2023,Ancient Art,FALSE,vap,0.0
+2023,Ancient Art,FALSE,full_prof,0.0
+2023,Ancient Art,FALSE,"associate_prof, full_prof",0.0
+2023,Ancient Art,FALSE,associate_prof,0.0
+2023,Ancient Art,FALSE,chair,0.0
+2023,Ancient Art,FALSE,"vap, lecturer",0.0
+2023,Ancient Art,FALSE,"vap, assistant_prof",0.0
+2023,Ancient Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Ancient Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Ancient Art,all,unknown,0.0
+2023,Ancient Art,all,assistant_prof,0.0
+2023,Ancient Art,all,"assistant_prof, associate_prof",1.0
+2023,Ancient Art,all,open_rank,0.0
+2023,Ancient Art,all,lecturer,0.0
+2023,Ancient Art,all,vap,0.0
+2023,Ancient Art,all,full_prof,1.0
+2023,Ancient Art,all,"associate_prof, full_prof",0.0
+2023,Ancient Art,all,associate_prof,0.0
+2023,Ancient Art,all,chair,0.0
+2023,Ancient Art,all,"vap, lecturer",0.0
+2023,Ancient Art,all,"vap, assistant_prof",0.0
+2023,Ancient Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Ancient Art,all,"lecturer, assistant_prof",0.0
+2023,Architecture,all,all,4.5
+2023,Architecture,unknown,all,0.0
+2023,Architecture,unknown,unknown,0.0
+2023,Architecture,unknown,assistant_prof,0.0
+2023,Architecture,unknown,"assistant_prof, associate_prof",0.0
+2023,Architecture,unknown,open_rank,0.0
+2023,Architecture,unknown,lecturer,0.0
+2023,Architecture,unknown,vap,0.0
+2023,Architecture,unknown,full_prof,0.0
+2023,Architecture,unknown,"associate_prof, full_prof",0.0
+2023,Architecture,unknown,associate_prof,0.0
+2023,Architecture,unknown,chair,0.0
+2023,Architecture,unknown,"vap, lecturer",0.0
+2023,Architecture,unknown,"vap, assistant_prof",0.0
+2023,Architecture,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Architecture,unknown,"lecturer, assistant_prof",0.0
+2023,Architecture,TRUE,all,4.5
+2023,Architecture,TRUE,unknown,0.0
+2023,Architecture,TRUE,assistant_prof,4.5
+2023,Architecture,TRUE,"assistant_prof, associate_prof",0.0
+2023,Architecture,TRUE,open_rank,0.0
+2023,Architecture,TRUE,lecturer,0.0
+2023,Architecture,TRUE,vap,0.0
+2023,Architecture,TRUE,full_prof,0.0
+2023,Architecture,TRUE,"associate_prof, full_prof",0.0
+2023,Architecture,TRUE,associate_prof,0.0
+2023,Architecture,TRUE,chair,0.0
+2023,Architecture,TRUE,"vap, lecturer",0.0
+2023,Architecture,TRUE,"vap, assistant_prof",0.0
+2023,Architecture,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Architecture,TRUE,"lecturer, assistant_prof",0.0
+2023,Architecture,FALSE,all,0.0
+2023,Architecture,FALSE,unknown,0.0
+2023,Architecture,FALSE,assistant_prof,0.0
+2023,Architecture,FALSE,"assistant_prof, associate_prof",0.0
+2023,Architecture,FALSE,open_rank,0.0
+2023,Architecture,FALSE,lecturer,0.0
+2023,Architecture,FALSE,vap,0.0
+2023,Architecture,FALSE,full_prof,0.0
+2023,Architecture,FALSE,"associate_prof, full_prof",0.0
+2023,Architecture,FALSE,associate_prof,0.0
+2023,Architecture,FALSE,chair,0.0
+2023,Architecture,FALSE,"vap, lecturer",0.0
+2023,Architecture,FALSE,"vap, assistant_prof",0.0
+2023,Architecture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Architecture,FALSE,"lecturer, assistant_prof",0.0
+2023,Architecture,all,unknown,0.0
+2023,Architecture,all,assistant_prof,4.5
+2023,Architecture,all,"assistant_prof, associate_prof",0.0
+2023,Architecture,all,open_rank,0.0
+2023,Architecture,all,lecturer,0.0
+2023,Architecture,all,vap,0.0
+2023,Architecture,all,full_prof,0.0
+2023,Architecture,all,"associate_prof, full_prof",0.0
+2023,Architecture,all,associate_prof,0.0
+2023,Architecture,all,chair,0.0
+2023,Architecture,all,"vap, lecturer",0.0
+2023,Architecture,all,"vap, assistant_prof",0.0
+2023,Architecture,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Architecture,all,"lecturer, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,all,all,6.5
+2023,Asian / Asian Diaspora Art,unknown,all,0.0
+2023,Asian / Asian Diaspora Art,unknown,unknown,0.0
+2023,Asian / Asian Diaspora Art,unknown,assistant_prof,0.0
+2023,Asian / Asian Diaspora Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Asian / Asian Diaspora Art,unknown,open_rank,0.0
+2023,Asian / Asian Diaspora Art,unknown,lecturer,0.0
+2023,Asian / Asian Diaspora Art,unknown,vap,0.0
+2023,Asian / Asian Diaspora Art,unknown,full_prof,0.0
+2023,Asian / Asian Diaspora Art,unknown,"associate_prof, full_prof",0.0
+2023,Asian / Asian Diaspora Art,unknown,associate_prof,0.0
+2023,Asian / Asian Diaspora Art,unknown,chair,0.0
+2023,Asian / Asian Diaspora Art,unknown,"vap, lecturer",0.0
+2023,Asian / Asian Diaspora Art,unknown,"vap, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Asian / Asian Diaspora Art,unknown,"lecturer, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,TRUE,all,6.0
+2023,Asian / Asian Diaspora Art,TRUE,unknown,0.0
+2023,Asian / Asian Diaspora Art,TRUE,assistant_prof,5.0
+2023,Asian / Asian Diaspora Art,TRUE,"assistant_prof, associate_prof",1.0
+2023,Asian / Asian Diaspora Art,TRUE,open_rank,0.0
+2023,Asian / Asian Diaspora Art,TRUE,lecturer,0.0
+2023,Asian / Asian Diaspora Art,TRUE,vap,0.0
+2023,Asian / Asian Diaspora Art,TRUE,full_prof,0.0
+2023,Asian / Asian Diaspora Art,TRUE,"associate_prof, full_prof",0.0
+2023,Asian / Asian Diaspora Art,TRUE,associate_prof,0.0
+2023,Asian / Asian Diaspora Art,TRUE,chair,0.0
+2023,Asian / Asian Diaspora Art,TRUE,"vap, lecturer",0.0
+2023,Asian / Asian Diaspora Art,TRUE,"vap, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Asian / Asian Diaspora Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,FALSE,all,0.5
+2023,Asian / Asian Diaspora Art,FALSE,unknown,0.0
+2023,Asian / Asian Diaspora Art,FALSE,assistant_prof,0.0
+2023,Asian / Asian Diaspora Art,FALSE,"assistant_prof, associate_prof",0.5
+2023,Asian / Asian Diaspora Art,FALSE,open_rank,0.0
+2023,Asian / Asian Diaspora Art,FALSE,lecturer,0.0
+2023,Asian / Asian Diaspora Art,FALSE,vap,0.0
+2023,Asian / Asian Diaspora Art,FALSE,full_prof,0.0
+2023,Asian / Asian Diaspora Art,FALSE,"associate_prof, full_prof",0.0
+2023,Asian / Asian Diaspora Art,FALSE,associate_prof,0.0
+2023,Asian / Asian Diaspora Art,FALSE,chair,0.0
+2023,Asian / Asian Diaspora Art,FALSE,"vap, lecturer",0.0
+2023,Asian / Asian Diaspora Art,FALSE,"vap, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Asian / Asian Diaspora Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,all,unknown,0.0
+2023,Asian / Asian Diaspora Art,all,assistant_prof,5.0
+2023,Asian / Asian Diaspora Art,all,"assistant_prof, associate_prof",1.5
+2023,Asian / Asian Diaspora Art,all,open_rank,0.0
+2023,Asian / Asian Diaspora Art,all,lecturer,0.0
+2023,Asian / Asian Diaspora Art,all,vap,0.0
+2023,Asian / Asian Diaspora Art,all,full_prof,0.0
+2023,Asian / Asian Diaspora Art,all,"associate_prof, full_prof",0.0
+2023,Asian / Asian Diaspora Art,all,associate_prof,0.0
+2023,Asian / Asian Diaspora Art,all,chair,0.0
+2023,Asian / Asian Diaspora Art,all,"vap, lecturer",0.0
+2023,Asian / Asian Diaspora Art,all,"vap, assistant_prof",0.0
+2023,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Asian / Asian Diaspora Art,all,"lecturer, assistant_prof",0.0
+2023,Byzantine / Medieval Art,all,all,1.5
+2023,Byzantine / Medieval Art,unknown,all,0.0
+2023,Byzantine / Medieval Art,unknown,unknown,0.0
+2023,Byzantine / Medieval Art,unknown,assistant_prof,0.0
+2023,Byzantine / Medieval Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Byzantine / Medieval Art,unknown,open_rank,0.0
+2023,Byzantine / Medieval Art,unknown,lecturer,0.0
+2023,Byzantine / Medieval Art,unknown,vap,0.0
+2023,Byzantine / Medieval Art,unknown,full_prof,0.0
+2023,Byzantine / Medieval Art,unknown,"associate_prof, full_prof",0.0
+2023,Byzantine / Medieval Art,unknown,associate_prof,0.0
+2023,Byzantine / Medieval Art,unknown,chair,0.0
+2023,Byzantine / Medieval Art,unknown,"vap, lecturer",0.0
+2023,Byzantine / Medieval Art,unknown,"vap, assistant_prof",0.0
+2023,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Byzantine / Medieval Art,unknown,"lecturer, assistant_prof",0.0
+2023,Byzantine / Medieval Art,TRUE,all,1.5
+2023,Byzantine / Medieval Art,TRUE,unknown,0.0
+2023,Byzantine / Medieval Art,TRUE,assistant_prof,0.5
+2023,Byzantine / Medieval Art,TRUE,"assistant_prof, associate_prof",1.0
+2023,Byzantine / Medieval Art,TRUE,open_rank,0.0
+2023,Byzantine / Medieval Art,TRUE,lecturer,0.0
+2023,Byzantine / Medieval Art,TRUE,vap,0.0
+2023,Byzantine / Medieval Art,TRUE,full_prof,0.0
+2023,Byzantine / Medieval Art,TRUE,"associate_prof, full_prof",0.0
+2023,Byzantine / Medieval Art,TRUE,associate_prof,0.0
+2023,Byzantine / Medieval Art,TRUE,chair,0.0
+2023,Byzantine / Medieval Art,TRUE,"vap, lecturer",0.0
+2023,Byzantine / Medieval Art,TRUE,"vap, assistant_prof",0.0
+2023,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Byzantine / Medieval Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Byzantine / Medieval Art,FALSE,all,0.0
+2023,Byzantine / Medieval Art,FALSE,unknown,0.0
+2023,Byzantine / Medieval Art,FALSE,assistant_prof,0.0
+2023,Byzantine / Medieval Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,Byzantine / Medieval Art,FALSE,open_rank,0.0
+2023,Byzantine / Medieval Art,FALSE,lecturer,0.0
+2023,Byzantine / Medieval Art,FALSE,vap,0.0
+2023,Byzantine / Medieval Art,FALSE,full_prof,0.0
+2023,Byzantine / Medieval Art,FALSE,"associate_prof, full_prof",0.0
+2023,Byzantine / Medieval Art,FALSE,associate_prof,0.0
+2023,Byzantine / Medieval Art,FALSE,chair,0.0
+2023,Byzantine / Medieval Art,FALSE,"vap, lecturer",0.0
+2023,Byzantine / Medieval Art,FALSE,"vap, assistant_prof",0.0
+2023,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Byzantine / Medieval Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Byzantine / Medieval Art,all,unknown,0.0
+2023,Byzantine / Medieval Art,all,assistant_prof,0.5
+2023,Byzantine / Medieval Art,all,"assistant_prof, associate_prof",1.0
+2023,Byzantine / Medieval Art,all,open_rank,0.0
+2023,Byzantine / Medieval Art,all,lecturer,0.0
+2023,Byzantine / Medieval Art,all,vap,0.0
+2023,Byzantine / Medieval Art,all,full_prof,0.0
+2023,Byzantine / Medieval Art,all,"associate_prof, full_prof",0.0
+2023,Byzantine / Medieval Art,all,associate_prof,0.0
+2023,Byzantine / Medieval Art,all,chair,0.0
+2023,Byzantine / Medieval Art,all,"vap, lecturer",0.0
+2023,Byzantine / Medieval Art,all,"vap, assistant_prof",0.0
+2023,Byzantine / Medieval Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Byzantine / Medieval Art,all,"lecturer, assistant_prof",0.0
+2023,Design,all,all,1.0
+2023,Design,unknown,all,0.0
+2023,Design,unknown,unknown,0.0
+2023,Design,unknown,assistant_prof,0.0
+2023,Design,unknown,"assistant_prof, associate_prof",0.0
+2023,Design,unknown,open_rank,0.0
+2023,Design,unknown,lecturer,0.0
+2023,Design,unknown,vap,0.0
+2023,Design,unknown,full_prof,0.0
+2023,Design,unknown,"associate_prof, full_prof",0.0
+2023,Design,unknown,associate_prof,0.0
+2023,Design,unknown,chair,0.0
+2023,Design,unknown,"vap, lecturer",0.0
+2023,Design,unknown,"vap, assistant_prof",0.0
+2023,Design,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Design,unknown,"lecturer, assistant_prof",0.0
+2023,Design,TRUE,all,1.0
+2023,Design,TRUE,unknown,0.0
+2023,Design,TRUE,assistant_prof,0.0
+2023,Design,TRUE,"assistant_prof, associate_prof",0.0
+2023,Design,TRUE,open_rank,1.0
+2023,Design,TRUE,lecturer,0.0
+2023,Design,TRUE,vap,0.0
+2023,Design,TRUE,full_prof,0.0
+2023,Design,TRUE,"associate_prof, full_prof",0.0
+2023,Design,TRUE,associate_prof,0.0
+2023,Design,TRUE,chair,0.0
+2023,Design,TRUE,"vap, lecturer",0.0
+2023,Design,TRUE,"vap, assistant_prof",0.0
+2023,Design,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Design,TRUE,"lecturer, assistant_prof",0.0
+2023,Design,FALSE,all,0.0
+2023,Design,FALSE,unknown,0.0
+2023,Design,FALSE,assistant_prof,0.0
+2023,Design,FALSE,"assistant_prof, associate_prof",0.0
+2023,Design,FALSE,open_rank,0.0
+2023,Design,FALSE,lecturer,0.0
+2023,Design,FALSE,vap,0.0
+2023,Design,FALSE,full_prof,0.0
+2023,Design,FALSE,"associate_prof, full_prof",0.0
+2023,Design,FALSE,associate_prof,0.0
+2023,Design,FALSE,chair,0.0
+2023,Design,FALSE,"vap, lecturer",0.0
+2023,Design,FALSE,"vap, assistant_prof",0.0
+2023,Design,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Design,FALSE,"lecturer, assistant_prof",0.0
+2023,Design,all,unknown,0.0
+2023,Design,all,assistant_prof,0.0
+2023,Design,all,"assistant_prof, associate_prof",0.0
+2023,Design,all,open_rank,1.0
+2023,Design,all,lecturer,0.0
+2023,Design,all,vap,0.0
+2023,Design,all,full_prof,0.0
+2023,Design,all,"associate_prof, full_prof",0.0
+2023,Design,all,associate_prof,0.0
+2023,Design,all,chair,0.0
+2023,Design,all,"vap, lecturer",0.0
+2023,Design,all,"vap, assistant_prof",0.0
+2023,Design,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Design,all,"lecturer, assistant_prof",0.0
+2023,Digital Art History,all,all,0.0
+2023,Digital Art History,unknown,all,0.0
+2023,Digital Art History,unknown,unknown,0.0
+2023,Digital Art History,unknown,assistant_prof,0.0
+2023,Digital Art History,unknown,"assistant_prof, associate_prof",0.0
+2023,Digital Art History,unknown,open_rank,0.0
+2023,Digital Art History,unknown,lecturer,0.0
+2023,Digital Art History,unknown,vap,0.0
+2023,Digital Art History,unknown,full_prof,0.0
+2023,Digital Art History,unknown,"associate_prof, full_prof",0.0
+2023,Digital Art History,unknown,associate_prof,0.0
+2023,Digital Art History,unknown,chair,0.0
+2023,Digital Art History,unknown,"vap, lecturer",0.0
+2023,Digital Art History,unknown,"vap, assistant_prof",0.0
+2023,Digital Art History,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Digital Art History,unknown,"lecturer, assistant_prof",0.0
+2023,Digital Art History,TRUE,all,0.0
+2023,Digital Art History,TRUE,unknown,0.0
+2023,Digital Art History,TRUE,assistant_prof,0.0
+2023,Digital Art History,TRUE,"assistant_prof, associate_prof",0.0
+2023,Digital Art History,TRUE,open_rank,0.0
+2023,Digital Art History,TRUE,lecturer,0.0
+2023,Digital Art History,TRUE,vap,0.0
+2023,Digital Art History,TRUE,full_prof,0.0
+2023,Digital Art History,TRUE,"associate_prof, full_prof",0.0
+2023,Digital Art History,TRUE,associate_prof,0.0
+2023,Digital Art History,TRUE,chair,0.0
+2023,Digital Art History,TRUE,"vap, lecturer",0.0
+2023,Digital Art History,TRUE,"vap, assistant_prof",0.0
+2023,Digital Art History,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Digital Art History,TRUE,"lecturer, assistant_prof",0.0
+2023,Digital Art History,FALSE,all,0.0
+2023,Digital Art History,FALSE,unknown,0.0
+2023,Digital Art History,FALSE,assistant_prof,0.0
+2023,Digital Art History,FALSE,"assistant_prof, associate_prof",0.0
+2023,Digital Art History,FALSE,open_rank,0.0
+2023,Digital Art History,FALSE,lecturer,0.0
+2023,Digital Art History,FALSE,vap,0.0
+2023,Digital Art History,FALSE,full_prof,0.0
+2023,Digital Art History,FALSE,"associate_prof, full_prof",0.0
+2023,Digital Art History,FALSE,associate_prof,0.0
+2023,Digital Art History,FALSE,chair,0.0
+2023,Digital Art History,FALSE,"vap, lecturer",0.0
+2023,Digital Art History,FALSE,"vap, assistant_prof",0.0
+2023,Digital Art History,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Digital Art History,FALSE,"lecturer, assistant_prof",0.0
+2023,Digital Art History,all,unknown,0.0
+2023,Digital Art History,all,assistant_prof,0.0
+2023,Digital Art History,all,"assistant_prof, associate_prof",0.0
+2023,Digital Art History,all,open_rank,0.0
+2023,Digital Art History,all,lecturer,0.0
+2023,Digital Art History,all,vap,0.0
+2023,Digital Art History,all,full_prof,0.0
+2023,Digital Art History,all,"associate_prof, full_prof",0.0
+2023,Digital Art History,all,associate_prof,0.0
+2023,Digital Art History,all,chair,0.0
+2023,Digital Art History,all,"vap, lecturer",0.0
+2023,Digital Art History,all,"vap, assistant_prof",0.0
+2023,Digital Art History,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Digital Art History,all,"lecturer, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,all,7.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,all,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,unknown,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,assistant_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,open_rank,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,lecturer,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,vap,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,full_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"associate_prof, full_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,associate_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,chair,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"vap, lecturer",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"vap, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,unknown,"lecturer, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,all,5.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,unknown,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,assistant_prof,3.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"assistant_prof, associate_prof",1.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,open_rank,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,lecturer,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,vap,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,full_prof,1.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"associate_prof, full_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,associate_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,chair,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"vap, lecturer",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"vap, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,all,2.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,unknown,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,assistant_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,open_rank,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,lecturer,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,vap,2.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,full_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"associate_prof, full_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,associate_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,chair,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"vap, lecturer",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"vap, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,unknown,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,assistant_prof,3.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"assistant_prof, associate_prof",1.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,open_rank,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,lecturer,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,vap,2.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,full_prof,1.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"associate_prof, full_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,associate_prof,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,chair,0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, lecturer",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"vap, assistant_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Early Modern / Renaissance / Eighteenth & Nineteenth Century Art,all,"lecturer, assistant_prof",0.0
+2023,General / Open,all,all,12.0
+2023,General / Open,unknown,all,2.0
+2023,General / Open,unknown,unknown,0.0
+2023,General / Open,unknown,assistant_prof,0.0
+2023,General / Open,unknown,"assistant_prof, associate_prof",0.0
+2023,General / Open,unknown,open_rank,0.0
+2023,General / Open,unknown,lecturer,0.0
+2023,General / Open,unknown,vap,0.0
+2023,General / Open,unknown,full_prof,0.0
+2023,General / Open,unknown,"associate_prof, full_prof",0.0
+2023,General / Open,unknown,associate_prof,0.0
+2023,General / Open,unknown,chair,1.0
+2023,General / Open,unknown,"vap, lecturer",0.0
+2023,General / Open,unknown,"vap, assistant_prof",0.0
+2023,General / Open,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,General / Open,unknown,"lecturer, assistant_prof",1.0
+2023,General / Open,TRUE,all,9.0
+2023,General / Open,TRUE,unknown,0.0
+2023,General / Open,TRUE,assistant_prof,7.0
+2023,General / Open,TRUE,"assistant_prof, associate_prof",1.0
+2023,General / Open,TRUE,open_rank,0.0
+2023,General / Open,TRUE,lecturer,0.0
+2023,General / Open,TRUE,vap,0.0
+2023,General / Open,TRUE,full_prof,1.0
+2023,General / Open,TRUE,"associate_prof, full_prof",0.0
+2023,General / Open,TRUE,associate_prof,0.0
+2023,General / Open,TRUE,chair,0.0
+2023,General / Open,TRUE,"vap, lecturer",0.0
+2023,General / Open,TRUE,"vap, assistant_prof",0.0
+2023,General / Open,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,General / Open,TRUE,"lecturer, assistant_prof",0.0
+2023,General / Open,FALSE,all,1.0
+2023,General / Open,FALSE,unknown,0.0
+2023,General / Open,FALSE,assistant_prof,0.0
+2023,General / Open,FALSE,"assistant_prof, associate_prof",0.0
+2023,General / Open,FALSE,open_rank,0.0
+2023,General / Open,FALSE,lecturer,1.0
+2023,General / Open,FALSE,vap,0.0
+2023,General / Open,FALSE,full_prof,0.0
+2023,General / Open,FALSE,"associate_prof, full_prof",0.0
+2023,General / Open,FALSE,associate_prof,0.0
+2023,General / Open,FALSE,chair,0.0
+2023,General / Open,FALSE,"vap, lecturer",0.0
+2023,General / Open,FALSE,"vap, assistant_prof",0.0
+2023,General / Open,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,General / Open,FALSE,"lecturer, assistant_prof",0.0
+2023,General / Open,all,unknown,0.0
+2023,General / Open,all,assistant_prof,7.0
+2023,General / Open,all,"assistant_prof, associate_prof",1.0
+2023,General / Open,all,open_rank,0.0
+2023,General / Open,all,lecturer,1.0
+2023,General / Open,all,vap,0.0
+2023,General / Open,all,full_prof,1.0
+2023,General / Open,all,"associate_prof, full_prof",0.0
+2023,General / Open,all,associate_prof,0.0
+2023,General / Open,all,chair,1.0
+2023,General / Open,all,"vap, lecturer",0.0
+2023,General / Open,all,"vap, assistant_prof",0.0
+2023,General / Open,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,General / Open,all,"lecturer, assistant_prof",1.0
+2023,Global / Non-Western Art,all,all,5.5
+2023,Global / Non-Western Art,unknown,all,1.0
+2023,Global / Non-Western Art,unknown,unknown,0.0
+2023,Global / Non-Western Art,unknown,assistant_prof,1.0
+2023,Global / Non-Western Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Global / Non-Western Art,unknown,open_rank,0.0
+2023,Global / Non-Western Art,unknown,lecturer,0.0
+2023,Global / Non-Western Art,unknown,vap,0.0
+2023,Global / Non-Western Art,unknown,full_prof,0.0
+2023,Global / Non-Western Art,unknown,"associate_prof, full_prof",0.0
+2023,Global / Non-Western Art,unknown,associate_prof,0.0
+2023,Global / Non-Western Art,unknown,chair,0.0
+2023,Global / Non-Western Art,unknown,"vap, lecturer",0.0
+2023,Global / Non-Western Art,unknown,"vap, assistant_prof",0.0
+2023,Global / Non-Western Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Global / Non-Western Art,unknown,"lecturer, assistant_prof",0.0
+2023,Global / Non-Western Art,TRUE,all,4.5
+2023,Global / Non-Western Art,TRUE,unknown,0.0
+2023,Global / Non-Western Art,TRUE,assistant_prof,3.5
+2023,Global / Non-Western Art,TRUE,"assistant_prof, associate_prof",1.0
+2023,Global / Non-Western Art,TRUE,open_rank,0.0
+2023,Global / Non-Western Art,TRUE,lecturer,0.0
+2023,Global / Non-Western Art,TRUE,vap,0.0
+2023,Global / Non-Western Art,TRUE,full_prof,0.0
+2023,Global / Non-Western Art,TRUE,"associate_prof, full_prof",0.0
+2023,Global / Non-Western Art,TRUE,associate_prof,0.0
+2023,Global / Non-Western Art,TRUE,chair,0.0
+2023,Global / Non-Western Art,TRUE,"vap, lecturer",0.0
+2023,Global / Non-Western Art,TRUE,"vap, assistant_prof",0.0
+2023,Global / Non-Western Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Global / Non-Western Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Global / Non-Western Art,FALSE,all,0.0
+2023,Global / Non-Western Art,FALSE,unknown,0.0
+2023,Global / Non-Western Art,FALSE,assistant_prof,0.0
+2023,Global / Non-Western Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,Global / Non-Western Art,FALSE,open_rank,0.0
+2023,Global / Non-Western Art,FALSE,lecturer,0.0
+2023,Global / Non-Western Art,FALSE,vap,0.0
+2023,Global / Non-Western Art,FALSE,full_prof,0.0
+2023,Global / Non-Western Art,FALSE,"associate_prof, full_prof",0.0
+2023,Global / Non-Western Art,FALSE,associate_prof,0.0
+2023,Global / Non-Western Art,FALSE,chair,0.0
+2023,Global / Non-Western Art,FALSE,"vap, lecturer",0.0
+2023,Global / Non-Western Art,FALSE,"vap, assistant_prof",0.0
+2023,Global / Non-Western Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Global / Non-Western Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Global / Non-Western Art,all,unknown,0.0
+2023,Global / Non-Western Art,all,assistant_prof,4.5
+2023,Global / Non-Western Art,all,"assistant_prof, associate_prof",1.0
+2023,Global / Non-Western Art,all,open_rank,0.0
+2023,Global / Non-Western Art,all,lecturer,0.0
+2023,Global / Non-Western Art,all,vap,0.0
+2023,Global / Non-Western Art,all,full_prof,0.0
+2023,Global / Non-Western Art,all,"associate_prof, full_prof",0.0
+2023,Global / Non-Western Art,all,associate_prof,0.0
+2023,Global / Non-Western Art,all,chair,0.0
+2023,Global / Non-Western Art,all,"vap, lecturer",0.0
+2023,Global / Non-Western Art,all,"vap, assistant_prof",0.0
+2023,Global / Non-Western Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Global / Non-Western Art,all,"lecturer, assistant_prof",0.0
+2023,Latin American Art,all,all,1.0
+2023,Latin American Art,unknown,all,0.0
+2023,Latin American Art,unknown,unknown,0.0
+2023,Latin American Art,unknown,assistant_prof,0.0
+2023,Latin American Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Latin American Art,unknown,open_rank,0.0
+2023,Latin American Art,unknown,lecturer,0.0
+2023,Latin American Art,unknown,vap,0.0
+2023,Latin American Art,unknown,full_prof,0.0
+2023,Latin American Art,unknown,"associate_prof, full_prof",0.0
+2023,Latin American Art,unknown,associate_prof,0.0
+2023,Latin American Art,unknown,chair,0.0
+2023,Latin American Art,unknown,"vap, lecturer",0.0
+2023,Latin American Art,unknown,"vap, assistant_prof",0.0
+2023,Latin American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Latin American Art,unknown,"lecturer, assistant_prof",0.0
+2023,Latin American Art,TRUE,all,1.0
+2023,Latin American Art,TRUE,unknown,0.0
+2023,Latin American Art,TRUE,assistant_prof,1.0
+2023,Latin American Art,TRUE,"assistant_prof, associate_prof",0.0
+2023,Latin American Art,TRUE,open_rank,0.0
+2023,Latin American Art,TRUE,lecturer,0.0
+2023,Latin American Art,TRUE,vap,0.0
+2023,Latin American Art,TRUE,full_prof,0.0
+2023,Latin American Art,TRUE,"associate_prof, full_prof",0.0
+2023,Latin American Art,TRUE,associate_prof,0.0
+2023,Latin American Art,TRUE,chair,0.0
+2023,Latin American Art,TRUE,"vap, lecturer",0.0
+2023,Latin American Art,TRUE,"vap, assistant_prof",0.0
+2023,Latin American Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Latin American Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Latin American Art,FALSE,all,0.0
+2023,Latin American Art,FALSE,unknown,0.0
+2023,Latin American Art,FALSE,assistant_prof,0.0
+2023,Latin American Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,Latin American Art,FALSE,open_rank,0.0
+2023,Latin American Art,FALSE,lecturer,0.0
+2023,Latin American Art,FALSE,vap,0.0
+2023,Latin American Art,FALSE,full_prof,0.0
+2023,Latin American Art,FALSE,"associate_prof, full_prof",0.0
+2023,Latin American Art,FALSE,associate_prof,0.0
+2023,Latin American Art,FALSE,chair,0.0
+2023,Latin American Art,FALSE,"vap, lecturer",0.0
+2023,Latin American Art,FALSE,"vap, assistant_prof",0.0
+2023,Latin American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Latin American Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Latin American Art,all,unknown,0.0
+2023,Latin American Art,all,assistant_prof,1.0
+2023,Latin American Art,all,"assistant_prof, associate_prof",0.0
+2023,Latin American Art,all,open_rank,0.0
+2023,Latin American Art,all,lecturer,0.0
+2023,Latin American Art,all,vap,0.0
+2023,Latin American Art,all,full_prof,0.0
+2023,Latin American Art,all,"associate_prof, full_prof",0.0
+2023,Latin American Art,all,associate_prof,0.0
+2023,Latin American Art,all,chair,0.0
+2023,Latin American Art,all,"vap, lecturer",0.0
+2023,Latin American Art,all,"vap, assistant_prof",0.0
+2023,Latin American Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Latin American Art,all,"lecturer, assistant_prof",0.0
+2023,Modern / Contemporary Art,all,all,7.5
+2023,Modern / Contemporary Art,unknown,all,0.0
+2023,Modern / Contemporary Art,unknown,unknown,0.0
+2023,Modern / Contemporary Art,unknown,assistant_prof,0.0
+2023,Modern / Contemporary Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Modern / Contemporary Art,unknown,open_rank,0.0
+2023,Modern / Contemporary Art,unknown,lecturer,0.0
+2023,Modern / Contemporary Art,unknown,vap,0.0
+2023,Modern / Contemporary Art,unknown,full_prof,0.0
+2023,Modern / Contemporary Art,unknown,"associate_prof, full_prof",0.0
+2023,Modern / Contemporary Art,unknown,associate_prof,0.0
+2023,Modern / Contemporary Art,unknown,chair,0.0
+2023,Modern / Contemporary Art,unknown,"vap, lecturer",0.0
+2023,Modern / Contemporary Art,unknown,"vap, assistant_prof",0.0
+2023,Modern / Contemporary Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Modern / Contemporary Art,unknown,"lecturer, assistant_prof",0.0
+2023,Modern / Contemporary Art,TRUE,all,6.0
+2023,Modern / Contemporary Art,TRUE,unknown,0.0
+2023,Modern / Contemporary Art,TRUE,assistant_prof,6.0
+2023,Modern / Contemporary Art,TRUE,"assistant_prof, associate_prof",0.0
+2023,Modern / Contemporary Art,TRUE,open_rank,0.0
+2023,Modern / Contemporary Art,TRUE,lecturer,0.0
+2023,Modern / Contemporary Art,TRUE,vap,0.0
+2023,Modern / Contemporary Art,TRUE,full_prof,0.0
+2023,Modern / Contemporary Art,TRUE,"associate_prof, full_prof",0.0
+2023,Modern / Contemporary Art,TRUE,associate_prof,0.0
+2023,Modern / Contemporary Art,TRUE,chair,0.0
+2023,Modern / Contemporary Art,TRUE,"vap, lecturer",0.0
+2023,Modern / Contemporary Art,TRUE,"vap, assistant_prof",0.0
+2023,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Modern / Contemporary Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Modern / Contemporary Art,FALSE,all,1.5
+2023,Modern / Contemporary Art,FALSE,unknown,0.0
+2023,Modern / Contemporary Art,FALSE,assistant_prof,0.0
+2023,Modern / Contemporary Art,FALSE,"assistant_prof, associate_prof",0.5
+2023,Modern / Contemporary Art,FALSE,open_rank,0.0
+2023,Modern / Contemporary Art,FALSE,lecturer,0.0
+2023,Modern / Contemporary Art,FALSE,vap,1.0
+2023,Modern / Contemporary Art,FALSE,full_prof,0.0
+2023,Modern / Contemporary Art,FALSE,"associate_prof, full_prof",0.0
+2023,Modern / Contemporary Art,FALSE,associate_prof,0.0
+2023,Modern / Contemporary Art,FALSE,chair,0.0
+2023,Modern / Contemporary Art,FALSE,"vap, lecturer",0.0
+2023,Modern / Contemporary Art,FALSE,"vap, assistant_prof",0.0
+2023,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Modern / Contemporary Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Modern / Contemporary Art,all,unknown,0.0
+2023,Modern / Contemporary Art,all,assistant_prof,6.0
+2023,Modern / Contemporary Art,all,"assistant_prof, associate_prof",0.5
+2023,Modern / Contemporary Art,all,open_rank,0.0
+2023,Modern / Contemporary Art,all,lecturer,0.0
+2023,Modern / Contemporary Art,all,vap,1.0
+2023,Modern / Contemporary Art,all,full_prof,0.0
+2023,Modern / Contemporary Art,all,"associate_prof, full_prof",0.0
+2023,Modern / Contemporary Art,all,associate_prof,0.0
+2023,Modern / Contemporary Art,all,chair,0.0
+2023,Modern / Contemporary Art,all,"vap, lecturer",0.0
+2023,Modern / Contemporary Art,all,"vap, assistant_prof",0.0
+2023,Modern / Contemporary Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Modern / Contemporary Art,all,"lecturer, assistant_prof",0.0
+2023,North American Art,all,all,5.0
+2023,North American Art,unknown,all,0.0
+2023,North American Art,unknown,unknown,0.0
+2023,North American Art,unknown,assistant_prof,0.0
+2023,North American Art,unknown,"assistant_prof, associate_prof",0.0
+2023,North American Art,unknown,open_rank,0.0
+2023,North American Art,unknown,lecturer,0.0
+2023,North American Art,unknown,vap,0.0
+2023,North American Art,unknown,full_prof,0.0
+2023,North American Art,unknown,"associate_prof, full_prof",0.0
+2023,North American Art,unknown,associate_prof,0.0
+2023,North American Art,unknown,chair,0.0
+2023,North American Art,unknown,"vap, lecturer",0.0
+2023,North American Art,unknown,"vap, assistant_prof",0.0
+2023,North American Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,North American Art,unknown,"lecturer, assistant_prof",0.0
+2023,North American Art,TRUE,all,5.0
+2023,North American Art,TRUE,unknown,0.0
+2023,North American Art,TRUE,assistant_prof,2.0
+2023,North American Art,TRUE,"assistant_prof, associate_prof",2.0
+2023,North American Art,TRUE,open_rank,0.0
+2023,North American Art,TRUE,lecturer,0.0
+2023,North American Art,TRUE,vap,0.0
+2023,North American Art,TRUE,full_prof,0.0
+2023,North American Art,TRUE,"associate_prof, full_prof",1.0
+2023,North American Art,TRUE,associate_prof,0.0
+2023,North American Art,TRUE,chair,0.0
+2023,North American Art,TRUE,"vap, lecturer",0.0
+2023,North American Art,TRUE,"vap, assistant_prof",0.0
+2023,North American Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,North American Art,TRUE,"lecturer, assistant_prof",0.0
+2023,North American Art,FALSE,all,0.0
+2023,North American Art,FALSE,unknown,0.0
+2023,North American Art,FALSE,assistant_prof,0.0
+2023,North American Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,North American Art,FALSE,open_rank,0.0
+2023,North American Art,FALSE,lecturer,0.0
+2023,North American Art,FALSE,vap,0.0
+2023,North American Art,FALSE,full_prof,0.0
+2023,North American Art,FALSE,"associate_prof, full_prof",0.0
+2023,North American Art,FALSE,associate_prof,0.0
+2023,North American Art,FALSE,chair,0.0
+2023,North American Art,FALSE,"vap, lecturer",0.0
+2023,North American Art,FALSE,"vap, assistant_prof",0.0
+2023,North American Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,North American Art,FALSE,"lecturer, assistant_prof",0.0
+2023,North American Art,all,unknown,0.0
+2023,North American Art,all,assistant_prof,2.0
+2023,North American Art,all,"assistant_prof, associate_prof",2.0
+2023,North American Art,all,open_rank,0.0
+2023,North American Art,all,lecturer,0.0
+2023,North American Art,all,vap,0.0
+2023,North American Art,all,full_prof,0.0
+2023,North American Art,all,"associate_prof, full_prof",1.0
+2023,North American Art,all,associate_prof,0.0
+2023,North American Art,all,chair,0.0
+2023,North American Art,all,"vap, lecturer",0.0
+2023,North American Art,all,"vap, assistant_prof",0.0
+2023,North American Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,North American Art,all,"lecturer, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,all,all,1.5
+2023,Visual Studies / Visual Culture,unknown,all,0.0
+2023,Visual Studies / Visual Culture,unknown,unknown,0.0
+2023,Visual Studies / Visual Culture,unknown,assistant_prof,0.0
+2023,Visual Studies / Visual Culture,unknown,"assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,unknown,open_rank,0.0
+2023,Visual Studies / Visual Culture,unknown,lecturer,0.0
+2023,Visual Studies / Visual Culture,unknown,vap,0.0
+2023,Visual Studies / Visual Culture,unknown,full_prof,0.0
+2023,Visual Studies / Visual Culture,unknown,"associate_prof, full_prof",0.0
+2023,Visual Studies / Visual Culture,unknown,associate_prof,0.0
+2023,Visual Studies / Visual Culture,unknown,chair,0.0
+2023,Visual Studies / Visual Culture,unknown,"vap, lecturer",0.0
+2023,Visual Studies / Visual Culture,unknown,"vap, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,unknown,"lecturer, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,TRUE,all,1.5
+2023,Visual Studies / Visual Culture,TRUE,unknown,0.0
+2023,Visual Studies / Visual Culture,TRUE,assistant_prof,1.5
+2023,Visual Studies / Visual Culture,TRUE,"assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,TRUE,open_rank,0.0
+2023,Visual Studies / Visual Culture,TRUE,lecturer,0.0
+2023,Visual Studies / Visual Culture,TRUE,vap,0.0
+2023,Visual Studies / Visual Culture,TRUE,full_prof,0.0
+2023,Visual Studies / Visual Culture,TRUE,"associate_prof, full_prof",0.0
+2023,Visual Studies / Visual Culture,TRUE,associate_prof,0.0
+2023,Visual Studies / Visual Culture,TRUE,chair,0.0
+2023,Visual Studies / Visual Culture,TRUE,"vap, lecturer",0.0
+2023,Visual Studies / Visual Culture,TRUE,"vap, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,TRUE,"lecturer, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,FALSE,all,0.0
+2023,Visual Studies / Visual Culture,FALSE,unknown,0.0
+2023,Visual Studies / Visual Culture,FALSE,assistant_prof,0.0
+2023,Visual Studies / Visual Culture,FALSE,"assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,FALSE,open_rank,0.0
+2023,Visual Studies / Visual Culture,FALSE,lecturer,0.0
+2023,Visual Studies / Visual Culture,FALSE,vap,0.0
+2023,Visual Studies / Visual Culture,FALSE,full_prof,0.0
+2023,Visual Studies / Visual Culture,FALSE,"associate_prof, full_prof",0.0
+2023,Visual Studies / Visual Culture,FALSE,associate_prof,0.0
+2023,Visual Studies / Visual Culture,FALSE,chair,0.0
+2023,Visual Studies / Visual Culture,FALSE,"vap, lecturer",0.0
+2023,Visual Studies / Visual Culture,FALSE,"vap, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,FALSE,"lecturer, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,all,unknown,0.0
+2023,Visual Studies / Visual Culture,all,assistant_prof,1.5
+2023,Visual Studies / Visual Culture,all,"assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,all,open_rank,0.0
+2023,Visual Studies / Visual Culture,all,lecturer,0.0
+2023,Visual Studies / Visual Culture,all,vap,0.0
+2023,Visual Studies / Visual Culture,all,full_prof,0.0
+2023,Visual Studies / Visual Culture,all,"associate_prof, full_prof",0.0
+2023,Visual Studies / Visual Culture,all,associate_prof,0.0
+2023,Visual Studies / Visual Culture,all,chair,0.0
+2023,Visual Studies / Visual Culture,all,"vap, lecturer",0.0
+2023,Visual Studies / Visual Culture,all,"vap, assistant_prof",0.0
+2023,Visual Studies / Visual Culture,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Visual Studies / Visual Culture,all,"lecturer, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,all,all,1.5
+2023,Middle Eastern / Islamic Art,unknown,all,0.0
+2023,Middle Eastern / Islamic Art,unknown,unknown,0.0
+2023,Middle Eastern / Islamic Art,unknown,assistant_prof,0.0
+2023,Middle Eastern / Islamic Art,unknown,"assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,unknown,open_rank,0.0
+2023,Middle Eastern / Islamic Art,unknown,lecturer,0.0
+2023,Middle Eastern / Islamic Art,unknown,vap,0.0
+2023,Middle Eastern / Islamic Art,unknown,full_prof,0.0
+2023,Middle Eastern / Islamic Art,unknown,"associate_prof, full_prof",0.0
+2023,Middle Eastern / Islamic Art,unknown,associate_prof,0.0
+2023,Middle Eastern / Islamic Art,unknown,chair,0.0
+2023,Middle Eastern / Islamic Art,unknown,"vap, lecturer",0.0
+2023,Middle Eastern / Islamic Art,unknown,"vap, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,unknown,"lecturer, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,TRUE,all,1.5
+2023,Middle Eastern / Islamic Art,TRUE,unknown,0.0
+2023,Middle Eastern / Islamic Art,TRUE,assistant_prof,1.5
+2023,Middle Eastern / Islamic Art,TRUE,"assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,TRUE,open_rank,0.0
+2023,Middle Eastern / Islamic Art,TRUE,lecturer,0.0
+2023,Middle Eastern / Islamic Art,TRUE,vap,0.0
+2023,Middle Eastern / Islamic Art,TRUE,full_prof,0.0
+2023,Middle Eastern / Islamic Art,TRUE,"associate_prof, full_prof",0.0
+2023,Middle Eastern / Islamic Art,TRUE,associate_prof,0.0
+2023,Middle Eastern / Islamic Art,TRUE,chair,0.0
+2023,Middle Eastern / Islamic Art,TRUE,"vap, lecturer",0.0
+2023,Middle Eastern / Islamic Art,TRUE,"vap, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,TRUE,"lecturer, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,FALSE,all,0.0
+2023,Middle Eastern / Islamic Art,FALSE,unknown,0.0
+2023,Middle Eastern / Islamic Art,FALSE,assistant_prof,0.0
+2023,Middle Eastern / Islamic Art,FALSE,"assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,FALSE,open_rank,0.0
+2023,Middle Eastern / Islamic Art,FALSE,lecturer,0.0
+2023,Middle Eastern / Islamic Art,FALSE,vap,0.0
+2023,Middle Eastern / Islamic Art,FALSE,full_prof,0.0
+2023,Middle Eastern / Islamic Art,FALSE,"associate_prof, full_prof",0.0
+2023,Middle Eastern / Islamic Art,FALSE,associate_prof,0.0
+2023,Middle Eastern / Islamic Art,FALSE,chair,0.0
+2023,Middle Eastern / Islamic Art,FALSE,"vap, lecturer",0.0
+2023,Middle Eastern / Islamic Art,FALSE,"vap, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,FALSE,"lecturer, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,all,unknown,0.0
+2023,Middle Eastern / Islamic Art,all,assistant_prof,1.5
+2023,Middle Eastern / Islamic Art,all,"assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,all,open_rank,0.0
+2023,Middle Eastern / Islamic Art,all,lecturer,0.0
+2023,Middle Eastern / Islamic Art,all,vap,0.0
+2023,Middle Eastern / Islamic Art,all,full_prof,0.0
+2023,Middle Eastern / Islamic Art,all,"associate_prof, full_prof",0.0
+2023,Middle Eastern / Islamic Art,all,associate_prof,0.0
+2023,Middle Eastern / Islamic Art,all,chair,0.0
+2023,Middle Eastern / Islamic Art,all,"vap, lecturer",0.0
+2023,Middle Eastern / Islamic Art,all,"vap, assistant_prof",0.0
+2023,Middle Eastern / Islamic Art,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Middle Eastern / Islamic Art,all,"lecturer, assistant_prof",0.0
+2023,Film / Photography,all,all,2.0
+2023,Film / Photography,unknown,all,0.0
+2023,Film / Photography,unknown,unknown,0.0
+2023,Film / Photography,unknown,assistant_prof,0.0
+2023,Film / Photography,unknown,"assistant_prof, associate_prof",0.0
+2023,Film / Photography,unknown,open_rank,0.0
+2023,Film / Photography,unknown,lecturer,0.0
+2023,Film / Photography,unknown,vap,0.0
+2023,Film / Photography,unknown,full_prof,0.0
+2023,Film / Photography,unknown,"associate_prof, full_prof",0.0
+2023,Film / Photography,unknown,associate_prof,0.0
+2023,Film / Photography,unknown,chair,0.0
+2023,Film / Photography,unknown,"vap, lecturer",0.0
+2023,Film / Photography,unknown,"vap, assistant_prof",0.0
+2023,Film / Photography,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Film / Photography,unknown,"lecturer, assistant_prof",0.0
+2023,Film / Photography,TRUE,all,1.0
+2023,Film / Photography,TRUE,unknown,0.0
+2023,Film / Photography,TRUE,assistant_prof,1.0
+2023,Film / Photography,TRUE,"assistant_prof, associate_prof",0.0
+2023,Film / Photography,TRUE,open_rank,0.0
+2023,Film / Photography,TRUE,lecturer,0.0
+2023,Film / Photography,TRUE,vap,0.0
+2023,Film / Photography,TRUE,full_prof,0.0
+2023,Film / Photography,TRUE,"associate_prof, full_prof",0.0
+2023,Film / Photography,TRUE,associate_prof,0.0
+2023,Film / Photography,TRUE,chair,0.0
+2023,Film / Photography,TRUE,"vap, lecturer",0.0
+2023,Film / Photography,TRUE,"vap, assistant_prof",0.0
+2023,Film / Photography,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Film / Photography,TRUE,"lecturer, assistant_prof",0.0
+2023,Film / Photography,FALSE,all,1.0
+2023,Film / Photography,FALSE,unknown,0.0
+2023,Film / Photography,FALSE,assistant_prof,0.0
+2023,Film / Photography,FALSE,"assistant_prof, associate_prof",0.0
+2023,Film / Photography,FALSE,open_rank,0.0
+2023,Film / Photography,FALSE,lecturer,0.0
+2023,Film / Photography,FALSE,vap,1.0
+2023,Film / Photography,FALSE,full_prof,0.0
+2023,Film / Photography,FALSE,"associate_prof, full_prof",0.0
+2023,Film / Photography,FALSE,associate_prof,0.0
+2023,Film / Photography,FALSE,chair,0.0
+2023,Film / Photography,FALSE,"vap, lecturer",0.0
+2023,Film / Photography,FALSE,"vap, assistant_prof",0.0
+2023,Film / Photography,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Film / Photography,FALSE,"lecturer, assistant_prof",0.0
+2023,Film / Photography,all,unknown,0.0
+2023,Film / Photography,all,assistant_prof,1.0
+2023,Film / Photography,all,"assistant_prof, associate_prof",0.0
+2023,Film / Photography,all,open_rank,0.0
+2023,Film / Photography,all,lecturer,0.0
+2023,Film / Photography,all,vap,1.0
+2023,Film / Photography,all,full_prof,0.0
+2023,Film / Photography,all,"associate_prof, full_prof",0.0
+2023,Film / Photography,all,associate_prof,0.0
+2023,Film / Photography,all,chair,0.0
+2023,Film / Photography,all,"vap, lecturer",0.0
+2023,Film / Photography,all,"vap, assistant_prof",0.0
+2023,Film / Photography,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Film / Photography,all,"lecturer, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,all,all,3.0
+2023,Curatorial Studies / Arts Administration,unknown,all,0.0
+2023,Curatorial Studies / Arts Administration,unknown,unknown,0.0
+2023,Curatorial Studies / Arts Administration,unknown,assistant_prof,0.0
+2023,Curatorial Studies / Arts Administration,unknown,"assistant_prof, associate_prof",0.0
+2023,Curatorial Studies / Arts Administration,unknown,open_rank,0.0
+2023,Curatorial Studies / Arts Administration,unknown,lecturer,0.0
+2023,Curatorial Studies / Arts Administration,unknown,vap,0.0
+2023,Curatorial Studies / Arts Administration,unknown,full_prof,0.0
+2023,Curatorial Studies / Arts Administration,unknown,"associate_prof, full_prof",0.0
+2023,Curatorial Studies / Arts Administration,unknown,associate_prof,0.0
+2023,Curatorial Studies / Arts Administration,unknown,chair,0.0
+2023,Curatorial Studies / Arts Administration,unknown,"vap, lecturer",0.0
+2023,Curatorial Studies / Arts Administration,unknown,"vap, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Curatorial Studies / Arts Administration,unknown,"lecturer, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,TRUE,all,1.0
+2023,Curatorial Studies / Arts Administration,TRUE,unknown,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,assistant_prof,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,"assistant_prof, associate_prof",1.0
+2023,Curatorial Studies / Arts Administration,TRUE,open_rank,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,lecturer,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,vap,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,full_prof,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,"associate_prof, full_prof",0.0
+2023,Curatorial Studies / Arts Administration,TRUE,associate_prof,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,chair,0.0
+2023,Curatorial Studies / Arts Administration,TRUE,"vap, lecturer",0.0
+2023,Curatorial Studies / Arts Administration,TRUE,"vap, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Curatorial Studies / Arts Administration,TRUE,"lecturer, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,FALSE,all,2.0
+2023,Curatorial Studies / Arts Administration,FALSE,unknown,0.0
+2023,Curatorial Studies / Arts Administration,FALSE,assistant_prof,0.0
+2023,Curatorial Studies / Arts Administration,FALSE,"assistant_prof, associate_prof",0.0
+2023,Curatorial Studies / Arts Administration,FALSE,open_rank,0.0
+2023,Curatorial Studies / Arts Administration,FALSE,lecturer,1.0
+2023,Curatorial Studies / Arts Administration,FALSE,vap,1.0
+2023,Curatorial Studies / Arts Administration,FALSE,full_prof,0.0
+2023,Curatorial Studies / Arts Administration,FALSE,"associate_prof, full_prof",0.0
+2023,Curatorial Studies / Arts Administration,FALSE,associate_prof,0.0
+2023,Curatorial Studies / Arts Administration,FALSE,chair,0.0
+2023,Curatorial Studies / Arts Administration,FALSE,"vap, lecturer",0.0
+2023,Curatorial Studies / Arts Administration,FALSE,"vap, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Curatorial Studies / Arts Administration,FALSE,"lecturer, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,all,unknown,0.0
+2023,Curatorial Studies / Arts Administration,all,assistant_prof,0.0
+2023,Curatorial Studies / Arts Administration,all,"assistant_prof, associate_prof",1.0
+2023,Curatorial Studies / Arts Administration,all,open_rank,0.0
+2023,Curatorial Studies / Arts Administration,all,lecturer,1.0
+2023,Curatorial Studies / Arts Administration,all,vap,1.0
+2023,Curatorial Studies / Arts Administration,all,full_prof,0.0
+2023,Curatorial Studies / Arts Administration,all,"associate_prof, full_prof",0.0
+2023,Curatorial Studies / Arts Administration,all,associate_prof,0.0
+2023,Curatorial Studies / Arts Administration,all,chair,0.0
+2023,Curatorial Studies / Arts Administration,all,"vap, lecturer",0.0
+2023,Curatorial Studies / Arts Administration,all,"vap, assistant_prof",0.0
+2023,Curatorial Studies / Arts Administration,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Curatorial Studies / Arts Administration,all,"lecturer, assistant_prof",0.0
+2023,Gender and Sexuality Studies,all,all,0.5
+2023,Gender and Sexuality Studies,unknown,all,0.0
+2023,Gender and Sexuality Studies,unknown,unknown,0.0
+2023,Gender and Sexuality Studies,unknown,assistant_prof,0.0
+2023,Gender and Sexuality Studies,unknown,"assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,unknown,open_rank,0.0
+2023,Gender and Sexuality Studies,unknown,lecturer,0.0
+2023,Gender and Sexuality Studies,unknown,vap,0.0
+2023,Gender and Sexuality Studies,unknown,full_prof,0.0
+2023,Gender and Sexuality Studies,unknown,"associate_prof, full_prof",0.0
+2023,Gender and Sexuality Studies,unknown,associate_prof,0.0
+2023,Gender and Sexuality Studies,unknown,chair,0.0
+2023,Gender and Sexuality Studies,unknown,"vap, lecturer",0.0
+2023,Gender and Sexuality Studies,unknown,"vap, assistant_prof",0.0
+2023,Gender and Sexuality Studies,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,unknown,"lecturer, assistant_prof",0.0
+2023,Gender and Sexuality Studies,TRUE,all,0.5
+2023,Gender and Sexuality Studies,TRUE,unknown,0.0
+2023,Gender and Sexuality Studies,TRUE,assistant_prof,0.5
+2023,Gender and Sexuality Studies,TRUE,"assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,TRUE,open_rank,0.0
+2023,Gender and Sexuality Studies,TRUE,lecturer,0.0
+2023,Gender and Sexuality Studies,TRUE,vap,0.0
+2023,Gender and Sexuality Studies,TRUE,full_prof,0.0
+2023,Gender and Sexuality Studies,TRUE,"associate_prof, full_prof",0.0
+2023,Gender and Sexuality Studies,TRUE,associate_prof,0.0
+2023,Gender and Sexuality Studies,TRUE,chair,0.0
+2023,Gender and Sexuality Studies,TRUE,"vap, lecturer",0.0
+2023,Gender and Sexuality Studies,TRUE,"vap, assistant_prof",0.0
+2023,Gender and Sexuality Studies,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,TRUE,"lecturer, assistant_prof",0.0
+2023,Gender and Sexuality Studies,FALSE,all,0.0
+2023,Gender and Sexuality Studies,FALSE,unknown,0.0
+2023,Gender and Sexuality Studies,FALSE,assistant_prof,0.0
+2023,Gender and Sexuality Studies,FALSE,"assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,FALSE,open_rank,0.0
+2023,Gender and Sexuality Studies,FALSE,lecturer,0.0
+2023,Gender and Sexuality Studies,FALSE,vap,0.0
+2023,Gender and Sexuality Studies,FALSE,full_prof,0.0
+2023,Gender and Sexuality Studies,FALSE,"associate_prof, full_prof",0.0
+2023,Gender and Sexuality Studies,FALSE,associate_prof,0.0
+2023,Gender and Sexuality Studies,FALSE,chair,0.0
+2023,Gender and Sexuality Studies,FALSE,"vap, lecturer",0.0
+2023,Gender and Sexuality Studies,FALSE,"vap, assistant_prof",0.0
+2023,Gender and Sexuality Studies,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,FALSE,"lecturer, assistant_prof",0.0
+2023,Gender and Sexuality Studies,all,unknown,0.0
+2023,Gender and Sexuality Studies,all,assistant_prof,0.5
+2023,Gender and Sexuality Studies,all,"assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,all,open_rank,0.0
+2023,Gender and Sexuality Studies,all,lecturer,0.0
+2023,Gender and Sexuality Studies,all,vap,0.0
+2023,Gender and Sexuality Studies,all,full_prof,0.0
+2023,Gender and Sexuality Studies,all,"associate_prof, full_prof",0.0
+2023,Gender and Sexuality Studies,all,associate_prof,0.0
+2023,Gender and Sexuality Studies,all,chair,0.0
+2023,Gender and Sexuality Studies,all,"vap, lecturer",0.0
+2023,Gender and Sexuality Studies,all,"vap, assistant_prof",0.0
+2023,Gender and Sexuality Studies,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,Gender and Sexuality Studies,all,"lecturer, assistant_prof",0.0
+2023,all,unknown,all,3.0
+2023,all,unknown,unknown,0.0
+2023,all,unknown,assistant_prof,1.0
+2023,all,unknown,"assistant_prof, associate_prof",0.0
+2023,all,unknown,open_rank,0.0
+2023,all,unknown,lecturer,0.0
+2023,all,unknown,vap,0.0
+2023,all,unknown,full_prof,0.0
+2023,all,unknown,"associate_prof, full_prof",0.0
+2023,all,unknown,associate_prof,0.0
+2023,all,unknown,chair,1.0
+2023,all,unknown,"vap, lecturer",0.0
+2023,all,unknown,"vap, assistant_prof",0.0
+2023,all,unknown,"lecturer, assistant_prof, associate_prof",0.0
+2023,all,unknown,"lecturer, assistant_prof",1.0
+2023,all,TRUE,all,54.0
+2023,all,TRUE,unknown,0.0
+2023,all,TRUE,assistant_prof,38.0
+2023,all,TRUE,"assistant_prof, associate_prof",10.0
+2023,all,TRUE,open_rank,1.0
+2023,all,TRUE,lecturer,0.0
+2023,all,TRUE,vap,0.0
+2023,all,TRUE,full_prof,3.0
+2023,all,TRUE,"associate_prof, full_prof",1.0
+2023,all,TRUE,associate_prof,1.0
+2023,all,TRUE,chair,0.0
+2023,all,TRUE,"vap, lecturer",0.0
+2023,all,TRUE,"vap, assistant_prof",0.0
+2023,all,TRUE,"lecturer, assistant_prof, associate_prof",0.0
+2023,all,TRUE,"lecturer, assistant_prof",0.0
+2023,all,FALSE,all,8.0
+2023,all,FALSE,unknown,0.0
+2023,all,FALSE,assistant_prof,0.0
+2023,all,FALSE,"assistant_prof, associate_prof",1.0
+2023,all,FALSE,open_rank,0.0
+2023,all,FALSE,lecturer,2.0
+2023,all,FALSE,vap,5.0
+2023,all,FALSE,full_prof,0.0
+2023,all,FALSE,"associate_prof, full_prof",0.0
+2023,all,FALSE,associate_prof,0.0
+2023,all,FALSE,chair,0.0
+2023,all,FALSE,"vap, lecturer",0.0
+2023,all,FALSE,"vap, assistant_prof",0.0
+2023,all,FALSE,"lecturer, assistant_prof, associate_prof",0.0
+2023,all,FALSE,"lecturer, assistant_prof",0.0
+2023,all,all,unknown,0.0
+2023,all,all,assistant_prof,39.0
+2023,all,all,"assistant_prof, associate_prof",11.0
+2023,all,all,open_rank,1.0
+2023,all,all,lecturer,2.0
+2023,all,all,vap,5.0
+2023,all,all,full_prof,3.0
+2023,all,all,"associate_prof, full_prof",1.0
+2023,all,all,associate_prof,1.0
+2023,all,all,chair,1.0
+2023,all,all,"vap, lecturer",0.0
+2023,all,all,"vap, assistant_prof",0.0
+2023,all,all,"lecturer, assistant_prof, associate_prof",0.0
+2023,all,all,"lecturer, assistant_prof",1.0

@@ -1,5 +1,5 @@
-import { readCSVObjects } from 'https://deno.land/x/csv/mod.ts';
 import { ascending, descending } from 'https://cdn.skypack.dev/d3-array';
+import { readCSVObjects } from 'https://deno.land/x/csv/mod.ts';
 import { writeJsonSync } from 'https://deno.land/x/jsonfile/mod.ts';
 
 interface JobDatum {
@@ -28,11 +28,13 @@ const f = await Deno.open('./data/main/main_data.csv');
 const data: JobDatum[] = [];
 for await (const row of readCSVObjects(f)) {
   const obj: JobDatum = {} as JobDatum;
-  obj.id = row['id\r'].replace(/[\r\n]/g, '');
+  obj.id = row['id\r'] ? row['id\r'].replace(/[\r\n]/g, '') : row.id;
   obj.year = row.year;
   obj.country = row.country;
   obj.institution = row.institution;
-  obj.tenure = transformIsTt(row.is_tt);
+  obj.tenure = transformIsTt(
+    row.is_tt,
+  );
   obj.rank = row.rank;
   obj.field = row.field;
   data.push(obj);

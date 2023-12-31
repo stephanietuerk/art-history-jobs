@@ -25,6 +25,7 @@ class WikiaHandler():
         names = [x.replace('Art History 2020-2021','Art History 2020-21') for x in names]
         names = [x.replace('Art History 2021-2022','Art History 2021-22') for x in names]
         names = [x.replace('Art History 2022-2023','Art History 2022-23') for x in names]
+        names = [x.replace('Art History 2023-2024','Art History 2023-24') for x in names]
         self.page_names = names
 
     def create_fields_file(self):
@@ -181,7 +182,6 @@ class WikiaHandler():
                     if not 'see also' in headline.lower():
                         body = self.clean_text(body)
                         job_type_keys = self.get_job_type_keys(headline, body)
-                        # print('job_type_keys', job_type_keys)
                         if len(job_type_keys) == 0:
                             print('No job type keys found', headline)
                         if original_field == 'Fellowships':
