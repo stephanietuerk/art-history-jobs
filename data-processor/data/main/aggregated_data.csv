@@ -17298,8 +17298,8 @@ year,field,is_tt,rank,count
 2023,Architecture,FALSE,"lecturer, assistant_prof",0.0
 2023,Architecture,True,all,2.0
 2023,Architecture,True,unknown,0.0
-2023,Architecture,True,assistant_prof,1.0
-2023,Architecture,True,"assistant_prof, associate_prof",1.0
+2023,Architecture,True,assistant_prof,2.0
+2023,Architecture,True,"assistant_prof, associate_prof",0.0
 2023,Architecture,True,open_rank,0.0
 2023,Architecture,True,lecturer,0.0
 2023,Architecture,True,vap,0.0
@@ -17312,8 +17312,8 @@ year,field,is_tt,rank,count
 2023,Architecture,True,"lecturer, assistant_prof, associate_prof",0.0
 2023,Architecture,True,"lecturer, assistant_prof",0.0
 2023,Architecture,all,unknown,0.0
-2023,Architecture,all,assistant_prof,4.5
-2023,Architecture,all,"assistant_prof, associate_prof",1.0
+2023,Architecture,all,assistant_prof,5.5
+2023,Architecture,all,"assistant_prof, associate_prof",0.0
 2023,Architecture,all,open_rank,0.0
 2023,Architecture,all,lecturer,0.0
 2023,Architecture,all,vap,0.0
@@ -18497,8 +18497,8 @@ year,field,is_tt,rank,count
 2023,all,FALSE,"lecturer, assistant_prof",0.0
 2023,all,True,all,3.0
 2023,all,True,unknown,0.0
-2023,all,True,assistant_prof,1.0
-2023,all,True,"assistant_prof, associate_prof",1.0
+2023,all,True,assistant_prof,2.0
+2023,all,True,"assistant_prof, associate_prof",0.0
 2023,all,True,open_rank,0.0
 2023,all,True,lecturer,0.0
 2023,all,True,vap,0.0
@@ -18511,8 +18511,8 @@ year,field,is_tt,rank,count
 2023,all,True,"lecturer, assistant_prof, associate_prof",0.0
 2023,all,True,"lecturer, assistant_prof",0.0
 2023,all,all,unknown,0.0
-2023,all,all,assistant_prof,39.0
-2023,all,all,"assistant_prof, associate_prof",12.0
+2023,all,all,assistant_prof,40.0
+2023,all,all,"assistant_prof, associate_prof",11.0
 2023,all,all,open_rank,1.0
 2023,all,all,lecturer,2.0
 2023,all,all,vap,5.0
