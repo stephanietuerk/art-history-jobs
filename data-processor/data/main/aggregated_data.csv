@@ -13679,7 +13679,7 @@ year,field,is_tt,rank,count
 2022,all,all,"vap, assistant_prof",1.0
 2022,all,all,"lecturer, assistant_prof, associate_prof",2.0
 2022,all,all,"lecturer, assistant_prof",1.0
-2023,all,all,all,65.0
+2023,all,all,all,66.0
 2023,African / African Diaspora Art,all,all,3.0
 2023,African / African Diaspora Art,unknown,all,0.0
 2023,African / African Diaspora Art,unknown,unknown,0.0
@@ -13800,7 +13800,7 @@ year,field,is_tt,rank,count
 2023,Ancient Art,all,"vap, assistant_prof",0.0
 2023,Ancient Art,all,"lecturer, assistant_prof, associate_prof",0.0
 2023,Ancient Art,all,"lecturer, assistant_prof",0.0
-2023,Architecture,all,all,4.5
+2023,Architecture,all,all,5.5
 2023,Architecture,unknown,all,0.0
 2023,Architecture,unknown,unknown,0.0
 2023,Architecture,unknown,assistant_prof,0.0
@@ -13816,9 +13816,9 @@ year,field,is_tt,rank,count
 2023,Architecture,unknown,"vap, assistant_prof",0.0
 2023,Architecture,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2023,Architecture,unknown,"lecturer, assistant_prof",0.0
-2023,Architecture,TRUE,all,4.5
+2023,Architecture,TRUE,all,5.5
 2023,Architecture,TRUE,unknown,0.0
-2023,Architecture,TRUE,assistant_prof,4.5
+2023,Architecture,TRUE,assistant_prof,5.5
 2023,Architecture,TRUE,"assistant_prof, associate_prof",0.0
 2023,Architecture,TRUE,open_rank,0.0
 2023,Architecture,TRUE,lecturer,0.0
@@ -13847,7 +13847,7 @@ year,field,is_tt,rank,count
 2023,Architecture,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2023,Architecture,FALSE,"lecturer, assistant_prof",0.0
 2023,Architecture,all,unknown,0.0
-2023,Architecture,all,assistant_prof,4.5
+2023,Architecture,all,assistant_prof,5.5
 2023,Architecture,all,"assistant_prof, associate_prof",0.0
 2023,Architecture,all,open_rank,0.0
 2023,Architecture,all,lecturer,0.0
@@ -14423,8 +14423,8 @@ year,field,is_tt,rank,count
 2023,North American Art,TRUE,open_rank,0.0
 2023,North American Art,TRUE,lecturer,0.0
 2023,North American Art,TRUE,vap,0.0
-2023,North American Art,TRUE,full_prof,0.0
-2023,North American Art,TRUE,"associate_prof, full_prof",1.0
+2023,North American Art,TRUE,full_prof,1.0
+2023,North American Art,TRUE,"associate_prof, full_prof",0.0
 2023,North American Art,TRUE,associate_prof,0.0
 2023,North American Art,TRUE,chair,0.0
 2023,North American Art,TRUE,"vap, lecturer",0.0
@@ -14452,8 +14452,8 @@ year,field,is_tt,rank,count
 2023,North American Art,all,open_rank,0.0
 2023,North American Art,all,lecturer,0.0
 2023,North American Art,all,vap,0.0
-2023,North American Art,all,full_prof,0.0
-2023,North American Art,all,"associate_prof, full_prof",1.0
+2023,North American Art,all,full_prof,1.0
+2023,North American Art,all,"associate_prof, full_prof",0.0
 2023,North American Art,all,associate_prof,0.0
 2023,North American Art,all,chair,0.0
 2023,North American Art,all,"vap, lecturer",0.0
@@ -14775,15 +14775,15 @@ year,field,is_tt,rank,count
 2023,all,unknown,"vap, assistant_prof",0.0
 2023,all,unknown,"lecturer, assistant_prof, associate_prof",0.0
 2023,all,unknown,"lecturer, assistant_prof",1.0
-2023,all,TRUE,all,54.0
+2023,all,TRUE,all,55.0
 2023,all,TRUE,unknown,0.0
-2023,all,TRUE,assistant_prof,38.0
+2023,all,TRUE,assistant_prof,39.0
 2023,all,TRUE,"assistant_prof, associate_prof",10.0
 2023,all,TRUE,open_rank,1.0
 2023,all,TRUE,lecturer,0.0
 2023,all,TRUE,vap,0.0
-2023,all,TRUE,full_prof,3.0
-2023,all,TRUE,"associate_prof, full_prof",1.0
+2023,all,TRUE,full_prof,4.0
+2023,all,TRUE,"associate_prof, full_prof",0.0
 2023,all,TRUE,associate_prof,1.0
 2023,all,TRUE,chair,0.0
 2023,all,TRUE,"vap, lecturer",0.0
@@ -14806,13 +14806,13 @@ year,field,is_tt,rank,count
 2023,all,FALSE,"lecturer, assistant_prof, associate_prof",0.0
 2023,all,FALSE,"lecturer, assistant_prof",0.0
 2023,all,all,unknown,0.0
-2023,all,all,assistant_prof,39.0
+2023,all,all,assistant_prof,40.0
 2023,all,all,"assistant_prof, associate_prof",11.0
 2023,all,all,open_rank,1.0
 2023,all,all,lecturer,2.0
 2023,all,all,vap,5.0
-2023,all,all,full_prof,3.0
-2023,all,all,"associate_prof, full_prof",1.0
+2023,all,all,full_prof,4.0
+2023,all,all,"associate_prof, full_prof",0.0
 2023,all,all,associate_prof,1.0
 2023,all,all,chair,1.0
 2023,all,all,"vap, lecturer",0.0
