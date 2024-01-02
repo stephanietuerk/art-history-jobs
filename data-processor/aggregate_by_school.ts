@@ -63,7 +63,7 @@ const dataByCountry = countries.map((country) => {
           id,
           tenure: jobsForId[0].tenure,
           rank: [...new Set(jobsForId.map((x) => x.rank))],
-          field: jobsForId.map((x) => x.field),
+          field: [...new Set(jobsForId.map((x) => x.field))],
         };
       });
       let filteredJobs = jobsById;
