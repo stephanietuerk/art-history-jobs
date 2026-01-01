@@ -17,19 +17,19 @@ WIKIA:
   main_wiki: 'academicjobs'
   sub_page: 'Art History'
   years:
-    - 2011
-    - 2012
-    - 2013
-    - 2014
-    - 2015
-    - 2016
-    - 2017
-    - 2018
-    - 2019
-    - 2020
-    - 2021
-    - 2022
-    - 2023
+    # - 2011
+    # - 2012
+    # - 2013
+    # - 2014
+    # - 2015
+    # - 2016
+    # - 2017
+    # - 2018
+    # - 2019
+    # - 2020
+    # - 2021
+    # - 2022
+    # - 2023
     - 2024
     - 2025
   end_marker: 'Retrieved from "https://academicjobs.wikia.org/wiki/'
@@ -39,6 +39,8 @@ WIKIA:
     - 'Demographics'
     - 'Salary and Negotiation Information'
     - 'General Discussion / Word on the Street'
+    - 'Word on the Street'
+    - 'Support & Discussion'
   tt_id: 'TENURE_TRACK_JOBS'
   tt_key: 'TENURE TRACK'
   non_tt_key: 'VISITING POSITIONS'
