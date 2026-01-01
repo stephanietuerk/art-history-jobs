@@ -107,6 +107,9 @@ class WikiaHandler():
     def get_page_data(self, page_name):
         html = self.get_html_for_page(page_name)
         self.current_year = self.get_year_from_page_name(page_name)
+        # Check if this year uses h2/h3/h4 format (h2=TT/Non-TT, h3=fields, h4=jobs)
+        years_with_h2h3h4 = self.scraping_config.get('years_with_h2h3h4_format', [])
+        self.uses_h2h3h4_format = int(self.current_year) in years_with_h2h3h4
         if self.page_is_segmented_by_tt_status(html):
             data = self.process_page_segmented_by_tt_status(html)
         else:
@@ -118,16 +121,47 @@ class WikiaHandler():
         return soup.find(id='TENURE_TRACK_JOBS') is not None
 
     def process_page_segmented_by_tt_status(self, html):
-        sections = utils.get_sections_for_tag(html, 'h2')
-        jobs = []
-        grouped_sections = self.group_sections_by_tt_status(sections)
-        for section in grouped_sections['tt']:
-            tt_jobs = self.get_jobs_from_field_section(section, True)
-            jobs.extend(tt_jobs)
-        for section in grouped_sections['non_tt']:
-            non_tt_jobs = self.get_jobs_from_field_section(section, False)
-            jobs.extend(non_tt_jobs)
-        return jobs
+        # For h2/h3/h4 format (2024+): h2=TT/Non-TT, h3=fields, h4=jobs
+        # For old h2 format: h2=both TT/Non-TT headers AND fields, h3=jobs
+        if self.uses_h2h3h4_format:
+            # Split by h2 to get TT/Non-TT sections
+            main_sections = utils.get_sections_for_tag(html, 'h2')
+            jobs = []
+            for main_section in main_sections:
+                section_title_list = utils.get_selection_from_content(main_section, 'h2 .mw-headline')
+                if len(section_title_list) > 0:
+                    section_title = section_title_list[0].text
+                    if self.scraping_config['tt_key'] in section_title:
+                        # This is the TT section, now split by h3 for fields
+                        field_sections = utils.get_sections_for_tag(main_section, 'h3')
+                        for field_section in field_sections:
+                            # Check if this field section should be excluded
+                            field_title_list = utils.get_selection_from_content(field_section, 'h3 .mw-headline')
+                            if len(field_title_list) > 0 and not self.section_is_excluded(field_title_list[0].text):
+                                tt_jobs = self.get_jobs_from_field_section_h3h4(field_section, True)
+                                jobs.extend(tt_jobs)
+                    elif self.scraping_config['non_tt_key'] in section_title:
+                        # This is the Non-TT section, now split by h3 for fields
+                        field_sections = utils.get_sections_for_tag(main_section, 'h3')
+                        for field_section in field_sections:
+                            # Check if this field section should be excluded
+                            field_title_list = utils.get_selection_from_content(field_section, 'h3 .mw-headline')
+                            if len(field_title_list) > 0 and not self.section_is_excluded(field_title_list[0].text):
+                                non_tt_jobs = self.get_jobs_from_field_section_h3h4(field_section, False)
+                                jobs.extend(non_tt_jobs)
+            return jobs
+        else:
+            # Original logic for h2 format (h2=TT/Non-TT headers AND fields, h3=jobs)
+            sections = utils.get_sections_for_tag(html, 'h2')
+            jobs = []
+            grouped_sections = self.group_sections_by_tt_status(sections)
+            for section in grouped_sections['tt']:
+                tt_jobs = self.get_jobs_from_field_section(section, True)
+                jobs.extend(tt_jobs)
+            for section in grouped_sections['non_tt']:
+                non_tt_jobs = self.get_jobs_from_field_section(section, False)
+                jobs.extend(non_tt_jobs)
+            return jobs
 
     def process_unsegmented_page(self, html):
         sections = utils.get_sections_for_tag(html, 'h2')
@@ -200,10 +234,52 @@ class WikiaHandler():
                             'text': self.clean_body(body),
                         }
                         jobs.append(data)
-        return jobs    
-    
+        return jobs
+
+    def get_jobs_from_field_section_h3h4(self, html, isTt = None):
+        """Process field sections in h3/h4 format (2024+): h3=field, h4=jobs"""
+        original_field = self.get_field_h3(html)
+        normalized_field = self.normalize_field(original_field)
+        job_listings = utils.get_sections_for_tag(html, 'h4')
+        jobs = []
+        if len(job_listings) > 0:
+            for job in job_listings:
+                title_list = utils.get_selection_from_content(job, 'h4 .mw-headline')
+                body = bs4.BeautifulSoup(job, 'html.parser').get_text()
+                if self.scraping_config['end_marker'] in body:
+                    body = body.split(self.scraping_config['end_marker'])[0]
+                if len(title_list) > 0:
+                    headline = self.clean_text(title_list[0].get_text())
+                    if not 'see also' in headline.lower():
+                        body = self.clean_text(body)
+                        job_type_keys = self.get_job_type_keys(headline, body)
+                        if len(job_type_keys) == 0:
+                            print('No job type keys found', headline)
+                        if original_field == 'Fellowships':
+                            isTt = False
+                        data = {
+                            'year': self.current_year,
+                            'field': normalized_field,
+                            'original_field': self.clean_text(original_field),
+                            'keys': ', '.join(job_type_keys),
+                            'is_tt': self.get_tenure_status(job_type_keys, isTt),
+                            'rank': self.get_rank(job_type_keys),
+                            'headline': headline,
+                            # 'school': None,
+                            # 'department': None,
+                            # 'location': self.get_location_from_headline(headline),
+                            'text': self.clean_body(body),
+                        }
+                        jobs.append(data)
+        return jobs
+
     def get_field(self, section):
         field_header = utils.get_selection_from_content(section, 'h2 .mw-headline')
+        return self.clean_text(field_header[0].text)
+
+    def get_field_h3(self, section):
+        """Get field from h3 header (for 2024+ format)"""
+        field_header = utils.get_selection_from_content(section, 'h3 .mw-headline')
         return self.clean_text(field_header[0].text)
 
     def normalize_field(self, field):

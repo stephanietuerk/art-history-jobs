@@ -32,6 +32,9 @@ WIKIA:
     - 2023
     - 2024
     - 2025
+  years_with_h2h3h4_format:
+    - 2024
+    - 2025
   end_marker: 'Retrieved from "https://academicjobs.wikia.org/wiki/'
   headline_separator: ' - '
   excluded_sections:
