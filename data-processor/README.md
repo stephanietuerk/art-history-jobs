@@ -6,13 +6,13 @@ This is a simple data processor designed to grab and parse data from Academic Jo
 
 `data/main/main_data.csv` is the working and long-term archive of processed and manually-validated jobs. **It should never be (over)written programmatically.**
 
-requirement: python
+requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
 1. ensure that you are in the `data-processor` directory
 2. if you are scraping jobs from a new year of data, add that year in the appropriate location in `config.yml`. You may also need to edit the `make_page_names` method in `wikia_handler.py` if the wikia url does not have two four digit years in it.
-3. Scrape data from Wiki with `pipenv run python main.py`
+3. Scrape data from Wiki with `uv run python main.py`
    - This will create or update `data/out/jobs_all_years.csv` with the results of the scrape.
-4. Get newly added jobs with `pipenv run python process_scrape.py`
+4. Get newly added jobs with `uv run python process_scrape.py`
    - This will diff `data/out/jobs_all_years.csv` with an existing, processed file of jobs.
    - Jobs not in the existing processed file will be written to `data/out/newly_retrieved_jobs.csv`
    - At the end of the script, `jobs_all_years.csv` will be duplicated as `data/processed/processed_scraped_jobs.csv`.
@@ -26,17 +26,17 @@ requirement: python
 
 ### To aggregate `main_data.csv`:
 
-requirement: python
+requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
 1. ensure that you are in the `data-processor` directory
-2. `pipenv run python aggregate_results.py`
+2. `uv run python aggregate_results.py`
 
 ### To get a list of fields in the scrape with years in which they appear:
 
-requirement: python
+requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
 1. ensure that you are in the `data-processor` directory
-2. `pipenv run python fields.py`
+2. `uv run python fields.py`
 
 ### To aggregate `main.data.csv` by institution:
 
