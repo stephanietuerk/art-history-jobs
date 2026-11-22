@@ -50,6 +50,7 @@ WIKIA:
 
 TEXT_PARSING:
   fields_dictionary: 'dicts/fields_dictionary.csv'
+  canonical_fields: 'dicts/canonical_fields.csv'
   strip:
     - '\n'
     - '[edit | edit source]'

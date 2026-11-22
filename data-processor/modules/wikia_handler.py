@@ -103,6 +103,18 @@ class WikiaHandler():
         with open(self.parsing_config['fields_dictionary'], mode='r') as infile:
             reader = csv.reader(infile)
             self.fields_dict = {rows[0]:rows[1] for rows in reader}
+        self.check_fields_dict()
+
+    def check_fields_dict(self):
+        """Every dictionary value must be a canonical field (or 'manual' for headings to classify by hand)."""
+        with open(self.parsing_config['canonical_fields'], encoding='utf-8') as infile:
+            canonical = {row['field'] for row in csv.DictReader(infile)}
+        unknown = {v for v in self.fields_dict.values() if v != 'manual'} - canonical
+        if unknown:
+            raise ValueError(
+                f'{self.parsing_config["fields_dictionary"]} maps to fields that are not in '
+                f'{self.parsing_config["canonical_fields"]}: {sorted(unknown)}'
+            )
 
     def get_page_data(self, page_name):
         html = self.get_html_for_page(page_name)
