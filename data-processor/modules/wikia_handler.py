@@ -323,12 +323,21 @@ class WikiaHandler():
                 types.append(key)
         return types
 
-    def any_in_list_in_text(self, list, text):
-        match = False
-        for word in list:
-            if word in text.lower():
-                match = True
-        return match
+    def any_in_list_in_text(self, words, text):
+        """True if any of `words` appears in `text`.
+
+        Short words like 'tt' and 'vap' must stand alone: a plain substring test matched the
+        'tt' in 'Massachusetts' and 'Pittsburgh'. Longer words and phrases still match anywhere
+        (so 'lecturer' also matches 'lecturers').
+        """
+        text = text.lower()
+        for word in words:
+            if len(word) <= 3:
+                if re.search(rf'(?<![a-z0-9]){re.escape(word)}(?![a-z0-9])', text):
+                    return True
+            elif word in text:
+                return True
+        return False
 
     def weight_jobs(self, jobs):
         for job in jobs:
