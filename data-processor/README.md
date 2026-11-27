@@ -24,7 +24,7 @@ requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs P
    - Deleting will allow the script to compare the new scrape (`jobs_all_years.csv`) to unedited jobs (`processed_scraped_jobs.csv`) next time the `process_scrape.py` script is run.
    - Otherwise `process_scrape.py` will diff against `main_data.csv` and jobs that have been manually edited will show up in `newly_retrieved_jobs.csv`. (This isn't the end of the world, they will just have to be manually ignored.)
 
-### To aggregate `main_data.csv`:
+### To aggregate `main_data.csv` (by year/field/tenure/rank, and by institution):
 
 requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
@@ -38,9 +38,6 @@ requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs P
 1. ensure that you are in the `data-processor` directory
 2. `uv run python fields.py`
 
-### To aggregate `main.data.csv` by institution:
+### To aggregate `main_data.csv` by institution:
 
-requirement: [deno](https://docs.deno.com/runtime/manual)
-
-1. ensure that you are in the `data-processor` directory
-2. `deno run --allow-read --allow-write aggregate_by_school.ts`
+This now runs as part of `aggregate_results.py` (above), which writes both `aggregated_data.csv` and `main_data_by_school.json`. The old Deno script `aggregate_by_school.ts` is no longer needed.

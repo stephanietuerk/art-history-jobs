@@ -8,6 +8,7 @@ MAIN_FOLDER:
   path: 'data/main'
   main_file: 'main_data.csv'
   aggregated_file: 'aggregated_data.csv'
+  by_school_file: 'main_data_by_school.json'
 
 PROCESSED_FOLDER:
   path: 'data/processed'
