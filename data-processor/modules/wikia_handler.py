@@ -3,9 +3,9 @@ import re
 import unicodedata
 
 import bs4
-import wikia
 from modules import utils
 from modules.config import Config
+from modules.fandom import FandomClient
 
 
 class WikiaHandler():
@@ -14,6 +14,7 @@ class WikiaHandler():
         self.scraping_config = config.get_scraping_config()
         self.parsing_config = config.get_parsing_config()
         self.out_config = config.get_out_config()
+        self.client = FandomClient(self.scraping_config['main_wiki'])
         self.make_page_names()
 
     def make_page_names(self):
@@ -65,8 +66,7 @@ class WikiaHandler():
         return year_regex.search(page_name).group()
 
     def get_html_for_page(self, page_name):
-        page_content = wikia.page(self.scraping_config['main_wiki'], page_name)
-        return page_content.html()
+        return self.client.get_page_html(page_name)
 
     def get_sections_for_tag(self, html, tag):
         sections = html.split(f'<{tag}>')
@@ -103,6 +103,18 @@ class WikiaHandler():
         with open(self.parsing_config['fields_dictionary'], mode='r') as infile:
             reader = csv.reader(infile)
             self.fields_dict = {rows[0]:rows[1] for rows in reader}
+        self.check_fields_dict()
+
+    def check_fields_dict(self):
+        """Every dictionary value must be a canonical field (or 'manual' for headings to classify by hand)."""
+        with open(self.parsing_config['canonical_fields'], encoding='utf-8') as infile:
+            canonical = {row['field'] for row in csv.DictReader(infile)}
+        unknown = {v for v in self.fields_dict.values() if v != 'manual'} - canonical
+        if unknown:
+            raise ValueError(
+                f'{self.parsing_config["fields_dictionary"]} maps to fields that are not in '
+                f'{self.parsing_config["canonical_fields"]}: {sorted(unknown)}'
+            )
 
     def get_page_data(self, page_name):
         html = self.get_html_for_page(page_name)
@@ -124,31 +136,19 @@ class WikiaHandler():
         # For h2/h3/h4 format (2024+): h2=TT/Non-TT, h3=fields, h4=jobs
         # For old h2 format: h2=both TT/Non-TT headers AND fields, h3=jobs
         if self.uses_h2h3h4_format:
-            # Split by h2 to get TT/Non-TT sections
-            main_sections = utils.get_sections_for_tag(html, 'h2')
             jobs = []
-            for main_section in main_sections:
+            for main_section in utils.get_sections_for_tag(html, 'h2'):
                 section_title_list = utils.get_selection_from_content(main_section, 'h2 .mw-headline')
-                if len(section_title_list) > 0:
-                    section_title = section_title_list[0].text
-                    if self.scraping_config['tt_key'] in section_title:
-                        # This is the TT section, now split by h3 for fields
-                        field_sections = utils.get_sections_for_tag(main_section, 'h3')
-                        for field_section in field_sections:
-                            # Check if this field section should be excluded
-                            field_title_list = utils.get_selection_from_content(field_section, 'h3 .mw-headline')
-                            if len(field_title_list) > 0 and not self.section_is_excluded(field_title_list[0].text):
-                                tt_jobs = self.get_jobs_from_field_section_h3h4(field_section, True)
-                                jobs.extend(tt_jobs)
-                    elif self.scraping_config['non_tt_key'] in section_title:
-                        # This is the Non-TT section, now split by h3 for fields
-                        field_sections = utils.get_sections_for_tag(main_section, 'h3')
-                        for field_section in field_sections:
-                            # Check if this field section should be excluded
-                            field_title_list = utils.get_selection_from_content(field_section, 'h3 .mw-headline')
-                            if len(field_title_list) > 0 and not self.section_is_excluded(field_title_list[0].text):
-                                non_tt_jobs = self.get_jobs_from_field_section_h3h4(field_section, False)
-                                jobs.extend(non_tt_jobs)
+                if not section_title_list:
+                    continue
+                section_title = section_title_list[0].text
+                if self.scraping_config['tt_key'] in section_title:
+                    is_tt = True
+                elif self.scraping_config['non_tt_key'] in section_title:
+                    is_tt = False
+                else:
+                    continue  # e.g. "Demographics", "Word on the Street"
+                jobs.extend(self.get_jobs_from_h3_fields(main_section, is_tt))
             return jobs
         else:
             # Original logic for h2 format (h2=TT/Non-TT headers AND fields, h3=jobs)
@@ -200,87 +200,69 @@ class WikiaHandler():
                 return True
         return False
 
-    def get_jobs_from_field_section(self, html, isTt = None):
-        original_field = self.get_field(html)
-        normalized_field = self.normalize_field(original_field)
-        job_listings = utils.get_sections_for_tag(html, 'h3')
+    def get_jobs_from_field_section(self, html, isTt=None, field_tag='h2', job_tag='h3'):
+        """A field section starts with a <field_tag> header and contains <job_tag> job listings."""
+        field_header = utils.get_selection_from_content(html, f'{field_tag} .mw-headline')
+        original_field = self.clean_text(field_header[0].text)
         jobs = []
-        if len(job_listings) > 0:
-            for job in job_listings:
-                title_list = utils.get_selection_from_content(job, 'h3 .mw-headline')
-                body = bs4.BeautifulSoup(job, 'html.parser').get_text()
-                if self.scraping_config['end_marker'] in body:
-                    body = body.split(self.scraping_config['end_marker'])[0]
-                if len(title_list) > 0:
-                    headline = self.clean_text(title_list[0].get_text())
-                    if not 'see also' in headline.lower():
-                        body = self.clean_text(body)
-                        job_type_keys = self.get_job_type_keys(headline, body)
-                        if len(job_type_keys) == 0:
-                            print('No job type keys found', headline)
-                        if original_field == 'Fellowships':
-                            isTt = False
-                        data = {
-                            'year': self.current_year,
-                            'field': normalized_field,
-                            'original_field': self.clean_text(original_field),
-                            'keys': ', '.join(job_type_keys),                           
-                            'is_tt': self.get_tenure_status(job_type_keys, isTt),
-                            'rank': self.get_rank(job_type_keys),
-                            'headline': headline,
-                            # 'school': None,
-                            # 'department': None,
-                            # 'location': self.get_location_from_headline(headline),
-                            'text': self.clean_body(body),
-                        }
-                        jobs.append(data)
+        for job_html in utils.get_sections_for_tag(html, job_tag):
+            job = self._make_job(job_html, job_tag, original_field, isTt)
+            if job is not None:
+                jobs.append(job)
         return jobs
 
-    def get_jobs_from_field_section_h3h4(self, html, isTt = None):
-        """Process field sections in h3/h4 format (2024+): h3=field, h4=jobs"""
-        original_field = self.get_field_h3(html)
-        normalized_field = self.normalize_field(original_field)
-        job_listings = utils.get_sections_for_tag(html, 'h4')
+    def get_jobs_from_h3_fields(self, html, is_tt):
+        """2024+ format: within a TT/non-TT h2 section, h3 = field and h4 = job.
+
+        Wiki editors sometimes post a job as an h3 by mistake. If an h3 title is not a
+        known field, treat it as a job belonging to the most recent real field.
+        """
         jobs = []
-        if len(job_listings) > 0:
-            for job in job_listings:
-                title_list = utils.get_selection_from_content(job, 'h4 .mw-headline')
-                body = bs4.BeautifulSoup(job, 'html.parser').get_text()
-                if self.scraping_config['end_marker'] in body:
-                    body = body.split(self.scraping_config['end_marker'])[0]
-                if len(title_list) > 0:
-                    headline = self.clean_text(title_list[0].get_text())
-                    if not 'see also' in headline.lower():
-                        body = self.clean_text(body)
-                        job_type_keys = self.get_job_type_keys(headline, body)
-                        if len(job_type_keys) == 0:
-                            print('No job type keys found', headline)
-                        if original_field == 'Fellowships':
-                            isTt = False
-                        data = {
-                            'year': self.current_year,
-                            'field': normalized_field,
-                            'original_field': self.clean_text(original_field),
-                            'keys': ', '.join(job_type_keys),
-                            'is_tt': self.get_tenure_status(job_type_keys, isTt),
-                            'rank': self.get_rank(job_type_keys),
-                            'headline': headline,
-                            # 'school': None,
-                            # 'department': None,
-                            # 'location': self.get_location_from_headline(headline),
-                            'text': self.clean_body(body),
-                        }
-                        jobs.append(data)
+        last_field = None
+        for field_section in utils.get_sections_for_tag(html, 'h3'):
+            title_list = utils.get_selection_from_content(field_section, 'h3 .mw-headline')
+            if not title_list or self.section_is_excluded(title_list[0].text):
+                continue
+            title = self.clean_text(title_list[0].text)
+            if title in self.fields_dict:
+                last_field = title
+                jobs.extend(self.get_jobs_from_field_section(field_section, is_tt, 'h3', 'h4'))
+            elif last_field is not None:
+                print(f'WARNING: h3 {title!r} is not a known field; treating it as a job under {last_field!r}')
+                job = self._make_job(field_section, 'h3', last_field, is_tt)
+                if job is not None:
+                    jobs.append(job)
+            else:
+                raise KeyError(f'Unknown field {title!r}; add it to {self.parsing_config["fields_dictionary"]}')
         return jobs
 
-    def get_field(self, section):
-        field_header = utils.get_selection_from_content(section, 'h2 .mw-headline')
-        return self.clean_text(field_header[0].text)
-
-    def get_field_h3(self, section):
-        """Get field from h3 header (for 2024+ format)"""
-        field_header = utils.get_selection_from_content(section, 'h3 .mw-headline')
-        return self.clean_text(field_header[0].text)
+    def _make_job(self, job_html, job_tag, original_field, is_tt):
+        """Build one job record from a chunk of HTML that starts with a <job_tag> headline."""
+        title_list = utils.get_selection_from_content(job_html, f'{job_tag} .mw-headline')
+        if not title_list:
+            return None
+        headline = self.clean_text(title_list[0].get_text())
+        if 'see also' in headline.lower():
+            return None
+        body = bs4.BeautifulSoup(job_html, 'html.parser').get_text()
+        if self.scraping_config['end_marker'] in body:
+            body = body.split(self.scraping_config['end_marker'])[0]
+        body = self.clean_text(body)
+        job_type_keys = self.get_job_type_keys(headline, body)
+        if len(job_type_keys) == 0:
+            print('No job type keys found', headline)
+        if original_field == 'Fellowships':
+            is_tt = False
+        return {
+            'year': self.current_year,
+            'field': self.normalize_field(original_field),
+            'original_field': self.clean_text(original_field),
+            'keys': ', '.join(job_type_keys),
+            'is_tt': self.get_tenure_status(job_type_keys, is_tt),
+            'rank': self.get_rank(job_type_keys),
+            'headline': headline,
+            'text': self.clean_body(body),
+        }
 
     def normalize_field(self, field):
         return self.fields_dict[field]
@@ -341,12 +323,21 @@ class WikiaHandler():
                 types.append(key)
         return types
 
-    def any_in_list_in_text(self, list, text):
-        match = False
-        for word in list:
-            if word in text.lower():
-                match = True
-        return match
+    def any_in_list_in_text(self, words, text):
+        """True if any of `words` appears in `text`.
+
+        Short words like 'tt' and 'vap' must stand alone: a plain substring test matched the
+        'tt' in 'Massachusetts' and 'Pittsburgh'. Longer words and phrases still match anywhere
+        (so 'lecturer' also matches 'lecturers').
+        """
+        text = text.lower()
+        for word in words:
+            if len(word) <= 3:
+                if re.search(rf'(?<![a-z0-9]){re.escape(word)}(?![a-z0-9])', text):
+                    return True
+            elif word in text:
+                return True
+        return False
 
     def weight_jobs(self, jobs):
         for job in jobs:

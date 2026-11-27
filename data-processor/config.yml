@@ -8,6 +8,7 @@ MAIN_FOLDER:
   path: 'data/main'
   main_file: 'main_data.csv'
   aggregated_file: 'aggregated_data.csv'
+  by_school_file: 'main_data_by_school.json'
 
 PROCESSED_FOLDER:
   path: 'data/processed'
@@ -50,6 +51,7 @@ WIKIA:
 
 TEXT_PARSING:
   fields_dictionary: 'dicts/fields_dictionary.csv'
+  canonical_fields: 'dicts/canonical_fields.csv'
   strip:
     - '\n'
     - '[edit | edit source]'

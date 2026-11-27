@@ -6,13 +6,13 @@ This is a simple data processor designed to grab and parse data from Academic Jo
 
 `data/main/main_data.csv` is the working and long-term archive of processed and manually-validated jobs. **It should never be (over)written programmatically.**
 
-requirement: python
+requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
 1. ensure that you are in the `data-processor` directory
 2. if you are scraping jobs from a new year of data, add that year in the appropriate location in `config.yml`. You may also need to edit the `make_page_names` method in `wikia_handler.py` if the wikia url does not have two four digit years in it.
-3. Scrape data from Wiki with `pipenv run python main.py`
+3. Scrape data from Wiki with `uv run python main.py`
    - This will create or update `data/out/jobs_all_years.csv` with the results of the scrape.
-4. Get newly added jobs with `pipenv run python process_scrape.py`
+4. Get newly added jobs with `uv run python process_scrape.py`
    - This will diff `data/out/jobs_all_years.csv` with an existing, processed file of jobs.
    - Jobs not in the existing processed file will be written to `data/out/newly_retrieved_jobs.csv`
    - At the end of the script, `jobs_all_years.csv` will be duplicated as `data/processed/processed_scraped_jobs.csv`.
@@ -24,23 +24,20 @@ requirement: python
    - Deleting will allow the script to compare the new scrape (`jobs_all_years.csv`) to unedited jobs (`processed_scraped_jobs.csv`) next time the `process_scrape.py` script is run.
    - Otherwise `process_scrape.py` will diff against `main_data.csv` and jobs that have been manually edited will show up in `newly_retrieved_jobs.csv`. (This isn't the end of the world, they will just have to be manually ignored.)
 
-### To aggregate `main_data.csv`:
+### To aggregate `main_data.csv` (by year/field/tenure/rank, and by institution):
 
-requirement: python
+requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
 1. ensure that you are in the `data-processor` directory
-2. `pipenv run python aggregate_results.py`
+2. `uv run python aggregate_results.py`
 
 ### To get a list of fields in the scrape with years in which they appear:
 
-requirement: python
+requirement: [uv](https://docs.astral.sh/uv/) (`brew install uv`); it installs Python and dependencies automatically
 
 1. ensure that you are in the `data-processor` directory
-2. `pipenv run python fields.py`
+2. `uv run python fields.py`
 
-### To aggregate `main.data.csv` by institution:
+### To aggregate `main_data.csv` by institution:
 
-requirement: [deno](https://docs.deno.com/runtime/manual)
-
-1. ensure that you are in the `data-processor` directory
-2. `deno run --allow-read --allow-write aggregate_by_school.ts`
+This now runs as part of `aggregate_results.py` (above), which writes both `aggregated_data.csv` and `main_data_by_school.json`. The old Deno script `aggregate_by_school.ts` is no longer needed.
